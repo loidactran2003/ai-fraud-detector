@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fraud Detector Dashboard</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <!-- SRI pins the exact file; if the CDN is unreachable the charts fall back to plain tables -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"
+          integrity="sha384-bs/nf9FbdNouRbMiFcrcZfLXYPKiPaGVGplVbv7dLGECccEXDW+S3zjqSKR5ZEaD"
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+<header>
+  <div>
+    <h1>AI Fraud Detector</h1>
+    <div class="meta" id="model-meta">Loading model…</div>
+  </div>
+  <button id="refresh" type="button">Refresh</button>
+</header>
+
+<main>
+  <section class="kpis" aria-label="Key numbers">
+    <div class="kpi"><div class="label">Orders scored</div><div class="value" id="k-orders">–</div><div class="sub" id="k-avg"></div></div>
+    <div class="kpi"><div class="label">Sent to review</div><div class="value" id="k-review">–</div><div class="sub" data-band="review">score 30–69</div></div>
+    <div class="kpi"><div class="label">Blocked</div><div class="value" id="k-blocked">–</div><div class="sub" data-band="block">score 70+</div></div>
+    <div class="kpi"><div class="label">Money at risk</div><div class="value" id="k-risk">–</div><div class="sub">flagged order value</div></div>
+    <div class="kpi"><div class="label">Awaiting review</div><div class="value" id="k-await">–</div><div class="sub">flagged, no decision yet</div></div>
+  </section>
+
+  <section class="grid-2">
+    <div class="card">
+      <h2>Risk score distribution</h2>
+      <p class="hint">How many orders fall in each 5-point score band. Most orders should sit on the left.</p>
+      <div class="legend">
+        <span style="--c: var(--good)" data-band="approve-legend">Approve (0–29)</span>
+        <span style="--c: var(--warning)" data-band="review-legend">Review (30–69)</span>
+        <span style="--c: var(--critical)" data-band="block-legend">Block (70–100)</span>
+      </div>
+      <div class="chart-box"><canvas id="hist-chart" aria-label="Histogram of risk scores" role="img"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Why orders get flagged</h2>
+      <p class="hint">Top reason on each flagged order.</p>
+      <div class="chart-box"><canvas id="reasons-chart" aria-label="Top reasons for flagged orders" role="img"></canvas></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Flagged transactions</h2>
+    <p class="hint">Highest risk first. "Fraud" and "False alarm" are saved as labels for the next retraining
+      (<code>python 4_Backend/database/connection.py --export-labels labels.csv</code>); "Approve" / "Block" only record the action.</p>
+    <div class="toolbar">
+      <label>Level
+        <select id="f-level">
+          <option value="">Review + block</option>
+          <option value="high" data-band="block-option">Block only (70+)</option>
+          <option value="medium" data-band="review-option">Review only (30–69)</option>
+        </select>
+      </label>
+      <label><input type="checkbox" id="f-unreviewed"> Awaiting review only</label>
+      <span class="meta" id="table-count"></span>
+    </div>
+    <div class="error" id="table-error" role="alert" hidden></div>
+    <div class="table-wrap"><table>
+      <thead><tr>
+        <th>Order</th><th>Risk</th><th style="text-align:right">Amount</th><th>Countries (IP → billing)</th>
+        <th>Why it looks risky</th><th>Decision</th>
+      </tr></thead>
+      <tbody id="flagged-body"><tr><td colspan="6" class="empty">Loading…</td></tr></tbody>
+    </table></div>
+    <div class="toolbar"><button id="load-more" type="button" hidden>Load more</button></div>
+  </section>
+
+  <section class="card">
+    <h2>Check an order</h2>
+    <p class="hint">Score any order on demand. This calls <code>POST /api/score?dry_run=1</code>: the same scoring your checkout gets,
+      but nothing is stored, so trying orders doesn't change your dashboard or customers' history.</p>
+    <form class="tester" id="tester">
+      <label>Customer ID <input name="user_id" value="NEW-CUSTOMER-1" required></label>
+      <label>Amount ($) <input name="amount" type="number" step="0.01" min="0.01" value="649.00" required></label>
+      <label>Billing country <input name="billing_country" value="US" maxlength="2"></label>
+      <label>IP country <input name="ip_country" value="RO" maxlength="2"></label>
+      <label>Account created <input name="account_created" type="datetime-local"></label>
+      <label>Checkout seconds <input name="checkout_seconds" type="number" value="12"></label>
+      <label>Login attempts <input name="login_attempts" type="number" value="3"></label>
+      <label>Failed logins <input name="failed_logins" type="number" value="2"></label>
+      <label>Pages viewed <input name="pages_viewed" type="number" value="2"></label>
+      <div class="checks">
+        <label><input type="checkbox" name="is_vpn" checked> VPN</label>
+        <label><input type="checkbox" name="is_proxy"> Proxy</label>
+        <label><input type="checkbox" name="is_emulator"> Emulator</label>
+        <label><input type="checkbox" name="is_rooted"> Rooted device</label>
+        <label><input type="checkbox" name="timezone_mismatch"> Timezone mismatch</label>
+        <button class="primary" type="submit">Score order</button>
+      </div>
+    </form>
+    <div class="result" id="tester-result" aria-live="polite"></div>
+  </section>
+</main>
+
+<script src="/dashboard/risk_score_chart.js"></script>
+<script src="/dashboard/flagged_transactions_table.js"></script>
+<script>
+  // Thresholds come from the loaded model (/api/health); 30 / 70 are only the fallback.
+  window.THRESHOLDS = { review: 30, block: 70 };
+  function applyThresholds({ review, block }) {
+    const set = (sel, text) => document.querySelectorAll(`[data-band="${sel}"]`).forEach((el) => (el.textContent = text));
+    set("review", `score ${review}–${block - 1}`);
+    set("block", `score ${block}+`);
+    set("approve-legend", `Approve (0–${review - 1})`);
+    set("review-legend", `Review (${review}–${block - 1})`);
+    set("block-legend", `Block (${block}–100)`);
+    set("block-option", `Block only (${block}+)`);
+    set("review-option", `Review only (${review}–${block - 1})`);
+  }
+  async function loadAll() {
+    try {
+      const res = await fetch("/api/health");
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const health = await res.json();
+      if (health.thresholds) { window.THRESHOLDS = health.thresholds; applyThresholds(health.thresholds); }
+      document.getElementById("model-meta").textContent =
+        `Model ${health.model_version} · ROC-AUC ${health.metrics.roc_auc} · PR-AUC ${health.metrics.pr_auc}` +
+        ` · review ≥ ${window.THRESHOLDS.review}, block ≥ ${window.THRESHOLDS.block}`;
+    } catch { document.getElementById("model-meta").textContent = "API not reachable"; }
+    await Promise.allSettled([RiskCharts.load(), FlaggedTable.load()]);
+  }
+  document.getElementById("refresh").addEventListener("click", loadAll);
+  loadAll();
+</script>
+</body>
+</html>

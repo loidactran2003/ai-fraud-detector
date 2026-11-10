@@ -1,0 +1,642 @@
+{
+  "description": "Golden test cases for the fraud model + RiskScorer. Each case is a realistic incoming order; the suite scores it through the same preprocessing the API uses and grades the risk score range, the action, which signals the explanation names, and explanation clarity.",
+  "defaults": {
+    "timestamp": "2026-10-01 14:05:00",
+    "billing_country": "US",
+    "ip_country": "US",
+    "is_vpn": 0,
+    "is_proxy": 0,
+    "is_emulator": 0,
+    "is_rooted": 0,
+    "timezone_mismatch": 0,
+    "login_attempts": 1,
+    "failed_logins": 0,
+    "checkout_seconds": 160,
+    "pages_viewed": 9
+  },
+  "context_fields": "accounts_per_device, users_per_card and amount_to_baseline normally come from transaction history; most tests set them directly under 'context'. Tests with a 'history' list instead add those earlier orders to the stored history and let the real point-in-time context path compute them.",
+  "tests": [
+    {
+      "id": "fx-001",
+      "task": "risk_scoring",
+      "category": "obvious_fraud",
+      "description": "Brand-new account, $1,240 on a card shared by 5 accounts, emulator, VPN from Russia, 9-second checkout.",
+      "transaction": {
+        "user_id": "TEST-001",
+        "device_id": "TD-001",
+        "card_hash": "TC-001",
+        "amount": 1240.0,
+        "account_created": "2026-10-01 12:05:00",
+        "ip_country": "RU",
+        "is_vpn": 1,
+        "is_emulator": 1,
+        "checkout_seconds": 9,
+        "pages_viewed": 2
+      },
+      "context": {
+        "users_per_card": 5
+      },
+      "risk_range": [
+        70,
+        100
+      ],
+      "expected_action": "block",
+      "expected_signals": [
+        "shared_card",
+        "emulator",
+        "abnormal_amount"
+      ],
+      "absent_signals": [
+        "login_failures",
+        "shared_device",
+        "odd_hour"
+      ]
+    },
+    {
+      "id": "fx-002",
+      "task": "risk_scoring",
+      "category": "card_testing",
+      "description": "Card-testing pattern: $1.50 order through a proxy after 7 login attempts (5 failed), 6-second checkout.",
+      "transaction": {
+        "user_id": "TEST-002",
+        "device_id": "TD-002",
+        "card_hash": "TC-002",
+        "amount": 1.5,
+        "account_created": "2026-09-27 10:00:00",
+        "is_proxy": 1,
+        "login_attempts": 7,
+        "failed_logins": 5,
+        "checkout_seconds": 6,
+        "pages_viewed": 1
+      },
+      "risk_range": [
+        70,
+        100
+      ],
+      "expected_action": "block",
+      "expected_signals": [
+        "login_failures",
+        "rushed_checkout",
+        "proxy"
+      ],
+      "absent_signals": [
+        "vpn",
+        "emulator",
+        "shared_card",
+        "odd_hour"
+      ]
+    },
+    {
+      "id": "fx-003",
+      "task": "risk_scoring",
+      "category": "fraud_ring",
+      "description": "Device linked to 9 accounts, rooted, timezone doesn't match IP, account 1 day old.",
+      "transaction": {
+        "user_id": "TEST-003",
+        "device_id": "TD-003",
+        "card_hash": "TC-003",
+        "amount": 310.0,
+        "account_created": "2026-09-30 14:00:00",
+        "billing_country": "CA",
+        "ip_country": "CA",
+        "is_rooted": 1,
+        "timezone_mismatch": 1,
+        "login_attempts": 2,
+        "checkout_seconds": 35,
+        "pages_viewed": 3
+      },
+      "context": {
+        "accounts_per_device": 9
+      },
+      "risk_range": [
+        60,
+        100
+      ],
+      "acceptable_actions": [
+        "review",
+        "block"
+      ],
+      "expected_signals": [
+        "shared_device",
+        "rooted_device",
+        "timezone_mismatch"
+      ],
+      "absent_signals": [
+        "vpn",
+        "proxy",
+        "shared_card"
+      ]
+    },
+    {
+      "id": "fx-004",
+      "task": "risk_scoring",
+      "category": "account_takeover",
+      "description": "4-year-old account suddenly logs in from Nigeria via VPN after 3 failed logins, at 2am, spending 6x normal.",
+      "transaction": {
+        "user_id": "TEST-004",
+        "device_id": "TD-004",
+        "card_hash": "TC-004",
+        "amount": 610.0,
+        "timestamp": "2026-10-01 02:10:00",
+        "account_created": "2022-09-01 09:00:00",
+        "ip_country": "NG",
+        "is_vpn": 1,
+        "login_attempts": 4,
+        "failed_logins": 3,
+        "checkout_seconds": 40,
+        "pages_viewed": 3
+      },
+      "context": {
+        "amount_to_baseline": 6.1
+      },
+      "risk_range": [
+        55,
+        100
+      ],
+      "acceptable_actions": [
+        "review",
+        "block"
+      ],
+      "expected_signals": [
+        "high_risk_country",
+        "login_failures",
+        "country_mismatch"
+      ],
+      "absent_signals": [
+        "shared_card",
+        "shared_device",
+        "emulator",
+        "new_account"
+      ]
+    },
+    {
+      "id": "fx-005",
+      "task": "risk_scoring",
+      "category": "legit_regular",
+      "description": "3-year customer, usual device and home IP, normal $54 order, unhurried checkout.",
+      "transaction": {
+        "user_id": "TEST-005",
+        "device_id": "TD-005",
+        "card_hash": "TC-005",
+        "amount": 54.2,
+        "account_created": "2023-08-15 18:00:00",
+        "checkout_seconds": 185,
+        "pages_viewed": 12
+      },
+      "context": {
+        "amount_to_baseline": 0.9
+      },
+      "risk_range": [
+        0,
+        20
+      ],
+      "expected_action": "approve",
+      "expected_signals": [],
+      "absent_signals": [
+        "vpn",
+        "proxy",
+        "emulator",
+        "shared_card",
+        "shared_device",
+        "new_account",
+        "rushed_checkout",
+        "login_failures"
+      ]
+    },
+    {
+      "id": "fx-006",
+      "task": "risk_scoring",
+      "category": "false_positive_trap",
+      "description": "Loyal customer travelling in France on a VPN; everything else normal. Must not be blocked.",
+      "transaction": {
+        "user_id": "TEST-006",
+        "device_id": "TD-006",
+        "card_hash": "TC-006",
+        "amount": 82.0,
+        "timestamp": "2026-10-01 10:15:00",
+        "account_created": "2024-09-10 12:00:00",
+        "ip_country": "FR",
+        "is_vpn": 1,
+        "checkout_seconds": 140,
+        "pages_viewed": 7
+      },
+      "context": {
+        "amount_to_baseline": 1.1
+      },
+      "risk_range": [
+        0,
+        60
+      ],
+      "acceptable_actions": [
+        "approve",
+        "review"
+      ],
+      "expected_signals": [],
+      "absent_signals": [
+        "new_account",
+        "emulator",
+        "shared_card",
+        "shared_device",
+        "abnormal_amount",
+        "rushed_checkout"
+      ]
+    },
+    {
+      "id": "fx-007",
+      "task": "risk_scoring",
+      "category": "false_positive_trap",
+      "description": "4-year customer making a one-off $950 purchase (8x usual) on their own laptop, 7-minute checkout.",
+      "transaction": {
+        "user_id": "TEST-007",
+        "device_id": "TD-007",
+        "card_hash": "TC-007",
+        "amount": 950.0,
+        "timestamp": "2026-10-01 12:00:00",
+        "account_created": "2022-06-01 12:00:00",
+        "checkout_seconds": 420,
+        "pages_viewed": 15
+      },
+      "context": {
+        "amount_to_baseline": 7.9
+      },
+      "risk_range": [
+        0,
+        69
+      ],
+      "acceptable_actions": [
+        "approve",
+        "review"
+      ],
+      "expected_signals": [],
+      "absent_signals": [
+        "vpn",
+        "proxy",
+        "emulator",
+        "new_account",
+        "shared_card",
+        "shared_device",
+        "rushed_checkout"
+      ]
+    },
+    {
+      "id": "fx-008",
+      "task": "risk_scoring",
+      "category": "false_positive_trap",
+      "description": "Genuine new customer: signed up an hour ago, $45 order, browsed 8 pages, normal 2.5-minute checkout.",
+      "transaction": {
+        "user_id": "TEST-008",
+        "device_id": "TD-008",
+        "card_hash": "TC-008",
+        "amount": 45.0,
+        "account_created": "2026-10-01 13:05:00",
+        "checkout_seconds": 150,
+        "pages_viewed": 8
+      },
+      "risk_range": [
+        0,
+        45
+      ],
+      "acceptable_actions": [
+        "approve",
+        "review"
+      ],
+      "expected_signals": [],
+      "absent_signals": [
+        "vpn",
+        "proxy",
+        "emulator",
+        "shared_card",
+        "shared_device",
+        "rushed_checkout",
+        "login_failures"
+      ]
+    },
+    {
+      "id": "fx-009",
+      "task": "risk_scoring",
+      "category": "false_positive_trap",
+      "description": "Returning customer re-ordering their usual item in 14 seconds from a saved cart.",
+      "transaction": {
+        "user_id": "TEST-009",
+        "device_id": "TD-009",
+        "card_hash": "TC-009",
+        "amount": 39.99,
+        "timestamp": "2026-10-01 18:30:00",
+        "account_created": "2021-03-01 12:00:00",
+        "checkout_seconds": 14,
+        "pages_viewed": 2
+      },
+      "context": {
+        "amount_to_baseline": 1.0
+      },
+      "risk_range": [
+        0,
+        45
+      ],
+      "acceptable_actions": [
+        "approve",
+        "review"
+      ],
+      "expected_signals": [],
+      "absent_signals": [
+        "vpn",
+        "proxy",
+        "emulator",
+        "new_account",
+        "shared_card",
+        "shared_device",
+        "login_failures"
+      ]
+    },
+    {
+      "id": "fx-010",
+      "task": "risk_scoring",
+      "category": "false_positive_trap",
+      "description": "Family computer shared by 3 household accounts; established customer, normal order.",
+      "transaction": {
+        "user_id": "TEST-010",
+        "device_id": "TD-010",
+        "card_hash": "TC-010",
+        "amount": 68.0,
+        "timestamp": "2026-10-01 20:00:00",
+        "account_created": "2023-01-15 12:00:00",
+        "checkout_seconds": 200,
+        "pages_viewed": 10
+      },
+      "context": {
+        "accounts_per_device": 3,
+        "amount_to_baseline": 1.2
+      },
+      "risk_range": [
+        0,
+        45
+      ],
+      "acceptable_actions": [
+        "approve",
+        "review"
+      ],
+      "expected_signals": [],
+      "absent_signals": [
+        "vpn",
+        "proxy",
+        "emulator",
+        "new_account",
+        "shared_card",
+        "rushed_checkout"
+      ]
+    },
+    {
+      "id": "fx-011",
+      "task": "risk_scoring",
+      "category": "blend_in_fraud",
+      "description": "Quiet fraud: 2-day-old account using a card shared by 3 accounts, normal-looking $70 order.",
+      "transaction": {
+        "user_id": "TEST-011",
+        "device_id": "TD-011",
+        "card_hash": "TC-011",
+        "amount": 70.0,
+        "account_created": "2026-09-29 16:00:00",
+        "checkout_seconds": 50,
+        "pages_viewed": 4
+      },
+      "context": {
+        "users_per_card": 3
+      },
+      "risk_range": [
+        35,
+        100
+      ],
+      "acceptable_actions": [
+        "review",
+        "block"
+      ],
+      "expected_signals": [
+        "shared_card"
+      ],
+      "absent_signals": [
+        "vpn",
+        "proxy",
+        "emulator",
+        "login_failures"
+      ]
+    },
+    {
+      "id": "fx-012",
+      "task": "risk_scoring",
+      "category": "mixed_signals",
+      "description": "3-day-old account ordering $65 at 3am through a VPN; device and card not shared.",
+      "transaction": {
+        "user_id": "TEST-012",
+        "device_id": "TD-012",
+        "card_hash": "TC-012",
+        "amount": 65.0,
+        "timestamp": "2026-10-01 03:12:00",
+        "account_created": "2026-09-28 09:00:00",
+        "billing_country": "GB",
+        "ip_country": "GB",
+        "is_vpn": 1,
+        "checkout_seconds": 95,
+        "pages_viewed": 6
+      },
+      "risk_range": [
+        10,
+        75
+      ],
+      "acceptable_actions": [
+        "approve",
+        "review"
+      ],
+      "expected_signals": [],
+      "absent_signals": [
+        "shared_device",
+        "shared_card",
+        "emulator",
+        "login_failures"
+      ]
+    },
+    {
+      "id": "fx-013",
+      "task": "risk_scoring",
+      "category": "missing_field",
+      "description": "Returning customer, $400 order, store integration doesn't send account_created; the customer has three earlier orders.",
+      "transaction": {
+        "user_id": "TEST-013",
+        "device_id": "TD-013",
+        "card_hash": "TC-013",
+        "amount": 400.0,
+        "checkout_seconds": 150,
+        "pages_viewed": 9
+      },
+      "history": [
+        {
+          "user_id": "TEST-013",
+          "device_id": "TD-013",
+          "card_hash": "TC-013",
+          "amount": 120.0,
+          "timestamp": "2026-01-15 12:00:00"
+        },
+        {
+          "user_id": "TEST-013",
+          "device_id": "TD-013",
+          "card_hash": "TC-013",
+          "amount": 310.0,
+          "timestamp": "2026-04-02 19:00:00"
+        },
+        {
+          "user_id": "TEST-013",
+          "device_id": "TD-013",
+          "card_hash": "TC-013",
+          "amount": 260.0,
+          "timestamp": "2026-07-20 10:00:00"
+        }
+      ],
+      "risk_range": [
+        0,
+        25
+      ],
+      "expected_action": "approve",
+      "expected_signals": [],
+      "absent_signals": [
+        "new_account",
+        "shared_device",
+        "shared_card",
+        "vpn",
+        "abnormal_amount"
+      ]
+    },
+    {
+      "id": "fx-014",
+      "task": "risk_scoring",
+      "category": "missing_field",
+      "description": "First-time customer of unknown account age (no account_created, no history), $400, nothing else unusual. Must not be treated as a brand-new account.",
+      "transaction": {
+        "user_id": "TEST-014",
+        "device_id": "TD-014",
+        "card_hash": "TC-014",
+        "amount": 400.0,
+        "checkout_seconds": 150,
+        "pages_viewed": 9
+      },
+      "risk_range": [
+        0,
+        25
+      ],
+      "expected_action": "approve",
+      "expected_signals": [],
+      "absent_signals": [
+        "new_account",
+        "vpn",
+        "proxy",
+        "emulator",
+        "shared_device",
+        "shared_card"
+      ]
+    },
+    {
+      "id": "fx-015",
+      "task": "risk_scoring",
+      "category": "string_booleans",
+      "description": "Form-posted booleans sent as strings (\"false\", \"0\", \"no\") on an ordinary order from a 2-year customer. None of the flags may switch on.",
+      "transaction": {
+        "user_id": "TEST-015",
+        "device_id": "TD-015S",
+        "card_hash": "TC-015S",
+        "amount": 58.0,
+        "account_created": "2024-09-01 12:00:00",
+        "is_vpn": "false",
+        "is_proxy": "0",
+        "is_emulator": "no",
+        "is_rooted": "False",
+        "timezone_mismatch": "0",
+        "checkout_seconds": 170,
+        "pages_viewed": 11
+      },
+      "context": {
+        "amount_to_baseline": 1.0
+      },
+      "risk_range": [
+        0,
+        20
+      ],
+      "expected_action": "approve",
+      "expected_signals": [],
+      "absent_signals": [
+        "vpn",
+        "proxy",
+        "emulator",
+        "rooted_device",
+        "timezone_mismatch"
+      ]
+    },
+    {
+      "id": "fx-016",
+      "task": "risk_scoring",
+      "category": "fraud_ring",
+      "description": "Fraud ring seen through real history: the device was used by 5 other accounts this week; 1-day-old account, rooted device, 3 pages, $280. No context overrides.",
+      "transaction": {
+        "user_id": "TEST-016",
+        "device_id": "TD-015",
+        "card_hash": "TC-016",
+        "amount": 280.0,
+        "account_created": "2026-09-30 14:00:00",
+        "is_rooted": 1,
+        "checkout_seconds": 40,
+        "pages_viewed": 3
+      },
+      "history": [
+        {
+          "user_id": "RING-1",
+          "device_id": "TD-015",
+          "card_hash": "RC-1",
+          "amount": 80.0,
+          "timestamp": "2026-09-21 11:00:00"
+        },
+        {
+          "user_id": "RING-2",
+          "device_id": "TD-015",
+          "card_hash": "RC-2",
+          "amount": 80.0,
+          "timestamp": "2026-09-22 12:00:00"
+        },
+        {
+          "user_id": "RING-3",
+          "device_id": "TD-015",
+          "card_hash": "RC-3",
+          "amount": 80.0,
+          "timestamp": "2026-09-23 13:00:00"
+        },
+        {
+          "user_id": "RING-4",
+          "device_id": "TD-015",
+          "card_hash": "RC-4",
+          "amount": 80.0,
+          "timestamp": "2026-09-24 14:00:00"
+        },
+        {
+          "user_id": "RING-5",
+          "device_id": "TD-015",
+          "card_hash": "RC-5",
+          "amount": 80.0,
+          "timestamp": "2026-09-25 15:00:00"
+        }
+      ],
+      "risk_range": [
+        40,
+        100
+      ],
+      "acceptable_actions": [
+        "review",
+        "block"
+      ],
+      "expected_signals": [
+        "shared_device"
+      ],
+      "absent_signals": [
+        "vpn",
+        "proxy",
+        "shared_card",
+        "login_failures"
+      ]
+    }
+  ]
+}

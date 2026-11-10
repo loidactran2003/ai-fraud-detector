@@ -1,0 +1,3141 @@
+device_id,os,browser,is_emulator,is_rooted,timezone_mismatch,screen_resolution,first_seen
+D00000,Windows,Chrome,False,True,False,1366x768,2026-04-06
+D00001,iOS,Safari,True,True,True,390x844,2026-04-14
+D00002,Android,Safari,True,False,False,1440x900,2026-05-05
+D00003,Android,Edge,False,False,True,1920x1080,2026-04-17
+D00004,Android,Edge,True,False,True,800x600,2026-04-26
+D00005,Android,Samsung Internet,True,True,True,800x600,2026-07-10
+D00006,iOS,Safari,False,False,False,390x844,2026-09-25
+D00007,Android,Edge,True,False,True,390x844,2026-05-23
+D00008,iOS,Firefox,True,False,False,800x600,2026-09-02
+D00009,iOS,Chrome,False,False,False,1366x768,2026-03-05
+D00010,iOS,Firefox,False,False,True,390x844,2026-08-20
+D00011,Windows,Safari,True,False,True,800x600,2026-03-15
+D00012,Windows,Firefox,False,False,False,1440x900,2026-04-02
+D00013,macOS,Samsung Internet,False,False,False,390x844,2026-06-03
+D00014,Android,Firefox,False,False,False,390x844,2026-08-18
+D00015,iOS,Edge,False,False,False,390x844,2026-06-03
+D00016,Android,Safari,False,False,False,1440x900,2026-06-01
+D00017,macOS,Safari,False,False,False,412x915,2026-07-30
+D00018,macOS,Firefox,False,False,False,412x915,2026-05-18
+D00019,Windows,Edge,False,False,False,1440x900,2026-05-30
+D00020,Android,Edge,False,False,False,412x915,2026-08-20
+D00021,iOS,Edge,False,False,False,412x915,2026-08-09
+D00022,iOS,Chrome,False,False,False,390x844,2026-08-08
+D00023,iOS,Safari,False,False,False,1440x900,2026-07-19
+D00024,iOS,Chrome,False,False,False,412x915,2026-05-18
+D00025,iOS,Samsung Internet,False,False,False,1366x768,2026-06-11
+D00026,macOS,Samsung Internet,False,False,False,1440x900,2026-02-22
+D00027,macOS,Chrome,False,False,False,1366x768,2026-08-03
+D00028,iOS,Samsung Internet,False,False,False,1366x768,2026-05-31
+D00029,Windows,Samsung Internet,False,True,False,390x844,2026-03-27
+D00030,macOS,Chrome,False,False,True,390x844,2026-07-22
+D00031,Android,Safari,False,False,False,1366x768,2026-08-03
+D00032,iOS,Firefox,False,False,False,390x844,2026-04-09
+D00033,iOS,Edge,True,False,False,800x600,2026-07-08
+D00034,Android,Safari,False,False,True,1920x1080,2026-05-02
+D00035,iOS,Samsung Internet,False,True,False,412x915,2026-08-04
+D00036,Android,Samsung Internet,True,False,False,800x600,2026-03-17
+D00037,iOS,Edge,False,False,False,1440x900,2026-08-13
+D00038,Windows,Safari,False,False,False,390x844,2026-05-31
+D00039,Android,Samsung Internet,False,False,False,412x915,2026-02-17
+D00040,Android,Samsung Internet,False,False,False,390x844,2026-02-25
+D00041,iOS,Edge,False,False,False,390x844,2026-04-02
+D00042,macOS,Firefox,False,False,False,390x844,2026-04-24
+D00043,iOS,Firefox,False,False,False,1920x1080,2026-06-01
+D00044,Windows,Safari,False,False,False,412x915,2026-05-26
+D00045,Linux,Firefox,False,False,False,412x915,2026-01-10
+D00046,Windows,Safari,False,False,False,390x844,2026-03-19
+D00047,Windows,Edge,False,False,False,1440x900,2026-07-06
+D00048,Android,Samsung Internet,False,False,False,390x844,2026-03-30
+D00049,iOS,Chrome,False,False,False,1440x900,2026-01-21
+D00050,iOS,Firefox,False,False,False,1920x1080,2026-09-27
+D00051,Windows,Safari,False,False,False,1920x1080,2026-04-15
+D00052,Android,Samsung Internet,False,False,False,1366x768,2026-02-15
+D00053,iOS,Chrome,False,False,False,412x915,2026-09-14
+D00054,Android,Chrome,False,False,False,1440x900,2026-01-14
+D00055,Android,Edge,False,False,False,390x844,2026-09-19
+D00056,iOS,Chrome,False,False,False,1366x768,2026-07-19
+D00057,macOS,Edge,False,False,False,1366x768,2026-03-05
+D00058,Android,Edge,False,False,False,412x915,2026-04-22
+D00059,macOS,Edge,False,False,False,390x844,2026-09-25
+D00060,Windows,Chrome,False,False,False,390x844,2026-08-06
+D00061,Windows,Samsung Internet,False,False,False,1366x768,2026-09-01
+D00062,Windows,Safari,False,False,False,412x915,2026-08-03
+D00063,iOS,Firefox,False,False,False,390x844,2026-06-17
+D00064,Windows,Safari,False,False,False,1920x1080,2026-07-27
+D00065,macOS,Safari,False,True,False,1366x768,2026-04-27
+D00066,iOS,Firefox,False,False,False,412x915,2026-07-02
+D00067,iOS,Safari,False,False,False,390x844,2026-04-17
+D00068,macOS,Edge,False,False,False,1366x768,2026-09-27
+D00069,Android,Samsung Internet,False,False,False,1440x900,2026-06-27
+D00070,Windows,Edge,False,False,False,412x915,2026-03-20
+D00071,iOS,Edge,False,False,False,1366x768,2026-03-23
+D00072,macOS,Safari,False,False,False,1366x768,2026-03-15
+D00073,iOS,Chrome,False,False,False,1366x768,2026-04-08
+D00074,Windows,Edge,False,False,False,1440x900,2026-07-14
+D00075,iOS,Firefox,False,True,False,412x915,2026-01-15
+D00076,Windows,Firefox,False,False,False,1920x1080,2026-07-08
+D00077,Windows,Samsung Internet,False,False,False,1920x1080,2026-06-29
+D00078,Android,Samsung Internet,False,False,False,1366x768,2026-02-07
+D00079,Windows,Chrome,False,False,False,390x844,2026-06-27
+D00080,Android,Safari,False,False,False,412x915,2026-02-04
+D00081,iOS,Edge,False,False,False,1440x900,2026-03-16
+D00082,Windows,Samsung Internet,False,False,False,412x915,2026-02-23
+D00083,Linux,Firefox,False,True,False,412x915,2026-04-03
+D00084,Windows,Firefox,False,False,False,390x844,2026-08-22
+D00085,Windows,Firefox,False,False,False,412x915,2026-07-25
+D00086,iOS,Samsung Internet,False,False,False,1440x900,2026-05-28
+D00087,Android,Edge,False,False,False,1440x900,2026-06-23
+D00088,macOS,Chrome,False,False,False,1366x768,2026-09-24
+D00089,iOS,Edge,False,False,False,1440x900,2026-01-23
+D00090,Windows,Safari,False,False,False,390x844,2026-02-11
+D00091,iOS,Chrome,False,False,False,1920x1080,2026-02-28
+D00092,iOS,Samsung Internet,False,False,False,390x844,2026-08-21
+D00093,macOS,Edge,False,False,False,1920x1080,2026-07-26
+D00094,iOS,Samsung Internet,False,False,False,412x915,2026-06-29
+D00095,Android,Samsung Internet,False,False,False,390x844,2026-06-08
+D00096,Android,Safari,False,False,False,1440x900,2026-06-12
+D00097,iOS,Chrome,False,False,False,412x915,2026-09-19
+D00098,Windows,Chrome,False,False,False,1920x1080,2026-04-26
+D00099,iOS,Edge,False,False,False,1366x768,2026-03-16
+D00100,Android,Samsung Internet,False,False,False,412x915,2026-08-12
+D00101,Android,Samsung Internet,False,False,False,412x915,2026-02-21
+D00102,iOS,Samsung Internet,False,False,False,1440x900,2026-08-31
+D00103,Windows,Safari,False,False,False,412x915,2026-02-21
+D00104,Windows,Samsung Internet,False,False,False,1920x1080,2026-03-17
+D00105,iOS,Chrome,False,False,False,390x844,2026-01-15
+D00106,Windows,Firefox,False,False,False,1440x900,2026-08-16
+D00107,Windows,Safari,False,False,False,1920x1080,2026-02-20
+D00108,Windows,Chrome,False,False,True,412x915,2026-06-05
+D00109,Android,Chrome,False,False,False,1366x768,2026-05-21
+D00110,iOS,Firefox,False,False,False,390x844,2026-03-07
+D00111,macOS,Chrome,False,False,False,412x915,2026-08-24
+D00112,Android,Samsung Internet,False,False,False,390x844,2026-04-26
+D00113,Windows,Firefox,False,False,False,412x915,2026-02-26
+D00114,Windows,Samsung Internet,False,False,False,1366x768,2026-07-27
+D00115,Android,Safari,False,False,False,412x915,2026-02-04
+D00116,iOS,Firefox,False,False,False,390x844,2026-06-06
+D00117,Android,Edge,False,False,False,1366x768,2026-01-03
+D00118,Android,Safari,False,False,False,1440x900,2026-09-13
+D00119,iOS,Firefox,False,False,True,1366x768,2026-06-12
+D00120,Android,Safari,False,False,False,1920x1080,2026-07-24
+D00121,Android,Edge,False,False,False,390x844,2026-01-09
+D00122,Windows,Chrome,False,False,False,1366x768,2026-08-18
+D00123,Windows,Safari,False,False,False,390x844,2026-05-04
+D00124,iOS,Edge,False,True,False,1440x900,2026-08-21
+D00125,Windows,Firefox,False,False,False,1920x1080,2026-04-30
+D00126,Windows,Firefox,False,False,False,1440x900,2026-07-16
+D00127,iOS,Firefox,False,False,False,1920x1080,2026-04-01
+D00128,Windows,Edge,False,False,False,1440x900,2026-08-16
+D00129,Windows,Samsung Internet,False,False,False,1366x768,2026-05-01
+D00130,macOS,Edge,False,False,False,1440x900,2026-08-28
+D00131,macOS,Firefox,False,False,False,390x844,2026-04-04
+D00132,Android,Edge,False,False,False,1440x900,2026-01-30
+D00133,Android,Safari,False,False,False,1366x768,2026-09-15
+D00134,Windows,Safari,False,False,False,412x915,2026-08-04
+D00135,macOS,Safari,False,False,False,1440x900,2026-08-09
+D00136,iOS,Edge,False,False,False,390x844,2026-04-08
+D00137,macOS,Samsung Internet,True,False,False,412x915,2026-04-21
+D00138,iOS,Chrome,False,False,False,390x844,2026-04-27
+D00139,Windows,Samsung Internet,False,False,False,1920x1080,2026-08-20
+D00140,Windows,Safari,False,False,False,1440x900,2026-03-30
+D00141,Windows,Chrome,False,False,False,390x844,2026-01-14
+D00142,iOS,Samsung Internet,False,False,False,1440x900,2026-02-09
+D00143,Android,Edge,False,False,False,1366x768,2026-07-25
+D00144,Windows,Samsung Internet,False,False,False,1920x1080,2026-02-12
+D00145,macOS,Edge,False,False,False,412x915,2026-08-12
+D00146,Windows,Safari,False,False,True,1366x768,2026-07-05
+D00147,Windows,Safari,False,False,False,1440x900,2026-09-25
+D00148,iOS,Samsung Internet,False,False,False,390x844,2026-07-08
+D00149,Windows,Firefox,False,False,False,390x844,2026-08-16
+D00150,Windows,Edge,False,False,False,390x844,2026-07-02
+D00151,macOS,Firefox,False,False,False,390x844,2026-04-08
+D00152,macOS,Firefox,False,False,False,1920x1080,2026-09-08
+D00153,Windows,Safari,False,False,False,1366x768,2026-06-19
+D00154,Android,Firefox,False,False,False,1920x1080,2026-05-08
+D00155,Windows,Edge,False,False,False,1440x900,2026-03-14
+D00156,Android,Safari,False,False,False,1366x768,2026-06-30
+D00157,iOS,Chrome,False,False,False,1366x768,2026-03-30
+D00158,iOS,Firefox,False,False,False,1920x1080,2026-09-18
+D00159,Windows,Safari,False,False,False,412x915,2026-07-22
+D00160,iOS,Firefox,False,False,False,390x844,2026-05-27
+D00161,Android,Edge,False,False,False,412x915,2026-03-26
+D00162,iOS,Firefox,False,False,False,390x844,2026-06-15
+D00163,iOS,Edge,False,False,False,1920x1080,2026-09-18
+D00164,iOS,Safari,False,False,False,390x844,2026-08-07
+D00165,Windows,Chrome,False,False,False,1440x900,2026-02-15
+D00166,macOS,Safari,False,False,False,390x844,2026-05-11
+D00167,Android,Chrome,False,False,False,1920x1080,2026-07-03
+D00168,macOS,Safari,False,False,False,1920x1080,2026-05-17
+D00169,iOS,Samsung Internet,False,False,False,1440x900,2026-07-29
+D00170,macOS,Edge,False,False,False,1920x1080,2026-06-13
+D00171,iOS,Chrome,False,False,False,412x915,2026-03-08
+D00172,iOS,Safari,False,False,False,390x844,2026-04-21
+D00173,Android,Edge,False,False,False,412x915,2026-05-03
+D00174,Android,Chrome,False,False,False,1366x768,2026-06-05
+D00175,Android,Chrome,True,True,False,800x600,2026-03-04
+D00176,Android,Chrome,False,False,False,1366x768,2026-07-03
+D00177,Android,Firefox,False,False,False,412x915,2026-06-06
+D00178,iOS,Firefox,False,False,False,1366x768,2026-08-30
+D00179,Windows,Samsung Internet,False,False,False,1366x768,2026-08-31
+D00180,iOS,Samsung Internet,False,False,False,1440x900,2026-03-18
+D00181,iOS,Safari,False,False,False,1440x900,2026-03-15
+D00182,Android,Chrome,False,False,False,1366x768,2026-02-15
+D00183,iOS,Chrome,False,False,False,1366x768,2026-02-28
+D00184,iOS,Firefox,False,False,False,1366x768,2026-06-10
+D00185,macOS,Edge,False,False,False,1920x1080,2026-04-07
+D00186,Windows,Firefox,False,False,False,1366x768,2026-07-30
+D00187,iOS,Samsung Internet,False,False,False,390x844,2026-05-27
+D00188,Windows,Edge,False,False,False,1440x900,2026-09-08
+D00189,macOS,Samsung Internet,False,False,False,412x915,2026-02-03
+D00190,macOS,Firefox,False,False,False,390x844,2026-06-28
+D00191,Windows,Firefox,False,False,False,1366x768,2026-05-15
+D00192,macOS,Samsung Internet,False,False,False,1366x768,2026-02-18
+D00193,Android,Chrome,False,False,False,1366x768,2026-06-25
+D00194,iOS,Firefox,False,False,False,1440x900,2026-04-07
+D00195,Android,Chrome,False,False,False,1920x1080,2026-07-13
+D00196,Android,Edge,False,False,False,1920x1080,2026-05-10
+D00197,Windows,Edge,False,False,False,1440x900,2026-01-24
+D00198,Linux,Samsung Internet,False,False,False,1366x768,2026-03-09
+D00199,Android,Chrome,False,False,False,412x915,2026-07-01
+D00200,Windows,Safari,False,False,False,390x844,2026-02-02
+D00201,iOS,Chrome,False,False,False,390x844,2026-05-08
+D00202,Android,Firefox,False,False,False,390x844,2026-05-30
+D00203,Android,Samsung Internet,False,False,False,412x915,2026-06-18
+D00204,iOS,Samsung Internet,False,False,False,1366x768,2026-09-01
+D00205,Windows,Samsung Internet,False,False,True,390x844,2026-06-30
+D00206,iOS,Safari,False,False,False,390x844,2026-03-25
+D00207,iOS,Chrome,False,False,False,1366x768,2026-01-24
+D00208,Android,Chrome,False,True,False,1366x768,2026-05-11
+D00209,iOS,Edge,False,False,False,1920x1080,2026-05-30
+D00210,Android,Chrome,False,False,False,1440x900,2026-02-28
+D00211,iOS,Edge,False,False,True,390x844,2026-09-06
+D00212,macOS,Safari,False,False,False,390x844,2026-07-20
+D00213,Windows,Edge,False,False,False,390x844,2026-08-27
+D00214,macOS,Safari,False,False,False,412x915,2026-02-07
+D00215,Windows,Chrome,True,False,False,800x600,2026-02-08
+D00216,iOS,Safari,False,False,False,412x915,2026-08-25
+D00217,macOS,Edge,False,False,False,1366x768,2026-06-23
+D00218,iOS,Samsung Internet,False,False,False,1366x768,2026-08-20
+D00219,iOS,Edge,False,False,False,390x844,2026-01-05
+D00220,Windows,Safari,False,False,False,1920x1080,2026-08-11
+D00221,Linux,Safari,False,False,False,412x915,2026-04-29
+D00222,Windows,Chrome,False,False,False,1920x1080,2026-08-05
+D00223,Windows,Safari,False,False,False,1920x1080,2026-09-21
+D00224,Android,Edge,False,False,False,412x915,2026-02-10
+D00225,iOS,Edge,False,False,False,1366x768,2026-09-13
+D00226,Android,Firefox,False,False,False,412x915,2026-03-16
+D00227,Windows,Edge,False,False,False,390x844,2026-02-02
+D00228,Android,Samsung Internet,False,False,False,390x844,2026-05-31
+D00229,Android,Edge,False,False,False,1920x1080,2026-05-15
+D00230,Windows,Edge,False,False,False,1366x768,2026-06-25
+D00231,macOS,Safari,True,False,False,390x844,2026-01-01
+D00232,iOS,Firefox,False,False,False,390x844,2026-03-05
+D00233,iOS,Firefox,False,False,True,1366x768,2026-09-27
+D00234,macOS,Chrome,False,False,False,1920x1080,2026-05-15
+D00235,Android,Samsung Internet,False,False,False,1440x900,2026-07-18
+D00236,Windows,Chrome,False,False,False,412x915,2026-09-22
+D00237,Android,Chrome,False,False,True,412x915,2026-07-16
+D00238,Windows,Firefox,False,False,False,390x844,2026-08-07
+D00239,iOS,Samsung Internet,False,False,False,1920x1080,2026-08-25
+D00240,Windows,Samsung Internet,False,False,False,390x844,2026-03-12
+D00241,Linux,Safari,False,False,False,1440x900,2026-03-12
+D00242,Android,Firefox,False,False,False,1440x900,2026-02-12
+D00243,Android,Safari,False,False,False,1920x1080,2026-01-27
+D00244,macOS,Samsung Internet,False,False,False,1920x1080,2026-07-21
+D00245,Android,Edge,False,False,False,390x844,2026-07-02
+D00246,macOS,Firefox,False,False,False,1920x1080,2026-09-27
+D00247,Windows,Edge,False,False,False,1920x1080,2026-01-15
+D00248,iOS,Edge,False,False,False,1366x768,2026-07-04
+D00249,macOS,Edge,False,False,False,412x915,2026-03-19
+D00250,Windows,Samsung Internet,False,False,False,1920x1080,2026-08-31
+D00251,Windows,Edge,False,False,False,390x844,2026-02-14
+D00252,Android,Firefox,False,False,False,1920x1080,2026-06-20
+D00253,Android,Edge,False,False,False,412x915,2026-07-09
+D00254,iOS,Edge,False,False,False,1920x1080,2026-04-25
+D00255,macOS,Safari,False,False,False,1366x768,2026-03-18
+D00256,Windows,Safari,False,False,False,390x844,2026-06-20
+D00257,Windows,Safari,False,False,False,1920x1080,2026-07-09
+D00258,Android,Chrome,False,False,False,412x915,2026-04-01
+D00259,iOS,Safari,False,False,False,1440x900,2026-07-15
+D00260,iOS,Samsung Internet,False,False,False,390x844,2026-04-03
+D00261,Android,Firefox,False,False,False,412x915,2026-06-28
+D00262,iOS,Samsung Internet,False,False,False,1920x1080,2026-08-09
+D00263,Windows,Safari,False,False,False,412x915,2026-02-26
+D00264,Windows,Edge,True,False,False,412x915,2026-03-25
+D00265,Windows,Samsung Internet,False,False,False,1366x768,2026-08-13
+D00266,Android,Edge,False,False,False,390x844,2026-05-17
+D00267,Android,Edge,False,False,False,412x915,2026-07-28
+D00268,Android,Samsung Internet,False,False,False,1440x900,2026-05-20
+D00269,Android,Firefox,False,False,False,1366x768,2026-08-13
+D00270,iOS,Firefox,False,False,False,1920x1080,2026-02-17
+D00271,iOS,Chrome,False,False,False,1920x1080,2026-07-09
+D00272,Android,Edge,False,False,False,1920x1080,2026-06-24
+D00273,iOS,Safari,False,False,False,390x844,2026-03-24
+D00274,Android,Chrome,False,False,False,1366x768,2026-04-06
+D00275,Windows,Samsung Internet,False,False,False,390x844,2026-09-08
+D00276,Android,Chrome,False,False,False,1366x768,2026-02-19
+D00277,Windows,Chrome,False,False,False,412x915,2026-04-16
+D00278,iOS,Edge,False,False,False,1440x900,2026-06-21
+D00279,macOS,Safari,False,False,False,1440x900,2026-02-23
+D00280,Windows,Samsung Internet,False,False,False,1366x768,2026-06-14
+D00281,Android,Chrome,False,False,False,412x915,2026-03-10
+D00282,macOS,Edge,False,False,False,1440x900,2026-04-29
+D00283,iOS,Edge,False,False,False,412x915,2026-01-21
+D00284,Windows,Chrome,False,False,False,412x915,2026-06-03
+D00285,Android,Chrome,False,False,False,390x844,2026-02-17
+D00286,iOS,Samsung Internet,False,False,False,1440x900,2026-07-18
+D00287,Android,Safari,False,False,False,412x915,2026-06-03
+D00288,macOS,Safari,False,False,True,1366x768,2026-07-10
+D00289,Windows,Edge,False,False,False,390x844,2026-06-04
+D00290,Android,Edge,False,False,False,390x844,2026-08-26
+D00291,iOS,Safari,False,False,False,390x844,2026-04-25
+D00292,iOS,Safari,False,False,False,1440x900,2026-09-22
+D00293,Android,Chrome,False,False,False,390x844,2026-04-16
+D00294,iOS,Firefox,False,False,False,1920x1080,2026-05-20
+D00295,macOS,Samsung Internet,False,False,False,1440x900,2026-02-17
+D00296,Windows,Edge,False,False,False,1440x900,2026-05-01
+D00297,iOS,Samsung Internet,False,False,False,1366x768,2026-03-25
+D00298,Windows,Edge,False,False,False,412x915,2026-03-29
+D00299,Windows,Safari,False,False,False,1440x900,2026-02-12
+D00300,iOS,Samsung Internet,False,False,False,390x844,2026-08-30
+D00301,Android,Edge,False,False,False,1440x900,2026-07-10
+D00302,macOS,Edge,False,False,False,1440x900,2026-06-26
+D00303,iOS,Samsung Internet,False,False,False,1920x1080,2026-05-15
+D00304,Windows,Safari,False,False,False,1920x1080,2026-08-05
+D00305,macOS,Safari,False,False,False,1366x768,2026-05-25
+D00306,Android,Chrome,False,False,True,1920x1080,2026-03-01
+D00307,Android,Safari,False,False,False,412x915,2026-07-12
+D00308,macOS,Firefox,False,False,False,1366x768,2026-03-13
+D00309,iOS,Firefox,False,False,False,390x844,2026-04-20
+D00310,Windows,Firefox,False,False,False,412x915,2026-04-25
+D00311,macOS,Chrome,False,False,False,1920x1080,2026-01-04
+D00312,macOS,Firefox,False,False,False,1920x1080,2026-01-20
+D00313,Android,Safari,False,False,False,390x844,2026-06-17
+D00314,Android,Firefox,False,False,False,1920x1080,2026-05-09
+D00315,Android,Edge,False,False,False,412x915,2026-07-01
+D00316,Linux,Firefox,False,False,False,412x915,2026-05-10
+D00317,iOS,Safari,False,False,False,412x915,2026-07-10
+D00318,Android,Samsung Internet,False,False,False,1920x1080,2026-03-03
+D00319,iOS,Firefox,False,False,False,1366x768,2026-05-27
+D00320,macOS,Edge,False,False,False,1366x768,2026-03-10
+D00321,iOS,Chrome,False,False,False,1920x1080,2026-02-23
+D00322,iOS,Safari,False,False,False,1440x900,2026-07-31
+D00323,Android,Chrome,False,False,False,412x915,2026-01-24
+D00324,Linux,Samsung Internet,False,False,False,390x844,2026-05-05
+D00325,Windows,Safari,False,False,False,1366x768,2026-08-16
+D00326,iOS,Samsung Internet,False,False,False,1366x768,2026-08-26
+D00327,Windows,Edge,False,False,False,1920x1080,2026-05-11
+D00328,macOS,Firefox,False,False,False,1920x1080,2026-07-02
+D00329,iOS,Chrome,False,False,False,1440x900,2026-08-07
+D00330,iOS,Chrome,False,False,False,1920x1080,2026-07-26
+D00331,macOS,Firefox,False,False,False,390x844,2026-03-24
+D00332,iOS,Safari,False,False,False,390x844,2026-03-17
+D00333,iOS,Safari,False,True,False,1920x1080,2026-04-07
+D00334,Android,Safari,False,False,False,1440x900,2026-01-13
+D00335,iOS,Edge,False,False,False,1366x768,2026-01-14
+D00336,Android,Safari,False,False,False,1920x1080,2026-04-08
+D00337,Linux,Chrome,False,False,False,1440x900,2026-08-27
+D00338,iOS,Samsung Internet,False,False,False,1366x768,2026-06-11
+D00339,iOS,Edge,False,False,False,1440x900,2026-06-18
+D00340,macOS,Firefox,False,False,False,1366x768,2026-06-13
+D00341,Windows,Edge,False,False,False,1366x768,2026-06-18
+D00342,Windows,Safari,False,False,False,1920x1080,2026-07-13
+D00343,iOS,Firefox,False,True,False,1366x768,2026-01-06
+D00344,iOS,Safari,False,False,False,390x844,2026-03-04
+D00345,Windows,Firefox,False,False,False,1440x900,2026-03-20
+D00346,Android,Samsung Internet,False,False,False,1920x1080,2026-05-20
+D00347,Android,Safari,False,False,False,1366x768,2026-03-08
+D00348,Windows,Safari,False,False,False,390x844,2026-01-19
+D00349,Android,Samsung Internet,False,False,False,1920x1080,2026-08-09
+D00350,Windows,Firefox,False,False,False,1366x768,2026-08-22
+D00351,iOS,Edge,False,False,False,412x915,2026-02-12
+D00352,iOS,Firefox,False,False,False,1920x1080,2026-08-03
+D00353,iOS,Safari,False,False,False,1440x900,2026-04-26
+D00354,Android,Samsung Internet,False,False,False,390x844,2026-05-20
+D00355,iOS,Edge,False,False,False,1366x768,2026-02-12
+D00356,Windows,Samsung Internet,False,False,False,1920x1080,2026-01-29
+D00357,Windows,Edge,False,False,False,412x915,2026-06-24
+D00358,Windows,Edge,False,False,False,1920x1080,2026-03-05
+D00359,Windows,Firefox,False,False,False,390x844,2026-03-10
+D00360,Android,Samsung Internet,False,False,False,1440x900,2026-02-09
+D00361,Android,Firefox,False,False,False,1920x1080,2026-04-17
+D00362,Android,Samsung Internet,False,False,False,1440x900,2026-04-28
+D00363,iOS,Edge,True,False,False,800x600,2026-05-20
+D00364,Android,Edge,False,False,False,390x844,2026-06-03
+D00365,iOS,Firefox,False,False,False,1440x900,2026-09-03
+D00366,iOS,Firefox,False,False,False,412x915,2026-01-17
+D00367,iOS,Edge,False,False,False,412x915,2026-03-23
+D00368,Windows,Safari,False,True,False,1440x900,2026-06-06
+D00369,Windows,Firefox,False,False,False,1920x1080,2026-05-18
+D00370,Android,Firefox,False,False,False,390x844,2026-03-24
+D00371,iOS,Safari,False,False,False,1920x1080,2026-01-12
+D00372,iOS,Edge,False,False,True,412x915,2026-08-09
+D00373,macOS,Edge,False,False,False,1920x1080,2026-09-19
+D00374,macOS,Chrome,False,False,False,390x844,2026-09-17
+D00375,Windows,Chrome,False,False,False,1366x768,2026-03-24
+D00376,iOS,Edge,False,False,False,1440x900,2026-03-30
+D00377,iOS,Firefox,False,False,False,1920x1080,2026-07-19
+D00378,macOS,Chrome,False,False,False,1366x768,2026-04-29
+D00379,Android,Edge,False,False,False,412x915,2026-05-08
+D00380,iOS,Firefox,False,True,False,1920x1080,2026-02-14
+D00381,Windows,Safari,False,False,False,412x915,2026-06-08
+D00382,Android,Samsung Internet,False,False,False,390x844,2026-06-10
+D00383,Android,Samsung Internet,False,False,False,1440x900,2026-01-20
+D00384,Android,Samsung Internet,False,False,False,1366x768,2026-08-24
+D00385,iOS,Edge,False,False,False,390x844,2026-05-07
+D00386,Android,Samsung Internet,False,False,False,1920x1080,2026-07-17
+D00387,macOS,Safari,False,False,False,1440x900,2026-06-23
+D00388,Windows,Safari,False,False,False,1366x768,2026-04-26
+D00389,iOS,Firefox,False,False,False,1366x768,2026-07-15
+D00390,iOS,Chrome,False,False,False,1440x900,2026-05-13
+D00391,iOS,Samsung Internet,False,False,False,1920x1080,2026-06-22
+D00392,Windows,Chrome,False,True,False,1440x900,2026-09-07
+D00393,iOS,Edge,False,False,False,412x915,2026-01-04
+D00394,Windows,Firefox,False,False,False,1920x1080,2026-04-16
+D00395,Windows,Chrome,False,False,False,412x915,2026-02-08
+D00396,iOS,Samsung Internet,False,False,False,412x915,2026-07-07
+D00397,Android,Safari,False,False,False,1366x768,2026-06-30
+D00398,Android,Chrome,False,False,False,1366x768,2026-03-21
+D00399,iOS,Safari,False,False,False,1920x1080,2026-05-19
+D00400,Windows,Firefox,False,False,False,1920x1080,2026-08-04
+D00401,Android,Edge,False,False,False,1440x900,2026-09-06
+D00402,macOS,Edge,False,False,False,1920x1080,2026-08-23
+D00403,Android,Safari,False,False,False,390x844,2026-03-06
+D00404,Android,Samsung Internet,False,False,True,1440x900,2026-04-29
+D00405,Android,Safari,False,False,False,412x915,2026-08-27
+D00406,Windows,Chrome,False,False,False,1366x768,2026-06-09
+D00407,Windows,Firefox,False,False,False,1366x768,2026-02-25
+D00408,Windows,Safari,False,False,False,1440x900,2026-02-18
+D00409,iOS,Chrome,False,False,False,390x844,2026-08-16
+D00410,iOS,Chrome,False,False,False,390x844,2026-09-26
+D00411,Android,Chrome,False,False,False,1440x900,2026-07-03
+D00412,iOS,Edge,False,False,False,390x844,2026-02-10
+D00413,Windows,Firefox,False,False,False,1366x768,2026-07-13
+D00414,Windows,Samsung Internet,False,False,False,1440x900,2026-01-21
+D00415,Android,Samsung Internet,False,False,False,1366x768,2026-03-22
+D00416,iOS,Safari,False,False,False,390x844,2026-03-08
+D00417,macOS,Chrome,False,False,False,1440x900,2026-05-28
+D00418,macOS,Samsung Internet,False,False,False,412x915,2026-08-02
+D00419,Windows,Samsung Internet,False,False,False,1920x1080,2026-04-03
+D00420,iOS,Safari,False,False,False,390x844,2026-04-19
+D00421,macOS,Safari,False,False,False,1440x900,2026-06-12
+D00422,Android,Chrome,False,False,True,1366x768,2026-03-04
+D00423,Android,Edge,False,False,False,1920x1080,2026-01-12
+D00424,Android,Safari,False,False,False,1440x900,2026-04-03
+D00425,Windows,Firefox,False,False,False,1366x768,2026-04-20
+D00426,iOS,Edge,False,False,False,1440x900,2026-06-26
+D00427,Android,Firefox,False,False,False,1920x1080,2026-01-20
+D00428,macOS,Samsung Internet,True,False,False,800x600,2026-02-24
+D00429,iOS,Chrome,False,True,False,1920x1080,2026-04-26
+D00430,iOS,Edge,False,False,False,1920x1080,2026-01-10
+D00431,macOS,Safari,False,False,False,1440x900,2026-02-23
+D00432,macOS,Chrome,False,False,False,390x844,2026-02-01
+D00433,Linux,Chrome,False,False,False,1440x900,2026-05-28
+D00434,Android,Samsung Internet,False,False,False,1920x1080,2026-04-27
+D00435,macOS,Chrome,False,False,False,412x915,2026-02-10
+D00436,Android,Samsung Internet,False,False,True,1366x768,2026-08-23
+D00437,iOS,Chrome,True,False,False,800x600,2026-09-02
+D00438,macOS,Edge,False,False,False,1440x900,2026-02-01
+D00439,Windows,Edge,False,False,False,1366x768,2026-09-15
+D00440,Windows,Samsung Internet,False,False,False,1366x768,2026-05-12
+D00441,Windows,Samsung Internet,False,False,False,1920x1080,2026-04-16
+D00442,iOS,Safari,False,False,False,412x915,2026-01-02
+D00443,Android,Samsung Internet,False,False,False,1366x768,2026-02-21
+D00444,macOS,Safari,False,False,False,1920x1080,2026-09-16
+D00445,Windows,Firefox,False,False,False,1920x1080,2026-06-01
+D00446,Android,Chrome,False,False,False,1920x1080,2026-05-13
+D00447,Windows,Safari,False,False,False,390x844,2026-02-09
+D00448,iOS,Edge,False,False,False,1366x768,2026-08-11
+D00449,Android,Firefox,False,True,False,412x915,2026-01-17
+D00450,Windows,Firefox,False,False,False,1920x1080,2026-09-19
+D00451,Windows,Samsung Internet,False,False,False,412x915,2026-04-08
+D00452,Windows,Edge,False,False,False,412x915,2026-08-03
+D00453,iOS,Firefox,False,False,False,1366x768,2026-01-07
+D00454,iOS,Samsung Internet,False,False,False,390x844,2026-09-18
+D00455,Windows,Safari,False,False,False,1440x900,2026-05-03
+D00456,Windows,Safari,False,False,False,412x915,2026-07-18
+D00457,Windows,Firefox,False,False,False,390x844,2026-01-03
+D00458,Android,Edge,False,False,False,1440x900,2026-08-04
+D00459,Android,Samsung Internet,False,False,False,1920x1080,2026-02-20
+D00460,Android,Chrome,False,False,False,412x915,2026-08-11
+D00461,Windows,Chrome,False,False,False,1366x768,2026-04-15
+D00462,macOS,Safari,False,True,False,1440x900,2026-07-09
+D00463,Android,Edge,False,False,False,412x915,2026-02-06
+D00464,Android,Chrome,False,False,False,1920x1080,2026-07-25
+D00465,iOS,Edge,False,False,False,1920x1080,2026-04-01
+D00466,iOS,Firefox,False,False,False,412x915,2026-06-06
+D00467,Android,Firefox,False,False,False,1920x1080,2026-02-08
+D00468,iOS,Firefox,False,False,False,390x844,2026-02-04
+D00469,iOS,Edge,False,False,False,1366x768,2026-06-13
+D00470,macOS,Chrome,False,False,False,1366x768,2026-04-14
+D00471,Linux,Samsung Internet,False,False,False,1440x900,2026-08-29
+D00472,iOS,Firefox,False,False,False,1440x900,2026-06-23
+D00473,macOS,Chrome,False,False,False,1366x768,2026-09-14
+D00474,Android,Samsung Internet,False,False,False,1366x768,2026-01-16
+D00475,iOS,Chrome,False,False,False,390x844,2026-07-18
+D00476,Android,Firefox,False,False,False,1366x768,2026-03-26
+D00477,Windows,Firefox,False,False,False,390x844,2026-04-17
+D00478,Windows,Firefox,False,False,False,1366x768,2026-07-26
+D00479,Windows,Firefox,False,False,False,390x844,2026-03-08
+D00480,iOS,Safari,False,True,False,1920x1080,2026-08-20
+D00481,Android,Edge,False,False,False,1366x768,2026-02-24
+D00482,Windows,Safari,False,False,False,1366x768,2026-09-21
+D00483,Android,Samsung Internet,False,False,False,1366x768,2026-02-19
+D00484,Android,Chrome,False,False,False,1366x768,2026-02-28
+D00485,Windows,Firefox,False,False,False,1920x1080,2026-02-13
+D00486,Android,Chrome,False,False,False,1920x1080,2026-07-15
+D00487,Windows,Firefox,False,False,False,390x844,2026-09-14
+D00488,iOS,Safari,False,False,False,390x844,2026-04-09
+D00489,macOS,Edge,False,False,False,390x844,2026-02-18
+D00490,Android,Firefox,False,False,False,1440x900,2026-08-05
+D00491,Android,Safari,False,False,False,1366x768,2026-05-17
+D00492,iOS,Samsung Internet,False,False,False,390x844,2026-08-14
+D00493,Windows,Edge,False,False,False,390x844,2026-09-08
+D00494,Android,Chrome,False,False,False,390x844,2026-07-19
+D00495,iOS,Edge,False,False,False,412x915,2026-06-10
+D00496,Windows,Firefox,False,False,False,1366x768,2026-03-05
+D00497,Windows,Chrome,False,False,False,390x844,2026-01-25
+D00498,Android,Edge,False,False,False,1440x900,2026-08-13
+D00499,Android,Firefox,False,False,False,390x844,2026-01-14
+D00500,macOS,Edge,False,False,False,1440x900,2026-05-23
+D00501,Windows,Edge,False,False,False,1366x768,2026-02-07
+D00502,macOS,Chrome,False,False,True,1920x1080,2026-05-26
+D00503,Windows,Chrome,False,False,False,1440x900,2026-06-19
+D00504,iOS,Edge,False,False,False,390x844,2026-02-11
+D00505,Android,Safari,True,False,False,390x844,2026-01-02
+D00506,iOS,Samsung Internet,False,False,False,1920x1080,2026-02-10
+D00507,Android,Samsung Internet,False,False,False,390x844,2026-05-28
+D00508,Windows,Edge,False,False,False,1920x1080,2026-07-17
+D00509,Android,Safari,False,False,False,1366x768,2026-01-17
+D00510,macOS,Safari,False,False,False,1440x900,2026-04-23
+D00511,Android,Safari,False,False,False,390x844,2026-04-23
+D00512,iOS,Safari,False,False,False,412x915,2026-07-27
+D00513,Windows,Safari,False,False,False,1440x900,2026-02-03
+D00514,Android,Edge,False,False,False,1366x768,2026-07-01
+D00515,Windows,Firefox,False,False,False,412x915,2026-04-10
+D00516,Android,Edge,False,False,False,1366x768,2026-08-07
+D00517,iOS,Firefox,False,False,False,1440x900,2026-04-18
+D00518,macOS,Samsung Internet,False,False,False,412x915,2026-03-30
+D00519,iOS,Edge,False,False,True,412x915,2026-08-15
+D00520,Windows,Chrome,False,False,False,1366x768,2026-03-27
+D00521,Windows,Edge,False,False,False,1440x900,2026-06-20
+D00522,macOS,Chrome,False,False,False,412x915,2026-01-19
+D00523,macOS,Safari,False,False,False,1366x768,2026-03-17
+D00524,Android,Samsung Internet,False,False,False,1920x1080,2026-06-29
+D00525,iOS,Safari,False,False,False,390x844,2026-06-25
+D00526,macOS,Firefox,False,False,False,390x844,2026-08-31
+D00527,Android,Firefox,False,False,False,1440x900,2026-06-24
+D00528,macOS,Chrome,False,False,False,1440x900,2026-01-03
+D00529,Android,Samsung Internet,False,False,False,1440x900,2026-06-29
+D00530,Android,Samsung Internet,False,False,False,412x915,2026-08-29
+D00531,iOS,Safari,False,False,False,1440x900,2026-08-28
+D00532,Android,Edge,False,False,False,390x844,2026-02-04
+D00533,Android,Samsung Internet,False,False,False,412x915,2026-06-06
+D00534,iOS,Safari,False,False,False,412x915,2026-08-14
+D00535,iOS,Safari,False,False,False,1920x1080,2026-03-15
+D00536,Windows,Safari,False,False,False,1920x1080,2026-02-28
+D00537,Android,Firefox,False,True,False,390x844,2026-01-15
+D00538,iOS,Safari,False,False,False,412x915,2026-05-10
+D00539,iOS,Firefox,False,False,False,412x915,2026-09-16
+D00540,macOS,Samsung Internet,False,False,False,412x915,2026-01-15
+D00541,Linux,Safari,False,False,False,390x844,2026-05-13
+D00542,Windows,Samsung Internet,False,False,False,1366x768,2026-07-22
+D00543,macOS,Chrome,False,False,True,1366x768,2026-07-27
+D00544,Android,Firefox,False,False,False,390x844,2026-02-07
+D00545,macOS,Samsung Internet,False,False,False,1920x1080,2026-04-26
+D00546,iOS,Safari,False,False,False,1440x900,2026-01-28
+D00547,Android,Chrome,False,False,False,1440x900,2026-03-03
+D00548,macOS,Safari,False,False,False,1366x768,2026-02-14
+D00549,iOS,Samsung Internet,False,False,False,412x915,2026-06-08
+D00550,Windows,Safari,False,False,False,1920x1080,2026-07-31
+D00551,Windows,Firefox,False,False,False,412x915,2026-08-24
+D00552,Android,Edge,False,False,False,1920x1080,2026-02-04
+D00553,iOS,Chrome,False,False,False,390x844,2026-05-13
+D00554,Android,Safari,False,False,False,412x915,2026-07-16
+D00555,iOS,Safari,False,False,False,1366x768,2026-09-25
+D00556,Android,Samsung Internet,False,False,False,1366x768,2026-03-11
+D00557,Android,Safari,False,False,False,390x844,2026-05-02
+D00558,macOS,Chrome,False,False,False,1366x768,2026-03-25
+D00559,iOS,Chrome,False,False,False,1366x768,2026-07-21
+D00560,iOS,Samsung Internet,False,False,False,1366x768,2026-02-08
+D00561,Windows,Safari,False,True,False,412x915,2026-04-05
+D00562,Windows,Firefox,False,False,False,390x844,2026-03-17
+D00563,iOS,Samsung Internet,False,False,False,412x915,2026-04-29
+D00564,Android,Edge,False,False,False,1440x900,2026-02-21
+D00565,Windows,Edge,False,False,False,1920x1080,2026-05-05
+D00566,Android,Edge,False,False,True,390x844,2026-01-06
+D00567,iOS,Firefox,False,False,False,390x844,2026-06-25
+D00568,macOS,Edge,False,False,True,1366x768,2026-05-26
+D00569,iOS,Safari,False,False,False,1366x768,2026-05-16
+D00570,iOS,Samsung Internet,False,False,False,1366x768,2026-09-06
+D00571,Windows,Safari,False,False,False,390x844,2026-06-28
+D00572,iOS,Chrome,False,False,False,1440x900,2026-05-03
+D00573,Linux,Chrome,False,True,False,1920x1080,2026-03-14
+D00574,Windows,Safari,False,False,False,1366x768,2026-01-09
+D00575,macOS,Edge,False,False,False,1440x900,2026-08-30
+D00576,iOS,Samsung Internet,False,False,False,412x915,2026-02-14
+D00577,iOS,Samsung Internet,False,False,False,1920x1080,2026-01-06
+D00578,iOS,Firefox,False,False,False,412x915,2026-08-16
+D00579,Android,Chrome,False,False,False,1366x768,2026-01-21
+D00580,Android,Firefox,False,False,False,390x844,2026-08-20
+D00581,Windows,Firefox,False,False,False,1366x768,2026-07-13
+D00582,Windows,Firefox,False,False,False,412x915,2026-03-01
+D00583,iOS,Samsung Internet,False,False,True,1366x768,2026-01-23
+D00584,Android,Edge,False,False,False,412x915,2026-07-12
+D00585,Windows,Chrome,False,False,False,412x915,2026-07-23
+D00586,iOS,Firefox,False,False,False,1366x768,2026-07-12
+D00587,macOS,Edge,False,False,False,1920x1080,2026-03-30
+D00588,Windows,Chrome,False,False,False,1920x1080,2026-09-03
+D00589,Windows,Safari,False,False,False,1366x768,2026-07-11
+D00590,Windows,Edge,False,False,False,1366x768,2026-02-15
+D00591,Windows,Safari,False,False,False,412x915,2026-06-19
+D00592,Windows,Samsung Internet,False,True,False,1366x768,2026-08-07
+D00593,Windows,Firefox,False,False,False,1920x1080,2026-06-05
+D00594,Windows,Samsung Internet,False,False,False,1920x1080,2026-03-08
+D00595,iOS,Samsung Internet,False,False,True,412x915,2026-01-26
+D00596,Android,Safari,True,False,False,800x600,2026-03-25
+D00597,macOS,Chrome,False,False,False,1440x900,2026-06-29
+D00598,iOS,Samsung Internet,False,False,False,412x915,2026-06-22
+D00599,Android,Samsung Internet,False,True,False,1440x900,2026-05-22
+D00600,iOS,Firefox,False,True,False,1440x900,2026-07-05
+D00601,Windows,Safari,False,False,False,1920x1080,2026-07-12
+D00602,macOS,Edge,False,False,False,412x915,2026-01-16
+D00603,Windows,Edge,False,False,False,1440x900,2026-08-30
+D00604,iOS,Chrome,False,False,False,412x915,2026-02-15
+D00605,Android,Samsung Internet,False,False,False,412x915,2026-01-27
+D00606,Windows,Edge,False,False,False,1366x768,2026-08-18
+D00607,Windows,Edge,False,False,True,1920x1080,2026-06-19
+D00608,iOS,Chrome,False,False,False,390x844,2026-09-03
+D00609,Android,Chrome,False,False,False,412x915,2026-03-30
+D00610,Windows,Edge,False,False,False,1366x768,2026-02-22
+D00611,iOS,Firefox,False,False,False,390x844,2026-05-14
+D00612,iOS,Samsung Internet,False,False,False,390x844,2026-05-07
+D00613,Windows,Samsung Internet,False,False,False,1366x768,2026-07-09
+D00614,iOS,Chrome,False,False,False,1440x900,2026-05-08
+D00615,Windows,Safari,False,True,False,1366x768,2026-09-13
+D00616,iOS,Safari,False,False,False,1366x768,2026-04-05
+D00617,iOS,Samsung Internet,False,False,False,390x844,2026-03-22
+D00618,Windows,Chrome,False,False,False,1366x768,2026-04-21
+D00619,Android,Samsung Internet,False,False,False,390x844,2026-06-10
+D00620,Android,Edge,False,False,False,1440x900,2026-08-16
+D00621,macOS,Chrome,False,False,False,412x915,2026-06-19
+D00622,iOS,Edge,False,False,False,1440x900,2026-03-01
+D00623,Android,Chrome,False,False,False,1366x768,2026-01-04
+D00624,iOS,Edge,False,False,False,390x844,2026-02-14
+D00625,Windows,Chrome,False,False,False,1920x1080,2026-08-15
+D00626,Windows,Samsung Internet,False,False,False,390x844,2026-06-02
+D00627,iOS,Chrome,False,False,False,1440x900,2026-04-24
+D00628,macOS,Chrome,False,False,False,1440x900,2026-02-02
+D00629,Android,Edge,False,False,False,1440x900,2026-03-06
+D00630,Windows,Safari,False,False,False,1920x1080,2026-03-15
+D00631,Android,Chrome,False,True,False,412x915,2026-05-26
+D00632,Android,Firefox,False,False,False,1440x900,2026-06-08
+D00633,Windows,Firefox,False,False,False,1920x1080,2026-04-05
+D00634,Android,Chrome,False,False,False,1440x900,2026-09-25
+D00635,macOS,Chrome,False,False,False,1366x768,2026-08-15
+D00636,Android,Safari,False,False,False,412x915,2026-09-24
+D00637,Windows,Edge,False,False,False,1920x1080,2026-08-03
+D00638,iOS,Chrome,False,False,False,412x915,2026-09-09
+D00639,Android,Chrome,False,False,False,390x844,2026-03-22
+D00640,macOS,Edge,False,False,False,1366x768,2026-04-15
+D00641,Windows,Samsung Internet,False,False,False,412x915,2026-04-20
+D00642,Windows,Chrome,False,False,True,390x844,2026-07-05
+D00643,iOS,Chrome,False,False,False,1920x1080,2026-06-03
+D00644,iOS,Firefox,False,False,False,390x844,2026-01-23
+D00645,Windows,Chrome,False,False,False,1920x1080,2026-07-30
+D00646,iOS,Firefox,False,False,False,1920x1080,2026-01-20
+D00647,Windows,Edge,False,False,False,1440x900,2026-01-05
+D00648,Windows,Firefox,False,False,True,412x915,2026-09-23
+D00649,Android,Firefox,False,False,False,1920x1080,2026-02-09
+D00650,Android,Firefox,False,False,False,1366x768,2026-08-20
+D00651,Windows,Firefox,False,False,False,390x844,2026-08-28
+D00652,Windows,Samsung Internet,False,False,False,1920x1080,2026-09-24
+D00653,iOS,Firefox,False,False,False,1920x1080,2026-08-19
+D00654,Android,Safari,False,False,False,1440x900,2026-06-04
+D00655,Android,Edge,True,False,False,800x600,2026-06-05
+D00656,Android,Firefox,False,False,False,412x915,2026-08-10
+D00657,Android,Samsung Internet,False,False,False,1440x900,2026-09-27
+D00658,iOS,Samsung Internet,False,False,False,1366x768,2026-02-21
+D00659,iOS,Firefox,False,False,False,412x915,2026-05-29
+D00660,iOS,Firefox,False,False,False,1920x1080,2026-04-23
+D00661,Windows,Edge,False,False,False,1920x1080,2026-08-24
+D00662,Android,Safari,False,False,False,1366x768,2026-07-02
+D00663,iOS,Safari,False,True,False,1440x900,2026-01-30
+D00664,iOS,Samsung Internet,False,False,False,412x915,2026-04-22
+D00665,macOS,Firefox,False,False,False,1440x900,2026-03-02
+D00666,iOS,Edge,False,False,False,1366x768,2026-08-26
+D00667,Windows,Edge,False,False,False,1920x1080,2026-09-21
+D00668,Windows,Samsung Internet,False,False,False,1366x768,2026-05-24
+D00669,Windows,Chrome,False,False,False,390x844,2026-03-27
+D00670,Windows,Samsung Internet,False,False,False,390x844,2026-03-02
+D00671,Android,Chrome,False,False,False,1366x768,2026-03-17
+D00672,Android,Firefox,False,False,False,390x844,2026-09-11
+D00673,iOS,Samsung Internet,False,False,False,412x915,2026-06-14
+D00674,iOS,Safari,False,False,False,390x844,2026-09-17
+D00675,iOS,Chrome,False,False,False,1440x900,2026-01-15
+D00676,iOS,Safari,False,False,False,1366x768,2026-03-24
+D00677,iOS,Samsung Internet,False,False,False,412x915,2026-08-13
+D00678,Windows,Safari,False,False,False,1920x1080,2026-07-10
+D00679,Android,Safari,False,True,False,1920x1080,2026-08-31
+D00680,iOS,Firefox,False,True,False,390x844,2026-05-20
+D00681,Android,Safari,False,False,False,1920x1080,2026-08-21
+D00682,Windows,Chrome,False,False,False,390x844,2026-01-03
+D00683,Android,Firefox,False,False,False,1920x1080,2026-03-06
+D00684,iOS,Safari,False,False,False,1920x1080,2026-03-09
+D00685,iOS,Chrome,False,False,False,1920x1080,2026-04-18
+D00686,Linux,Edge,False,False,False,1366x768,2026-03-06
+D00687,iOS,Edge,False,False,False,390x844,2026-06-19
+D00688,Windows,Edge,False,False,False,1366x768,2026-05-10
+D00689,iOS,Samsung Internet,True,False,False,800x600,2026-02-05
+D00690,macOS,Edge,False,False,False,1366x768,2026-05-21
+D00691,Windows,Chrome,False,False,False,1920x1080,2026-04-17
+D00692,Windows,Safari,False,False,False,1920x1080,2026-01-03
+D00693,macOS,Chrome,False,False,False,412x915,2026-09-24
+D00694,macOS,Edge,False,False,False,390x844,2026-04-28
+D00695,Android,Samsung Internet,False,False,False,1440x900,2026-06-11
+D00696,macOS,Edge,False,False,False,412x915,2026-03-23
+D00697,Android,Firefox,False,False,False,1920x1080,2026-07-02
+D00698,Android,Chrome,False,False,False,1366x768,2026-07-27
+D00699,iOS,Chrome,False,False,False,412x915,2026-04-05
+D00700,Android,Chrome,False,False,False,1920x1080,2026-05-09
+D00701,macOS,Firefox,False,False,False,1440x900,2026-08-24
+D00702,Android,Safari,False,False,False,1366x768,2026-07-25
+D00703,iOS,Samsung Internet,False,False,False,1920x1080,2026-05-13
+D00704,iOS,Chrome,False,False,False,1920x1080,2026-09-25
+D00705,Android,Firefox,False,False,False,1440x900,2026-08-23
+D00706,iOS,Firefox,False,False,False,390x844,2026-09-18
+D00707,Android,Firefox,False,False,False,1920x1080,2026-06-23
+D00708,Linux,Edge,False,False,False,412x915,2026-08-24
+D00709,Windows,Firefox,False,False,False,1920x1080,2026-03-25
+D00710,Windows,Firefox,False,False,False,412x915,2026-09-05
+D00711,Android,Edge,False,False,False,1440x900,2026-08-13
+D00712,Android,Safari,False,False,False,412x915,2026-03-09
+D00713,macOS,Firefox,False,True,False,1440x900,2026-08-06
+D00714,iOS,Edge,False,False,False,412x915,2026-04-26
+D00715,macOS,Edge,False,False,False,1920x1080,2026-01-15
+D00716,iOS,Samsung Internet,False,False,False,1440x900,2026-07-12
+D00717,iOS,Firefox,False,True,False,1366x768,2026-04-02
+D00718,iOS,Samsung Internet,False,False,True,1366x768,2026-05-07
+D00719,macOS,Firefox,False,False,False,1440x900,2026-08-18
+D00720,macOS,Samsung Internet,False,False,False,1366x768,2026-06-19
+D00721,iOS,Firefox,False,False,False,390x844,2026-02-06
+D00722,Android,Firefox,False,False,False,1366x768,2026-03-30
+D00723,Linux,Firefox,False,False,False,412x915,2026-01-19
+D00724,iOS,Firefox,False,False,False,1440x900,2026-07-01
+D00725,macOS,Safari,False,False,False,1440x900,2026-07-11
+D00726,iOS,Chrome,True,False,False,412x915,2026-09-09
+D00727,Android,Edge,False,False,False,1366x768,2026-08-10
+D00728,iOS,Firefox,False,False,False,390x844,2026-04-06
+D00729,macOS,Chrome,False,False,False,1440x900,2026-01-01
+D00730,Windows,Samsung Internet,False,False,False,412x915,2026-04-11
+D00731,iOS,Firefox,False,False,False,390x844,2026-03-23
+D00732,iOS,Safari,False,False,False,1920x1080,2026-09-25
+D00733,Windows,Edge,False,False,False,1440x900,2026-08-28
+D00734,iOS,Samsung Internet,False,False,False,390x844,2026-07-31
+D00735,Windows,Edge,False,False,False,1366x768,2026-03-17
+D00736,Windows,Edge,False,False,False,412x915,2026-01-29
+D00737,iOS,Samsung Internet,False,False,False,1366x768,2026-02-03
+D00738,Windows,Firefox,False,False,False,1440x900,2026-09-22
+D00739,Android,Safari,False,False,False,1440x900,2026-01-07
+D00740,Windows,Chrome,False,False,False,390x844,2026-09-01
+D00741,Android,Safari,False,False,False,412x915,2026-02-25
+D00742,iOS,Samsung Internet,False,False,False,412x915,2026-01-06
+D00743,Android,Safari,False,False,False,1366x768,2026-03-10
+D00744,Android,Chrome,False,False,False,1440x900,2026-04-25
+D00745,Windows,Safari,False,True,False,1366x768,2026-01-20
+D00746,Android,Firefox,False,False,False,1366x768,2026-04-17
+D00747,iOS,Samsung Internet,False,False,False,390x844,2026-04-05
+D00748,Windows,Chrome,False,False,False,1440x900,2026-02-23
+D00749,iOS,Chrome,False,False,False,1366x768,2026-05-27
+D00750,Windows,Edge,False,False,False,1920x1080,2026-01-12
+D00751,macOS,Firefox,False,False,False,1920x1080,2026-07-09
+D00752,macOS,Firefox,False,False,False,1920x1080,2026-09-20
+D00753,macOS,Chrome,False,False,False,1440x900,2026-06-20
+D00754,Android,Safari,False,False,False,390x844,2026-07-26
+D00755,Android,Samsung Internet,False,False,False,412x915,2026-08-18
+D00756,macOS,Chrome,False,False,False,1366x768,2026-03-19
+D00757,Windows,Chrome,False,False,False,1366x768,2026-01-16
+D00758,macOS,Safari,False,False,False,1366x768,2026-03-15
+D00759,Windows,Safari,False,False,False,1366x768,2026-07-17
+D00760,iOS,Edge,False,False,False,1366x768,2026-02-21
+D00761,Android,Safari,False,False,False,1920x1080,2026-02-08
+D00762,Windows,Chrome,False,False,False,412x915,2026-06-13
+D00763,Android,Safari,False,False,False,412x915,2026-05-27
+D00764,Android,Chrome,False,False,False,1920x1080,2026-03-29
+D00765,Windows,Samsung Internet,False,False,False,412x915,2026-01-12
+D00766,iOS,Safari,False,False,False,412x915,2026-09-14
+D00767,Windows,Chrome,False,False,False,390x844,2026-01-27
+D00768,Android,Chrome,False,False,False,1920x1080,2026-07-14
+D00769,Android,Samsung Internet,False,False,False,1920x1080,2026-09-15
+D00770,iOS,Chrome,False,False,False,1920x1080,2026-01-11
+D00771,Windows,Safari,False,True,False,1440x900,2026-03-01
+D00772,Windows,Firefox,False,False,False,1440x900,2026-07-13
+D00773,iOS,Edge,False,False,False,390x844,2026-05-20
+D00774,Android,Firefox,False,False,False,412x915,2026-06-04
+D00775,macOS,Edge,False,False,False,1440x900,2026-08-17
+D00776,iOS,Samsung Internet,False,False,True,412x915,2026-01-07
+D00777,Windows,Edge,False,False,False,390x844,2026-08-21
+D00778,Android,Safari,False,False,False,412x915,2026-04-10
+D00779,iOS,Samsung Internet,False,False,False,1366x768,2026-04-04
+D00780,Windows,Firefox,False,False,False,1366x768,2026-03-30
+D00781,iOS,Firefox,False,False,False,1366x768,2026-01-28
+D00782,iOS,Edge,False,False,False,1920x1080,2026-08-30
+D00783,Linux,Chrome,False,False,False,390x844,2026-08-10
+D00784,Android,Firefox,False,False,False,1366x768,2026-01-12
+D00785,Linux,Edge,False,False,False,1366x768,2026-09-15
+D00786,Windows,Chrome,False,False,False,1920x1080,2026-09-23
+D00787,macOS,Samsung Internet,False,False,False,1920x1080,2026-03-04
+D00788,Windows,Chrome,False,False,False,1920x1080,2026-04-06
+D00789,Android,Edge,False,False,False,1440x900,2026-01-03
+D00790,Android,Safari,False,False,False,1366x768,2026-04-07
+D00791,Windows,Samsung Internet,False,False,False,1920x1080,2026-06-03
+D00792,iOS,Edge,False,False,False,1366x768,2026-01-02
+D00793,Android,Edge,False,False,True,390x844,2026-08-13
+D00794,iOS,Edge,False,False,False,1366x768,2026-04-18
+D00795,Windows,Safari,False,False,False,1366x768,2026-04-18
+D00796,Windows,Chrome,False,False,False,390x844,2026-01-10
+D00797,Windows,Chrome,False,False,False,390x844,2026-09-20
+D00798,Android,Edge,False,False,False,412x915,2026-07-22
+D00799,Android,Samsung Internet,False,False,False,412x915,2026-07-24
+D00800,Android,Edge,False,False,False,412x915,2026-04-19
+D00801,macOS,Chrome,False,False,False,1920x1080,2026-09-19
+D00802,iOS,Edge,False,False,False,1440x900,2026-08-10
+D00803,Android,Chrome,False,False,False,412x915,2026-08-12
+D00804,Windows,Chrome,False,False,False,1366x768,2026-07-17
+D00805,Linux,Edge,False,False,False,1440x900,2026-08-07
+D00806,iOS,Samsung Internet,False,False,False,412x915,2026-01-25
+D00807,macOS,Firefox,False,False,False,412x915,2026-01-03
+D00808,Windows,Firefox,False,False,False,390x844,2026-01-12
+D00809,iOS,Edge,False,False,False,412x915,2026-04-01
+D00810,Windows,Chrome,False,False,False,1920x1080,2026-02-11
+D00811,iOS,Chrome,False,False,False,412x915,2026-01-16
+D00812,Android,Samsung Internet,False,False,False,1440x900,2026-06-08
+D00813,iOS,Safari,False,False,False,1440x900,2026-09-08
+D00814,iOS,Safari,False,False,False,1440x900,2026-09-09
+D00815,iOS,Safari,False,False,False,412x915,2026-05-10
+D00816,macOS,Samsung Internet,False,False,False,390x844,2026-01-10
+D00817,macOS,Edge,False,False,False,390x844,2026-06-13
+D00818,Windows,Samsung Internet,False,False,False,1920x1080,2026-03-18
+D00819,Android,Firefox,False,False,False,1440x900,2026-08-02
+D00820,iOS,Safari,False,False,False,1440x900,2026-02-11
+D00821,iOS,Firefox,False,False,False,1440x900,2026-02-19
+D00822,iOS,Edge,False,True,False,1440x900,2026-05-31
+D00823,macOS,Chrome,False,False,False,1366x768,2026-02-04
+D00824,macOS,Chrome,False,False,False,412x915,2026-06-01
+D00825,macOS,Firefox,False,False,False,1366x768,2026-05-23
+D00826,macOS,Edge,False,True,False,1440x900,2026-06-01
+D00827,iOS,Chrome,False,False,True,1920x1080,2026-03-06
+D00828,Windows,Safari,False,True,False,1366x768,2026-06-23
+D00829,iOS,Firefox,False,False,False,1920x1080,2026-09-02
+D00830,Windows,Firefox,False,False,False,1366x768,2026-09-06
+D00831,Windows,Edge,False,False,False,1440x900,2026-08-26
+D00832,macOS,Chrome,False,False,True,412x915,2026-02-07
+D00833,Android,Samsung Internet,False,False,False,390x844,2026-04-22
+D00834,Windows,Edge,False,False,False,390x844,2026-04-13
+D00835,macOS,Edge,False,False,False,390x844,2026-07-12
+D00836,iOS,Samsung Internet,False,False,False,1440x900,2026-01-11
+D00837,Windows,Edge,False,False,False,1440x900,2026-04-22
+D00838,iOS,Samsung Internet,False,False,False,1366x768,2026-06-15
+D00839,Android,Chrome,False,False,False,1920x1080,2026-08-14
+D00840,iOS,Safari,False,False,False,1920x1080,2026-06-02
+D00841,Android,Edge,False,False,False,390x844,2026-02-22
+D00842,macOS,Safari,False,False,False,412x915,2026-09-08
+D00843,Windows,Chrome,False,False,False,1920x1080,2026-01-11
+D00844,Android,Firefox,False,False,False,1366x768,2026-01-08
+D00845,Android,Safari,False,False,False,1440x900,2026-08-18
+D00846,iOS,Edge,False,False,False,1366x768,2026-06-01
+D00847,Windows,Safari,False,False,False,1920x1080,2026-06-27
+D00848,Windows,Firefox,False,False,False,1920x1080,2026-06-06
+D00849,macOS,Safari,False,False,False,390x844,2026-07-28
+D00850,Android,Edge,False,False,False,1920x1080,2026-02-08
+D00851,iOS,Edge,False,False,False,1920x1080,2026-01-19
+D00852,Android,Firefox,False,False,False,390x844,2026-05-11
+D00853,macOS,Samsung Internet,True,False,False,800x600,2026-05-15
+D00854,macOS,Edge,False,False,False,412x915,2026-02-05
+D00855,macOS,Firefox,False,False,False,1366x768,2026-06-15
+D00856,iOS,Samsung Internet,False,False,False,1440x900,2026-05-23
+D00857,Android,Safari,False,False,False,412x915,2026-07-07
+D00858,Windows,Chrome,False,False,False,1440x900,2026-08-15
+D00859,iOS,Edge,False,False,False,1366x768,2026-07-24
+D00860,Android,Edge,False,False,False,1440x900,2026-01-26
+D00861,macOS,Samsung Internet,False,False,False,1440x900,2026-07-21
+D00862,iOS,Chrome,False,False,False,390x844,2026-09-04
+D00863,Windows,Safari,False,False,False,390x844,2026-08-20
+D00864,Android,Safari,False,False,False,1440x900,2026-09-10
+D00865,Android,Edge,False,False,False,1366x768,2026-06-16
+D00866,Windows,Edge,False,False,False,1366x768,2026-09-12
+D00867,macOS,Firefox,False,False,False,390x844,2026-07-30
+D00868,iOS,Firefox,False,False,False,1366x768,2026-04-03
+D00869,Linux,Firefox,False,False,False,1440x900,2026-03-19
+D00870,Android,Safari,False,False,False,412x915,2026-06-16
+D00871,iOS,Samsung Internet,False,False,False,1920x1080,2026-02-13
+D00872,Linux,Firefox,False,False,False,1920x1080,2026-04-20
+D00873,Android,Safari,False,False,False,390x844,2026-01-29
+D00874,Linux,Firefox,False,False,False,1440x900,2026-08-29
+D00875,Windows,Chrome,False,False,False,1440x900,2026-06-09
+D00876,Android,Firefox,False,False,False,412x915,2026-03-12
+D00877,Android,Safari,False,False,False,1440x900,2026-05-04
+D00878,iOS,Safari,False,False,False,1366x768,2026-01-18
+D00879,Windows,Chrome,False,False,False,1440x900,2026-03-23
+D00880,iOS,Edge,False,False,False,412x915,2026-09-27
+D00881,iOS,Safari,False,False,False,412x915,2026-08-17
+D00882,Windows,Safari,False,False,False,1366x768,2026-04-10
+D00883,Windows,Edge,False,False,False,412x915,2026-07-06
+D00884,Windows,Edge,False,False,False,1920x1080,2026-02-12
+D00885,Windows,Samsung Internet,False,False,True,412x915,2026-04-07
+D00886,iOS,Safari,False,False,False,412x915,2026-03-14
+D00887,iOS,Chrome,False,False,False,1366x768,2026-03-26
+D00888,macOS,Firefox,False,False,False,1440x900,2026-02-28
+D00889,Android,Samsung Internet,False,False,False,390x844,2026-03-12
+D00890,Windows,Samsung Internet,False,False,False,1440x900,2026-06-19
+D00891,Android,Firefox,False,False,False,390x844,2026-06-24
+D00892,Windows,Chrome,False,False,False,1920x1080,2026-09-04
+D00893,Android,Edge,False,False,True,390x844,2026-02-20
+D00894,Windows,Safari,False,False,False,1440x900,2026-08-17
+D00895,Windows,Firefox,False,False,False,412x915,2026-09-13
+D00896,Android,Samsung Internet,False,False,False,1366x768,2026-04-15
+D00897,macOS,Samsung Internet,False,False,False,1366x768,2026-07-24
+D00898,macOS,Chrome,False,False,False,1920x1080,2026-04-03
+D00899,iOS,Samsung Internet,False,False,False,1920x1080,2026-07-17
+D00900,Windows,Samsung Internet,False,False,False,390x844,2026-05-10
+D00901,iOS,Samsung Internet,False,False,False,390x844,2026-08-03
+D00902,Windows,Edge,False,False,False,1440x900,2026-03-08
+D00903,macOS,Chrome,False,False,False,1440x900,2026-04-11
+D00904,macOS,Firefox,False,False,False,412x915,2026-04-11
+D00905,iOS,Edge,False,False,False,1920x1080,2026-05-30
+D00906,macOS,Firefox,False,False,False,1366x768,2026-08-21
+D00907,Windows,Safari,False,False,False,1366x768,2026-07-09
+D00908,Windows,Edge,False,False,False,412x915,2026-04-01
+D00909,Windows,Chrome,False,False,False,390x844,2026-05-27
+D00910,macOS,Firefox,False,False,False,1920x1080,2026-06-28
+D00911,iOS,Chrome,False,False,False,1366x768,2026-01-16
+D00912,macOS,Edge,False,False,False,1366x768,2026-05-26
+D00913,iOS,Safari,False,False,False,1440x900,2026-06-21
+D00914,iOS,Chrome,False,False,False,1440x900,2026-09-24
+D00915,Android,Edge,False,False,False,1366x768,2026-08-24
+D00916,Linux,Samsung Internet,False,False,False,390x844,2026-01-09
+D00917,macOS,Samsung Internet,False,False,False,1440x900,2026-04-23
+D00918,Android,Chrome,False,False,False,390x844,2026-07-02
+D00919,Android,Safari,False,False,False,1366x768,2026-01-04
+D00920,Windows,Samsung Internet,False,False,True,390x844,2026-04-08
+D00921,Android,Samsung Internet,False,False,False,1440x900,2026-05-22
+D00922,Android,Samsung Internet,False,False,False,1440x900,2026-07-30
+D00923,iOS,Samsung Internet,False,False,False,1920x1080,2026-01-03
+D00924,Android,Edge,False,False,False,1920x1080,2026-05-05
+D00925,iOS,Samsung Internet,False,False,False,412x915,2026-01-25
+D00926,Windows,Safari,False,False,False,390x844,2026-09-11
+D00927,Windows,Samsung Internet,False,True,False,1920x1080,2026-06-07
+D00928,Windows,Edge,False,False,False,1920x1080,2026-04-28
+D00929,Android,Samsung Internet,False,False,False,1440x900,2026-05-04
+D00930,Windows,Safari,False,False,False,412x915,2026-02-14
+D00931,iOS,Samsung Internet,False,False,False,412x915,2026-01-18
+D00932,Windows,Firefox,False,False,False,412x915,2026-05-16
+D00933,Windows,Chrome,False,False,False,1366x768,2026-03-14
+D00934,Android,Safari,False,False,False,412x915,2026-04-10
+D00935,Android,Edge,False,False,False,1440x900,2026-01-12
+D00936,Android,Edge,False,False,False,412x915,2026-03-01
+D00937,Windows,Chrome,False,False,False,390x844,2026-07-07
+D00938,Android,Safari,False,False,False,1440x900,2026-05-14
+D00939,Windows,Edge,False,False,False,1366x768,2026-04-01
+D00940,Windows,Safari,False,False,False,1366x768,2026-05-24
+D00941,Windows,Firefox,False,False,False,1920x1080,2026-03-14
+D00942,macOS,Safari,False,False,True,390x844,2026-01-16
+D00943,Windows,Safari,False,False,False,1366x768,2026-02-28
+D00944,Android,Firefox,False,False,False,1920x1080,2026-03-20
+D00945,macOS,Chrome,False,False,False,1920x1080,2026-03-08
+D00946,Android,Samsung Internet,False,False,False,1920x1080,2026-04-25
+D00947,Windows,Chrome,False,False,False,1920x1080,2026-01-18
+D00948,Android,Samsung Internet,False,False,False,1366x768,2026-03-18
+D00949,Android,Samsung Internet,False,False,False,412x915,2026-04-15
+D00950,iOS,Firefox,False,False,False,1440x900,2026-02-23
+D00951,Windows,Chrome,False,False,False,1366x768,2026-06-23
+D00952,Android,Chrome,False,False,False,390x844,2026-09-04
+D00953,macOS,Chrome,False,False,False,412x915,2026-03-11
+D00954,Windows,Samsung Internet,False,False,False,1440x900,2026-07-27
+D00955,Android,Chrome,False,False,False,412x915,2026-06-02
+D00956,Android,Chrome,False,True,True,390x844,2026-08-16
+D00957,Windows,Samsung Internet,False,False,False,1440x900,2026-06-06
+D00958,Windows,Chrome,False,False,False,390x844,2026-09-06
+D00959,Windows,Firefox,False,False,False,390x844,2026-07-17
+D00960,iOS,Firefox,False,False,False,1366x768,2026-02-13
+D00961,Windows,Firefox,False,True,False,412x915,2026-07-18
+D00962,iOS,Safari,False,False,False,1920x1080,2026-09-09
+D00963,iOS,Edge,False,False,False,390x844,2026-09-07
+D00964,macOS,Chrome,False,False,False,1920x1080,2026-04-06
+D00965,Linux,Edge,False,False,False,390x844,2026-07-29
+D00966,iOS,Safari,False,False,False,390x844,2026-02-13
+D00967,macOS,Firefox,False,False,False,390x844,2026-06-12
+D00968,Windows,Edge,False,False,False,390x844,2026-02-19
+D00969,Windows,Safari,False,False,False,1920x1080,2026-05-23
+D00970,iOS,Edge,False,False,False,390x844,2026-04-19
+D00971,Linux,Samsung Internet,False,False,False,1440x900,2026-04-27
+D00972,Windows,Chrome,False,False,False,390x844,2026-02-10
+D00973,iOS,Safari,False,False,False,1920x1080,2026-03-25
+D00974,Android,Chrome,False,False,False,390x844,2026-01-31
+D00975,macOS,Safari,False,False,False,1920x1080,2026-03-13
+D00976,Windows,Edge,False,False,False,1366x768,2026-07-19
+D00977,Windows,Samsung Internet,False,False,False,412x915,2026-08-17
+D00978,Android,Edge,False,False,False,1920x1080,2026-01-24
+D00979,Windows,Chrome,False,False,False,1440x900,2026-04-21
+D00980,Android,Samsung Internet,False,False,True,412x915,2026-05-21
+D00981,Android,Chrome,False,False,False,1440x900,2026-01-19
+D00982,Android,Firefox,False,False,True,1366x768,2026-02-23
+D00983,Android,Chrome,False,False,False,412x915,2026-02-28
+D00984,macOS,Samsung Internet,False,False,False,390x844,2026-05-26
+D00985,Windows,Chrome,False,False,False,1366x768,2026-02-03
+D00986,iOS,Safari,False,False,False,390x844,2026-05-23
+D00987,iOS,Firefox,False,False,False,390x844,2026-08-02
+D00988,iOS,Chrome,False,False,False,390x844,2026-04-23
+D00989,iOS,Edge,False,False,False,412x915,2026-02-25
+D00990,Android,Chrome,False,False,False,390x844,2026-02-02
+D00991,Android,Chrome,False,False,False,1366x768,2026-05-12
+D00992,iOS,Chrome,False,False,False,1440x900,2026-06-28
+D00993,Android,Samsung Internet,False,False,False,1920x1080,2026-03-04
+D00994,Android,Samsung Internet,False,False,False,1920x1080,2026-07-10
+D00995,Android,Samsung Internet,False,False,False,412x915,2026-03-01
+D00996,Android,Firefox,False,False,False,390x844,2026-07-19
+D00997,macOS,Chrome,False,False,False,1440x900,2026-05-27
+D00998,iOS,Edge,False,False,False,1920x1080,2026-01-31
+D00999,iOS,Firefox,False,False,False,1920x1080,2026-09-07
+D01000,Android,Samsung Internet,False,False,False,1440x900,2026-08-13
+D01001,Android,Samsung Internet,False,False,False,1920x1080,2026-04-01
+D01002,Android,Edge,False,False,False,1366x768,2026-08-14
+D01003,iOS,Safari,False,True,False,1920x1080,2026-07-21
+D01004,Android,Chrome,False,False,False,390x844,2026-02-18
+D01005,Android,Samsung Internet,False,False,False,390x844,2026-09-25
+D01006,iOS,Firefox,False,False,False,1440x900,2026-04-30
+D01007,iOS,Edge,False,False,False,1366x768,2026-05-15
+D01008,Windows,Firefox,False,False,False,390x844,2026-04-04
+D01009,Android,Firefox,False,False,False,412x915,2026-01-17
+D01010,iOS,Samsung Internet,False,False,False,390x844,2026-06-03
+D01011,Linux,Chrome,False,False,False,390x844,2026-03-03
+D01012,iOS,Edge,False,False,False,1440x900,2026-09-02
+D01013,Windows,Safari,False,False,False,1440x900,2026-01-23
+D01014,iOS,Safari,False,False,False,412x915,2026-03-24
+D01015,Windows,Chrome,False,False,False,1440x900,2026-05-02
+D01016,Windows,Chrome,False,False,False,1920x1080,2026-07-19
+D01017,Android,Samsung Internet,False,False,False,1366x768,2026-05-28
+D01018,iOS,Samsung Internet,False,False,False,1920x1080,2026-02-27
+D01019,macOS,Samsung Internet,False,False,False,1440x900,2026-05-21
+D01020,Windows,Chrome,False,True,False,1920x1080,2026-06-22
+D01021,Android,Chrome,False,False,False,1366x768,2026-01-10
+D01022,macOS,Safari,False,False,True,390x844,2026-04-06
+D01023,Windows,Firefox,False,False,False,1366x768,2026-06-05
+D01024,iOS,Chrome,False,False,False,390x844,2026-05-24
+D01025,Android,Chrome,False,False,False,1366x768,2026-08-05
+D01026,iOS,Safari,False,False,False,1920x1080,2026-06-08
+D01027,iOS,Firefox,False,False,False,1920x1080,2026-09-24
+D01028,Android,Firefox,False,False,False,1366x768,2026-07-16
+D01029,iOS,Samsung Internet,False,False,False,1920x1080,2026-07-22
+D01030,iOS,Chrome,False,False,False,1920x1080,2026-01-21
+D01031,Android,Chrome,False,False,False,412x915,2026-05-20
+D01032,iOS,Safari,False,False,False,412x915,2026-09-13
+D01033,iOS,Firefox,False,False,False,1366x768,2026-01-19
+D01034,macOS,Chrome,False,False,False,1440x900,2026-02-01
+D01035,Windows,Safari,False,False,False,412x915,2026-04-08
+D01036,Android,Safari,False,False,False,1440x900,2026-08-24
+D01037,iOS,Chrome,False,False,False,1366x768,2026-07-20
+D01038,iOS,Samsung Internet,False,False,False,1440x900,2026-09-06
+D01039,Windows,Samsung Internet,False,False,False,412x915,2026-04-13
+D01040,iOS,Edge,False,False,False,1366x768,2026-08-05
+D01041,Windows,Edge,False,False,False,412x915,2026-06-13
+D01042,Android,Chrome,False,False,False,390x844,2026-02-16
+D01043,Windows,Chrome,False,False,False,412x915,2026-08-10
+D01044,macOS,Edge,False,False,False,1920x1080,2026-02-09
+D01045,iOS,Samsung Internet,False,False,False,1366x768,2026-01-17
+D01046,Android,Chrome,False,False,False,412x915,2026-06-15
+D01047,Android,Samsung Internet,False,False,False,1920x1080,2026-08-22
+D01048,Windows,Chrome,False,False,False,390x844,2026-04-25
+D01049,Linux,Firefox,False,False,False,1920x1080,2026-08-16
+D01050,Windows,Samsung Internet,False,True,False,1366x768,2026-07-15
+D01051,iOS,Safari,False,False,False,1920x1080,2026-01-10
+D01052,Android,Edge,False,False,False,1920x1080,2026-03-19
+D01053,Android,Safari,False,False,False,1440x900,2026-05-09
+D01054,iOS,Chrome,False,False,False,1440x900,2026-02-17
+D01055,iOS,Chrome,False,False,False,1440x900,2026-02-14
+D01056,Windows,Firefox,False,False,False,1366x768,2026-01-03
+D01057,iOS,Edge,False,False,False,412x915,2026-09-08
+D01058,Android,Safari,False,False,False,412x915,2026-08-27
+D01059,iOS,Safari,False,False,False,1920x1080,2026-06-29
+D01060,iOS,Firefox,False,False,True,412x915,2026-02-13
+D01061,macOS,Edge,False,False,False,1920x1080,2026-08-20
+D01062,Android,Samsung Internet,False,False,False,1366x768,2026-01-14
+D01063,Windows,Chrome,False,False,False,1440x900,2026-03-31
+D01064,Windows,Firefox,False,False,False,390x844,2026-09-06
+D01065,iOS,Safari,False,False,False,1440x900,2026-07-25
+D01066,iOS,Edge,False,False,False,390x844,2026-04-30
+D01067,iOS,Safari,False,False,False,1440x900,2026-04-03
+D01068,macOS,Firefox,False,False,False,390x844,2026-09-10
+D01069,iOS,Chrome,False,False,False,412x915,2026-04-09
+D01070,iOS,Firefox,False,False,False,1366x768,2026-05-20
+D01071,macOS,Safari,False,False,False,1366x768,2026-07-04
+D01072,Windows,Edge,False,False,False,412x915,2026-08-06
+D01073,Windows,Samsung Internet,False,False,False,1920x1080,2026-09-27
+D01074,Windows,Edge,False,False,False,1366x768,2026-01-16
+D01075,Android,Firefox,False,False,False,412x915,2026-04-29
+D01076,iOS,Chrome,False,False,False,1440x900,2026-08-17
+D01077,iOS,Samsung Internet,False,False,False,412x915,2026-08-28
+D01078,Windows,Edge,False,False,False,390x844,2026-08-08
+D01079,macOS,Chrome,False,False,False,1920x1080,2026-05-09
+D01080,Android,Edge,False,False,False,412x915,2026-08-01
+D01081,Windows,Chrome,False,False,False,390x844,2026-03-16
+D01082,iOS,Firefox,False,False,False,412x915,2026-07-17
+D01083,Android,Safari,False,False,False,1920x1080,2026-04-19
+D01084,Android,Chrome,False,False,False,1440x900,2026-06-19
+D01085,macOS,Safari,False,False,True,1920x1080,2026-01-29
+D01086,Windows,Samsung Internet,False,False,False,1440x900,2026-02-28
+D01087,Android,Samsung Internet,False,False,False,1440x900,2026-02-05
+D01088,Windows,Samsung Internet,False,False,False,1440x900,2026-03-20
+D01089,iOS,Edge,False,False,False,412x915,2026-04-10
+D01090,iOS,Samsung Internet,False,True,False,1440x900,2026-06-23
+D01091,Windows,Samsung Internet,False,False,False,1920x1080,2026-07-03
+D01092,Android,Chrome,False,False,False,1440x900,2026-05-14
+D01093,Android,Edge,False,False,False,412x915,2026-07-31
+D01094,Windows,Edge,False,True,False,390x844,2026-06-13
+D01095,Windows,Chrome,False,False,False,390x844,2026-07-12
+D01096,Android,Chrome,False,False,False,1920x1080,2026-08-07
+D01097,Windows,Edge,False,False,False,390x844,2026-03-28
+D01098,Android,Firefox,False,False,False,1920x1080,2026-06-23
+D01099,iOS,Edge,False,False,False,1366x768,2026-03-12
+D01100,Windows,Edge,False,False,False,1920x1080,2026-03-15
+D01101,Windows,Safari,False,False,False,1366x768,2026-08-10
+D01102,macOS,Safari,False,False,False,390x844,2026-06-12
+D01103,macOS,Samsung Internet,False,False,False,1366x768,2026-05-06
+D01104,iOS,Firefox,False,False,False,1366x768,2026-04-26
+D01105,iOS,Firefox,False,False,False,1366x768,2026-04-03
+D01106,iOS,Firefox,False,False,False,390x844,2026-08-23
+D01107,Android,Chrome,False,False,False,1366x768,2026-02-16
+D01108,Windows,Firefox,False,False,False,412x915,2026-01-05
+D01109,Windows,Edge,False,False,False,390x844,2026-09-16
+D01110,macOS,Firefox,False,False,False,1920x1080,2026-06-22
+D01111,Android,Edge,False,False,True,1920x1080,2026-06-12
+D01112,iOS,Samsung Internet,False,False,False,1920x1080,2026-02-28
+D01113,Android,Samsung Internet,False,False,False,412x915,2026-04-02
+D01114,Android,Safari,False,False,False,1440x900,2026-03-14
+D01115,iOS,Samsung Internet,False,False,False,1440x900,2026-08-06
+D01116,Windows,Edge,False,False,False,390x844,2026-03-17
+D01117,Android,Samsung Internet,False,False,False,412x915,2026-01-16
+D01118,Android,Safari,False,False,False,1440x900,2026-04-18
+D01119,Android,Edge,False,False,False,1366x768,2026-06-05
+D01120,Android,Firefox,False,False,False,1440x900,2026-03-10
+D01121,Windows,Chrome,False,False,False,390x844,2026-01-07
+D01122,macOS,Firefox,False,False,False,1366x768,2026-02-06
+D01123,iOS,Safari,False,False,False,1366x768,2026-01-22
+D01124,Windows,Firefox,False,False,False,390x844,2026-07-05
+D01125,Android,Edge,False,False,False,390x844,2026-03-06
+D01126,iOS,Chrome,False,False,False,412x915,2026-03-10
+D01127,iOS,Firefox,False,True,False,412x915,2026-05-23
+D01128,macOS,Safari,False,False,False,412x915,2026-04-14
+D01129,Windows,Safari,False,False,False,1366x768,2026-03-02
+D01130,Android,Edge,False,False,False,1440x900,2026-03-15
+D01131,Windows,Safari,False,False,False,1920x1080,2026-06-30
+D01132,Android,Chrome,False,False,False,412x915,2026-06-22
+D01133,Windows,Chrome,False,False,False,1920x1080,2026-07-15
+D01134,Android,Samsung Internet,False,False,False,1440x900,2026-07-06
+D01135,iOS,Edge,False,False,False,412x915,2026-04-10
+D01136,macOS,Safari,False,False,False,1366x768,2026-05-11
+D01137,Android,Chrome,False,False,False,1920x1080,2026-01-09
+D01138,Windows,Firefox,False,False,False,412x915,2026-04-06
+D01139,Windows,Samsung Internet,False,False,False,412x915,2026-05-15
+D01140,macOS,Samsung Internet,False,False,True,1366x768,2026-05-24
+D01141,Windows,Samsung Internet,False,False,False,412x915,2026-07-07
+D01142,Android,Firefox,False,False,False,412x915,2026-04-23
+D01143,macOS,Chrome,False,False,True,1440x900,2026-06-26
+D01144,Windows,Edge,False,False,False,1920x1080,2026-09-02
+D01145,Android,Safari,False,False,False,1440x900,2026-05-01
+D01146,iOS,Safari,False,False,False,412x915,2026-01-18
+D01147,Android,Firefox,False,False,False,390x844,2026-06-15
+D01148,Android,Chrome,False,False,False,1440x900,2026-02-14
+D01149,Android,Edge,False,False,False,1366x768,2026-03-09
+D01150,macOS,Edge,False,False,False,1440x900,2026-02-16
+D01151,Android,Safari,False,False,False,1366x768,2026-04-24
+D01152,Android,Edge,False,False,False,412x915,2026-04-03
+D01153,Windows,Safari,False,True,True,1920x1080,2026-07-07
+D01154,Android,Firefox,False,False,False,412x915,2026-08-10
+D01155,Windows,Edge,False,False,False,1440x900,2026-08-08
+D01156,Android,Firefox,False,False,False,390x844,2026-05-28
+D01157,iOS,Safari,False,False,False,390x844,2026-03-16
+D01158,macOS,Chrome,False,False,False,1440x900,2026-06-17
+D01159,macOS,Chrome,False,False,False,1920x1080,2026-01-22
+D01160,Windows,Edge,True,False,True,390x844,2026-05-01
+D01161,macOS,Firefox,False,False,False,1920x1080,2026-06-05
+D01162,macOS,Safari,False,False,True,1440x900,2026-08-11
+D01163,Windows,Chrome,False,False,False,1366x768,2026-03-18
+D01164,Windows,Safari,False,False,False,1920x1080,2026-08-07
+D01165,iOS,Chrome,False,False,False,390x844,2026-01-15
+D01166,iOS,Edge,False,False,False,1440x900,2026-03-23
+D01167,Linux,Safari,False,False,False,390x844,2026-04-20
+D01168,Android,Safari,False,False,False,390x844,2026-03-28
+D01169,Windows,Edge,False,False,False,1366x768,2026-01-12
+D01170,Windows,Safari,False,False,False,1440x900,2026-07-19
+D01171,iOS,Samsung Internet,False,False,False,412x915,2026-04-04
+D01172,Windows,Samsung Internet,False,False,False,390x844,2026-04-20
+D01173,iOS,Samsung Internet,False,False,False,1440x900,2026-02-11
+D01174,Windows,Safari,False,False,False,412x915,2026-06-03
+D01175,Windows,Samsung Internet,False,False,False,1366x768,2026-05-26
+D01176,iOS,Samsung Internet,False,False,False,390x844,2026-03-07
+D01177,Windows,Edge,False,False,False,412x915,2026-03-26
+D01178,Windows,Chrome,False,False,False,412x915,2026-05-09
+D01179,Windows,Edge,False,False,False,390x844,2026-08-24
+D01180,Android,Samsung Internet,False,False,False,390x844,2026-03-14
+D01181,Android,Safari,False,True,False,412x915,2026-02-16
+D01182,macOS,Firefox,False,True,False,1366x768,2026-09-08
+D01183,Windows,Chrome,False,False,False,1366x768,2026-07-24
+D01184,Android,Firefox,False,False,False,1440x900,2026-05-11
+D01185,iOS,Edge,False,False,False,1366x768,2026-09-15
+D01186,Windows,Chrome,False,False,False,1920x1080,2026-08-15
+D01187,Android,Chrome,False,False,False,390x844,2026-03-06
+D01188,Android,Samsung Internet,False,False,False,1366x768,2026-02-16
+D01189,macOS,Edge,False,False,False,1920x1080,2026-09-24
+D01190,macOS,Samsung Internet,False,False,False,1440x900,2026-04-16
+D01191,Windows,Chrome,False,False,False,1440x900,2026-04-22
+D01192,iOS,Safari,False,False,False,1440x900,2026-07-14
+D01193,Windows,Firefox,False,False,False,412x915,2026-08-17
+D01194,Android,Safari,False,False,False,390x844,2026-09-14
+D01195,macOS,Firefox,False,False,False,1920x1080,2026-03-05
+D01196,Android,Firefox,False,False,False,412x915,2026-02-20
+D01197,Android,Firefox,False,False,False,412x915,2026-04-02
+D01198,macOS,Safari,False,False,False,1920x1080,2026-03-10
+D01199,macOS,Chrome,False,False,False,390x844,2026-01-30
+D01200,Android,Firefox,False,False,False,1920x1080,2026-05-17
+D01201,iOS,Chrome,False,False,False,390x844,2026-06-16
+D01202,Windows,Chrome,False,False,False,1366x768,2026-04-08
+D01203,iOS,Firefox,False,False,False,412x915,2026-05-26
+D01204,iOS,Chrome,False,False,False,412x915,2026-03-06
+D01205,Windows,Safari,False,False,False,1920x1080,2026-05-09
+D01206,Windows,Edge,False,False,False,412x915,2026-05-03
+D01207,Android,Firefox,False,False,False,390x844,2026-01-17
+D01208,Android,Edge,False,True,False,412x915,2026-01-12
+D01209,iOS,Edge,False,True,False,412x915,2026-09-05
+D01210,macOS,Safari,False,True,False,412x915,2026-04-07
+D01211,Windows,Edge,False,False,False,1366x768,2026-01-18
+D01212,iOS,Edge,False,False,False,1366x768,2026-07-16
+D01213,iOS,Samsung Internet,False,False,False,412x915,2026-01-02
+D01214,Windows,Firefox,False,False,False,1366x768,2026-05-27
+D01215,Android,Samsung Internet,False,False,False,1366x768,2026-01-07
+D01216,Windows,Safari,False,False,False,1920x1080,2026-02-12
+D01217,iOS,Firefox,False,False,False,412x915,2026-09-23
+D01218,Windows,Firefox,False,False,False,1366x768,2026-03-14
+D01219,macOS,Safari,False,False,False,412x915,2026-01-29
+D01220,iOS,Safari,False,False,False,1440x900,2026-05-09
+D01221,Android,Safari,False,False,False,412x915,2026-03-23
+D01222,Linux,Edge,False,False,False,1920x1080,2026-09-22
+D01223,iOS,Safari,False,False,False,1366x768,2026-07-29
+D01224,Android,Firefox,False,False,False,390x844,2026-02-25
+D01225,iOS,Chrome,False,False,False,1366x768,2026-06-10
+D01226,iOS,Safari,False,False,False,390x844,2026-05-09
+D01227,Android,Edge,False,False,False,412x915,2026-08-02
+D01228,iOS,Edge,False,False,False,390x844,2026-08-20
+D01229,iOS,Edge,False,False,False,412x915,2026-05-16
+D01230,Linux,Firefox,False,False,False,1920x1080,2026-01-17
+D01231,iOS,Safari,False,False,False,1440x900,2026-05-21
+D01232,iOS,Firefox,False,False,False,1440x900,2026-08-22
+D01233,Android,Chrome,False,False,False,1920x1080,2026-05-07
+D01234,Android,Firefox,True,False,False,800x600,2026-01-24
+D01235,Windows,Chrome,False,False,False,1366x768,2026-05-01
+D01236,Android,Firefox,False,False,False,1366x768,2026-02-18
+D01237,iOS,Edge,False,False,False,390x844,2026-08-21
+D01238,iOS,Edge,False,False,False,1440x900,2026-03-10
+D01239,macOS,Firefox,False,True,False,412x915,2026-03-29
+D01240,iOS,Chrome,False,False,False,1366x768,2026-05-07
+D01241,iOS,Samsung Internet,False,False,False,1366x768,2026-03-10
+D01242,macOS,Firefox,False,False,False,412x915,2026-01-07
+D01243,Windows,Samsung Internet,False,False,True,412x915,2026-05-26
+D01244,iOS,Edge,False,False,False,1920x1080,2026-01-09
+D01245,Windows,Firefox,False,False,False,1366x768,2026-02-26
+D01246,iOS,Firefox,False,False,False,1440x900,2026-09-19
+D01247,Android,Chrome,False,False,False,1366x768,2026-06-26
+D01248,Android,Edge,False,False,False,1366x768,2026-01-31
+D01249,Windows,Chrome,False,False,False,390x844,2026-06-16
+D01250,iOS,Safari,False,False,False,1920x1080,2026-08-12
+D01251,Android,Samsung Internet,False,False,False,1920x1080,2026-06-11
+D01252,Windows,Safari,False,False,False,1440x900,2026-07-06
+D01253,Android,Safari,False,False,False,1920x1080,2026-06-08
+D01254,iOS,Edge,False,False,False,1440x900,2026-09-22
+D01255,macOS,Samsung Internet,False,False,False,390x844,2026-01-03
+D01256,Android,Samsung Internet,False,False,False,412x915,2026-03-07
+D01257,macOS,Samsung Internet,False,False,False,1920x1080,2026-08-29
+D01258,Android,Samsung Internet,False,False,False,412x915,2026-04-20
+D01259,iOS,Samsung Internet,False,False,True,390x844,2026-06-01
+D01260,iOS,Firefox,False,False,False,1920x1080,2026-01-07
+D01261,Android,Safari,False,False,False,1366x768,2026-07-11
+D01262,Android,Safari,False,True,False,390x844,2026-06-28
+D01263,Windows,Safari,False,False,False,412x915,2026-04-01
+D01264,iOS,Firefox,False,False,False,1440x900,2026-03-07
+D01265,iOS,Edge,False,False,False,412x915,2026-05-20
+D01266,iOS,Firefox,False,False,True,390x844,2026-08-09
+D01267,Android,Chrome,False,False,False,412x915,2026-09-25
+D01268,Windows,Edge,False,False,False,390x844,2026-03-16
+D01269,Android,Edge,False,False,False,412x915,2026-06-13
+D01270,Linux,Samsung Internet,False,False,False,1366x768,2026-02-05
+D01271,Windows,Samsung Internet,False,False,False,390x844,2026-01-28
+D01272,Windows,Firefox,False,False,False,1366x768,2026-09-01
+D01273,iOS,Chrome,False,False,False,1440x900,2026-07-24
+D01274,Windows,Samsung Internet,False,False,False,412x915,2026-09-26
+D01275,Windows,Safari,False,False,False,390x844,2026-02-24
+D01276,Android,Firefox,False,False,False,1920x1080,2026-04-18
+D01277,Android,Safari,False,False,True,390x844,2026-09-23
+D01278,iOS,Safari,False,False,False,412x915,2026-01-07
+D01279,Android,Edge,False,False,False,1366x768,2026-06-06
+D01280,Android,Edge,False,False,False,1366x768,2026-06-03
+D01281,iOS,Firefox,False,False,False,1440x900,2026-02-11
+D01282,macOS,Chrome,False,False,False,390x844,2026-05-06
+D01283,Windows,Samsung Internet,False,False,False,1366x768,2026-02-13
+D01284,macOS,Samsung Internet,False,False,False,412x915,2026-07-31
+D01285,iOS,Firefox,False,False,False,1366x768,2026-05-04
+D01286,iOS,Safari,False,False,False,1440x900,2026-08-07
+D01287,Android,Firefox,False,False,False,1366x768,2026-01-06
+D01288,Android,Firefox,False,False,False,390x844,2026-05-18
+D01289,iOS,Firefox,False,False,False,1366x768,2026-04-22
+D01290,Android,Samsung Internet,False,False,False,1366x768,2026-09-26
+D01291,iOS,Chrome,False,False,False,1440x900,2026-02-09
+D01292,iOS,Chrome,False,False,False,412x915,2026-07-21
+D01293,Android,Samsung Internet,False,False,False,1366x768,2026-05-01
+D01294,macOS,Firefox,False,False,False,412x915,2026-04-04
+D01295,Android,Chrome,False,False,False,412x915,2026-07-30
+D01296,macOS,Firefox,False,False,False,412x915,2026-07-23
+D01297,Android,Firefox,False,False,False,1366x768,2026-02-27
+D01298,Android,Edge,False,True,False,1366x768,2026-02-01
+D01299,Windows,Edge,False,False,False,1920x1080,2026-02-23
+D01300,iOS,Samsung Internet,False,False,False,412x915,2026-03-01
+D01301,macOS,Samsung Internet,False,False,True,1920x1080,2026-03-09
+D01302,Windows,Safari,False,False,False,390x844,2026-03-07
+D01303,Windows,Edge,False,False,False,1366x768,2026-03-01
+D01304,iOS,Samsung Internet,False,False,False,1440x900,2026-06-13
+D01305,Android,Samsung Internet,False,False,False,1920x1080,2026-05-01
+D01306,iOS,Safari,False,False,False,1440x900,2026-02-16
+D01307,Android,Samsung Internet,False,False,False,1366x768,2026-07-04
+D01308,Windows,Chrome,False,False,False,1366x768,2026-07-27
+D01309,macOS,Safari,False,True,False,1440x900,2026-05-12
+D01310,Android,Chrome,False,False,False,412x915,2026-03-06
+D01311,macOS,Edge,False,False,False,1366x768,2026-04-19
+D01312,iOS,Chrome,False,False,False,1440x900,2026-08-15
+D01313,Android,Chrome,False,False,False,1366x768,2026-09-20
+D01314,Android,Safari,False,False,False,390x844,2026-02-24
+D01315,Android,Safari,False,False,False,412x915,2026-08-08
+D01316,iOS,Firefox,False,False,False,390x844,2026-02-06
+D01317,iOS,Safari,False,False,False,390x844,2026-08-16
+D01318,Android,Firefox,False,False,False,1440x900,2026-07-18
+D01319,Android,Safari,False,False,False,1440x900,2026-09-15
+D01320,Windows,Safari,False,False,False,1920x1080,2026-04-18
+D01321,macOS,Safari,False,False,False,390x844,2026-01-24
+D01322,Windows,Safari,False,False,False,1920x1080,2026-02-06
+D01323,iOS,Chrome,False,False,False,390x844,2026-06-06
+D01324,macOS,Edge,False,False,False,412x915,2026-02-10
+D01325,Android,Safari,False,False,False,1440x900,2026-03-26
+D01326,iOS,Safari,False,False,False,1440x900,2026-06-10
+D01327,macOS,Samsung Internet,False,False,False,1920x1080,2026-09-21
+D01328,Android,Safari,False,False,False,412x915,2026-08-22
+D01329,Linux,Edge,False,False,False,1440x900,2026-06-02
+D01330,iOS,Firefox,False,False,False,390x844,2026-09-10
+D01331,iOS,Safari,False,False,False,1440x900,2026-02-04
+D01332,Android,Edge,False,False,False,390x844,2026-05-30
+D01333,iOS,Chrome,False,False,False,1366x768,2026-05-04
+D01334,Linux,Samsung Internet,False,False,False,1920x1080,2026-06-27
+D01335,macOS,Chrome,False,False,False,412x915,2026-05-19
+D01336,Windows,Safari,False,False,False,1920x1080,2026-04-17
+D01337,iOS,Samsung Internet,False,False,False,412x915,2026-06-17
+D01338,iOS,Safari,False,False,False,1366x768,2026-01-25
+D01339,iOS,Firefox,False,False,False,1366x768,2026-02-20
+D01340,macOS,Samsung Internet,False,False,False,1366x768,2026-03-21
+D01341,Windows,Chrome,False,False,False,1440x900,2026-06-12
+D01342,iOS,Firefox,False,False,True,1440x900,2026-09-04
+D01343,Android,Firefox,False,False,False,412x915,2026-09-21
+D01344,Android,Edge,False,False,False,390x844,2026-03-15
+D01345,Android,Firefox,False,False,False,1440x900,2026-06-29
+D01346,iOS,Edge,False,False,False,412x915,2026-03-07
+D01347,macOS,Samsung Internet,False,False,False,412x915,2026-02-03
+D01348,Windows,Firefox,False,False,False,412x915,2026-08-11
+D01349,iOS,Samsung Internet,False,False,False,1366x768,2026-04-29
+D01350,iOS,Edge,False,False,False,390x844,2026-08-28
+D01351,Windows,Samsung Internet,False,False,False,1366x768,2026-02-02
+D01352,Android,Firefox,False,False,False,412x915,2026-02-08
+D01353,iOS,Safari,False,False,False,1440x900,2026-08-26
+D01354,iOS,Samsung Internet,False,False,False,390x844,2026-05-26
+D01355,iOS,Samsung Internet,False,False,False,390x844,2026-04-13
+D01356,iOS,Edge,False,False,False,1440x900,2026-03-04
+D01357,Windows,Safari,False,False,False,390x844,2026-07-15
+D01358,iOS,Firefox,False,False,False,1366x768,2026-05-24
+D01359,Windows,Firefox,False,False,False,390x844,2026-07-17
+D01360,Android,Safari,False,False,False,390x844,2026-05-27
+D01361,iOS,Chrome,False,False,False,390x844,2026-05-09
+D01362,Windows,Chrome,False,False,False,1920x1080,2026-06-10
+D01363,Android,Chrome,False,False,False,390x844,2026-01-08
+D01364,Windows,Firefox,False,False,False,390x844,2026-05-09
+D01365,Android,Samsung Internet,False,False,False,1440x900,2026-06-23
+D01366,macOS,Chrome,False,False,False,1920x1080,2026-02-04
+D01367,Windows,Firefox,False,False,False,1366x768,2026-03-26
+D01368,Windows,Edge,False,False,False,1920x1080,2026-04-17
+D01369,iOS,Edge,False,False,False,1920x1080,2026-07-14
+D01370,macOS,Safari,False,False,False,390x844,2026-09-09
+D01371,Windows,Safari,False,False,False,1440x900,2026-01-25
+D01372,Windows,Samsung Internet,False,False,False,1440x900,2026-03-06
+D01373,Android,Safari,False,False,False,1920x1080,2026-01-12
+D01374,Windows,Firefox,False,False,False,390x844,2026-05-08
+D01375,iOS,Chrome,False,False,False,390x844,2026-08-07
+D01376,Windows,Safari,False,False,False,412x915,2026-03-24
+D01377,iOS,Samsung Internet,False,False,False,390x844,2026-02-27
+D01378,Windows,Firefox,False,False,False,412x915,2026-05-16
+D01379,iOS,Edge,False,False,False,1920x1080,2026-02-24
+D01380,iOS,Firefox,False,False,False,1440x900,2026-02-07
+D01381,Android,Safari,False,False,False,1920x1080,2026-02-08
+D01382,macOS,Chrome,False,False,False,1366x768,2026-06-08
+D01383,Android,Edge,False,False,False,1366x768,2026-01-04
+D01384,Windows,Edge,False,False,False,1920x1080,2026-09-19
+D01385,iOS,Edge,False,False,False,1366x768,2026-08-06
+D01386,iOS,Samsung Internet,False,False,False,1440x900,2026-06-15
+D01387,iOS,Safari,False,False,False,1366x768,2026-04-01
+D01388,iOS,Samsung Internet,False,False,False,1440x900,2026-01-29
+D01389,macOS,Safari,False,False,False,1440x900,2026-08-08
+D01390,Windows,Samsung Internet,True,False,False,800x600,2026-06-01
+D01391,iOS,Firefox,False,False,False,1440x900,2026-06-28
+D01392,Android,Firefox,False,False,False,1920x1080,2026-07-15
+D01393,iOS,Chrome,False,False,False,1440x900,2026-03-09
+D01394,iOS,Edge,False,False,False,390x844,2026-03-03
+D01395,iOS,Safari,False,False,False,390x844,2026-06-11
+D01396,Windows,Safari,False,False,False,1440x900,2026-02-16
+D01397,iOS,Chrome,False,False,False,412x915,2026-09-22
+D01398,iOS,Safari,False,False,False,1920x1080,2026-07-22
+D01399,iOS,Edge,False,False,False,1440x900,2026-05-20
+D01400,Android,Samsung Internet,False,False,False,390x844,2026-05-17
+D01401,iOS,Safari,False,False,False,1440x900,2026-01-23
+D01402,iOS,Safari,False,False,False,1920x1080,2026-04-14
+D01403,macOS,Chrome,False,False,False,412x915,2026-07-30
+D01404,iOS,Safari,False,False,False,1366x768,2026-08-04
+D01405,Android,Safari,False,False,False,412x915,2026-06-13
+D01406,iOS,Firefox,False,False,False,1366x768,2026-07-10
+D01407,Android,Samsung Internet,False,False,False,1440x900,2026-04-14
+D01408,Windows,Safari,False,False,False,1366x768,2026-05-19
+D01409,Android,Firefox,False,False,False,390x844,2026-02-06
+D01410,iOS,Chrome,False,False,False,1440x900,2026-02-13
+D01411,macOS,Firefox,False,False,False,1440x900,2026-04-04
+D01412,iOS,Edge,False,False,False,412x915,2026-02-18
+D01413,macOS,Safari,False,False,False,412x915,2026-03-28
+D01414,Android,Firefox,False,False,False,1440x900,2026-02-22
+D01415,iOS,Edge,False,False,False,412x915,2026-08-21
+D01416,Android,Firefox,False,False,False,1920x1080,2026-05-08
+D01417,Android,Safari,False,True,True,1440x900,2026-09-12
+D01418,Windows,Firefox,False,False,False,1920x1080,2026-01-19
+D01419,Android,Edge,False,False,False,1920x1080,2026-04-22
+D01420,Windows,Firefox,False,False,False,1366x768,2026-08-24
+D01421,Android,Samsung Internet,False,False,False,1920x1080,2026-01-22
+D01422,Android,Safari,False,True,False,1920x1080,2026-02-22
+D01423,Windows,Edge,False,False,False,412x915,2026-06-28
+D01424,Windows,Safari,False,False,False,1440x900,2026-04-26
+D01425,Windows,Safari,False,False,False,1366x768,2026-02-14
+D01426,iOS,Firefox,False,False,False,1440x900,2026-08-28
+D01427,Windows,Edge,False,False,False,1920x1080,2026-06-22
+D01428,macOS,Safari,False,False,False,390x844,2026-07-22
+D01429,Windows,Edge,False,False,False,1366x768,2026-04-10
+D01430,iOS,Firefox,False,False,False,412x915,2026-05-10
+D01431,iOS,Edge,False,False,False,1440x900,2026-03-26
+D01432,macOS,Samsung Internet,False,False,False,1920x1080,2026-06-16
+D01433,Linux,Safari,False,False,False,1920x1080,2026-06-08
+D01434,iOS,Firefox,False,False,False,390x844,2026-08-07
+D01435,iOS,Safari,False,False,False,1920x1080,2026-08-30
+D01436,Windows,Firefox,False,False,False,390x844,2026-01-25
+D01437,Android,Firefox,False,False,False,1440x900,2026-01-08
+D01438,Android,Chrome,False,False,False,1920x1080,2026-01-04
+D01439,Android,Samsung Internet,False,False,False,390x844,2026-05-10
+D01440,Android,Samsung Internet,False,False,False,412x915,2026-01-08
+D01441,iOS,Edge,False,False,False,412x915,2026-09-14
+D01442,iOS,Chrome,False,False,False,412x915,2026-09-03
+D01443,Android,Samsung Internet,False,False,True,390x844,2026-01-12
+D01444,Android,Chrome,False,False,False,1920x1080,2026-02-03
+D01445,Windows,Edge,False,False,False,1920x1080,2026-07-31
+D01446,iOS,Chrome,False,False,False,412x915,2026-07-05
+D01447,Android,Safari,False,False,False,1920x1080,2026-08-09
+D01448,Windows,Safari,False,False,False,1920x1080,2026-01-14
+D01449,iOS,Chrome,False,False,False,1920x1080,2026-06-05
+D01450,iOS,Edge,False,False,False,1920x1080,2026-02-09
+D01451,Windows,Safari,False,False,False,1920x1080,2026-07-13
+D01452,iOS,Safari,False,False,False,390x844,2026-05-21
+D01453,iOS,Samsung Internet,False,False,False,1440x900,2026-02-15
+D01454,iOS,Firefox,False,False,False,412x915,2026-08-11
+D01455,iOS,Firefox,False,False,False,412x915,2026-07-20
+D01456,Android,Chrome,False,False,False,412x915,2026-05-05
+D01457,macOS,Edge,False,True,False,412x915,2026-02-09
+D01458,Android,Safari,False,False,False,1366x768,2026-05-08
+D01459,iOS,Chrome,False,False,False,412x915,2026-09-02
+D01460,macOS,Samsung Internet,False,False,False,1440x900,2026-02-06
+D01461,Windows,Samsung Internet,False,False,False,1366x768,2026-02-03
+D01462,macOS,Safari,False,False,False,390x844,2026-04-28
+D01463,Windows,Samsung Internet,False,False,False,390x844,2026-01-09
+D01464,Windows,Edge,False,False,False,412x915,2026-02-09
+D01465,Android,Safari,False,False,False,1366x768,2026-05-20
+D01466,iOS,Edge,False,False,False,412x915,2026-06-15
+D01467,Windows,Safari,False,False,False,1366x768,2026-03-17
+D01468,iOS,Edge,False,False,False,412x915,2026-08-14
+D01469,iOS,Chrome,False,False,False,1440x900,2026-07-01
+D01470,iOS,Firefox,False,False,False,1366x768,2026-01-29
+D01471,iOS,Safari,False,False,False,1366x768,2026-01-13
+D01472,iOS,Chrome,False,False,False,1366x768,2026-03-10
+D01473,Linux,Chrome,False,False,False,412x915,2026-09-23
+D01474,Android,Edge,False,False,False,1440x900,2026-04-06
+D01475,Windows,Samsung Internet,False,False,False,390x844,2026-03-26
+D01476,Linux,Edge,False,False,False,1366x768,2026-02-05
+D01477,Android,Chrome,False,False,False,1920x1080,2026-03-07
+D01478,iOS,Safari,False,False,False,412x915,2026-07-25
+D01479,iOS,Safari,False,False,False,412x915,2026-07-04
+D01480,Windows,Samsung Internet,False,False,True,1920x1080,2026-01-06
+D01481,Windows,Safari,False,False,False,412x915,2026-01-21
+D01482,iOS,Firefox,False,False,False,1366x768,2026-02-03
+D01483,Windows,Chrome,False,False,False,1366x768,2026-05-04
+D01484,macOS,Edge,False,False,False,1920x1080,2026-05-11
+D01485,Android,Firefox,False,True,False,1440x900,2026-01-23
+D01486,iOS,Firefox,False,False,False,390x844,2026-08-26
+D01487,Windows,Safari,False,False,False,1440x900,2026-08-29
+D01488,Android,Samsung Internet,False,False,False,1920x1080,2026-08-22
+D01489,macOS,Safari,False,False,False,1440x900,2026-06-10
+D01490,Android,Safari,False,False,False,1920x1080,2026-08-04
+D01491,Windows,Safari,False,False,False,390x844,2026-05-12
+D01492,Android,Edge,False,False,False,390x844,2026-01-08
+D01493,Android,Safari,False,False,False,1920x1080,2026-03-21
+D01494,Windows,Firefox,False,True,False,412x915,2026-07-23
+D01495,Windows,Edge,False,False,False,1366x768,2026-07-08
+D01496,Windows,Safari,False,False,False,390x844,2026-02-06
+D01497,Windows,Firefox,False,False,False,1440x900,2026-03-20
+D01498,Android,Edge,False,False,False,390x844,2026-03-24
+D01499,Android,Firefox,False,False,False,1366x768,2026-03-01
+D01500,Windows,Edge,False,False,False,412x915,2026-05-31
+D01501,iOS,Chrome,False,False,False,412x915,2026-08-16
+D01502,iOS,Samsung Internet,False,False,False,1366x768,2026-06-10
+D01503,iOS,Chrome,False,False,False,390x844,2026-06-24
+D01504,iOS,Safari,False,False,False,1366x768,2026-02-09
+D01505,macOS,Chrome,False,False,False,1366x768,2026-07-20
+D01506,iOS,Chrome,False,False,False,1920x1080,2026-09-07
+D01507,Windows,Safari,False,False,False,390x844,2026-06-17
+D01508,iOS,Chrome,False,False,False,412x915,2026-01-12
+D01509,Windows,Chrome,False,False,False,1366x768,2026-08-30
+D01510,Windows,Firefox,False,False,False,1440x900,2026-09-05
+D01511,Windows,Samsung Internet,False,False,True,412x915,2026-07-29
+D01512,macOS,Firefox,False,False,False,390x844,2026-09-23
+D01513,macOS,Edge,False,False,False,390x844,2026-08-31
+D01514,Windows,Chrome,False,False,False,1920x1080,2026-04-20
+D01515,iOS,Chrome,False,False,False,390x844,2026-04-30
+D01516,macOS,Chrome,False,False,False,412x915,2026-07-11
+D01517,iOS,Chrome,False,False,False,412x915,2026-09-24
+D01518,Android,Edge,False,False,False,1920x1080,2026-03-24
+D01519,macOS,Safari,False,False,False,1440x900,2026-09-05
+D01520,iOS,Firefox,False,False,False,1440x900,2026-07-12
+D01521,Android,Firefox,False,False,False,1366x768,2026-09-11
+D01522,macOS,Chrome,False,False,False,1920x1080,2026-09-27
+D01523,iOS,Samsung Internet,False,False,False,1440x900,2026-02-10
+D01524,iOS,Safari,False,False,False,1920x1080,2026-03-25
+D01525,Android,Edge,False,False,False,1440x900,2026-07-29
+D01526,Windows,Firefox,False,False,False,1366x768,2026-06-06
+D01527,Android,Firefox,False,False,False,412x915,2026-02-02
+D01528,Android,Samsung Internet,False,False,False,1440x900,2026-09-14
+D01529,iOS,Firefox,False,False,False,412x915,2026-09-08
+D01530,iOS,Firefox,False,False,False,1920x1080,2026-08-12
+D01531,Windows,Edge,False,False,False,412x915,2026-03-26
+D01532,Android,Chrome,False,False,False,412x915,2026-03-27
+D01533,iOS,Safari,False,False,False,1920x1080,2026-02-25
+D01534,Windows,Samsung Internet,False,False,False,1366x768,2026-05-04
+D01535,iOS,Safari,False,False,False,390x844,2026-09-05
+D01536,macOS,Samsung Internet,False,False,False,390x844,2026-06-14
+D01537,Android,Edge,False,False,False,1440x900,2026-09-27
+D01538,Android,Edge,False,False,False,1920x1080,2026-01-04
+D01539,iOS,Edge,False,False,False,1440x900,2026-01-11
+D01540,Windows,Firefox,False,False,False,390x844,2026-09-17
+D01541,iOS,Samsung Internet,False,False,True,412x915,2026-02-10
+D01542,Android,Firefox,False,False,False,1440x900,2026-03-08
+D01543,iOS,Edge,False,False,False,412x915,2026-03-31
+D01544,Android,Firefox,False,False,False,390x844,2026-09-26
+D01545,Android,Edge,False,False,False,1440x900,2026-02-26
+D01546,Android,Edge,False,False,False,1366x768,2026-08-10
+D01547,Windows,Samsung Internet,False,False,False,1920x1080,2026-08-13
+D01548,iOS,Chrome,False,False,False,412x915,2026-02-22
+D01549,iOS,Safari,False,False,False,390x844,2026-03-27
+D01550,Android,Samsung Internet,False,False,False,1440x900,2026-07-15
+D01551,macOS,Chrome,False,False,False,1366x768,2026-01-15
+D01552,Windows,Safari,False,False,False,412x915,2026-02-03
+D01553,Android,Edge,False,False,False,1440x900,2026-06-11
+D01554,iOS,Firefox,False,False,False,412x915,2026-01-04
+D01555,Android,Chrome,False,False,False,1366x768,2026-05-10
+D01556,iOS,Chrome,False,False,False,412x915,2026-01-30
+D01557,Windows,Samsung Internet,False,False,False,390x844,2026-03-16
+D01558,iOS,Samsung Internet,False,False,False,412x915,2026-01-31
+D01559,Android,Chrome,False,False,False,1440x900,2026-07-29
+D01560,Windows,Edge,False,False,False,1920x1080,2026-08-13
+D01561,iOS,Chrome,False,False,False,412x915,2026-03-24
+D01562,iOS,Chrome,False,False,False,390x844,2026-05-03
+D01563,macOS,Edge,False,False,False,1366x768,2026-05-24
+D01564,Android,Samsung Internet,False,False,False,412x915,2026-07-30
+D01565,iOS,Samsung Internet,False,False,False,412x915,2026-06-22
+D01566,Windows,Samsung Internet,False,False,False,1366x768,2026-02-22
+D01567,Windows,Samsung Internet,False,True,False,1366x768,2026-03-20
+D01568,Android,Firefox,False,False,False,412x915,2026-06-30
+D01569,Android,Safari,False,False,False,1366x768,2026-09-22
+D01570,Android,Chrome,False,False,False,390x844,2026-08-02
+D01571,Linux,Safari,False,False,False,390x844,2026-05-09
+D01572,Android,Samsung Internet,False,False,False,1366x768,2026-05-23
+D01573,Android,Firefox,False,False,False,1440x900,2026-03-29
+D01574,Windows,Samsung Internet,False,False,False,390x844,2026-02-09
+D01575,iOS,Edge,False,False,False,1920x1080,2026-08-01
+D01576,iOS,Chrome,False,True,False,1920x1080,2026-02-14
+D01577,Android,Safari,False,False,True,1920x1080,2026-04-01
+D01578,Windows,Firefox,False,False,False,412x915,2026-02-20
+D01579,Android,Samsung Internet,False,False,False,1920x1080,2026-07-29
+D01580,Windows,Firefox,False,False,False,1920x1080,2026-05-17
+D01581,Android,Samsung Internet,False,False,False,412x915,2026-05-31
+D01582,iOS,Firefox,False,False,False,1920x1080,2026-03-23
+D01583,Android,Edge,False,False,False,412x915,2026-05-25
+D01584,Android,Firefox,False,False,False,1440x900,2026-05-06
+D01585,iOS,Firefox,False,False,False,412x915,2026-05-14
+D01586,Android,Edge,False,False,False,412x915,2026-09-07
+D01587,macOS,Edge,False,False,False,1440x900,2026-03-04
+D01588,Android,Firefox,False,False,False,412x915,2026-07-24
+D01589,Android,Safari,False,False,False,1440x900,2026-06-30
+D01590,Windows,Firefox,False,False,False,1440x900,2026-08-28
+D01591,Windows,Edge,False,False,False,1920x1080,2026-03-07
+D01592,Android,Edge,False,False,False,390x844,2026-09-06
+D01593,Windows,Chrome,False,False,False,1440x900,2026-07-01
+D01594,iOS,Edge,False,False,False,1366x768,2026-09-18
+D01595,iOS,Safari,False,False,False,1920x1080,2026-05-24
+D01596,iOS,Firefox,False,False,False,390x844,2026-08-19
+D01597,Android,Firefox,False,False,False,1920x1080,2026-07-30
+D01598,Windows,Firefox,False,False,False,390x844,2026-05-07
+D01599,Windows,Chrome,True,False,False,800x600,2026-07-05
+D01600,iOS,Firefox,False,False,False,412x915,2026-01-31
+D01601,Android,Samsung Internet,False,False,False,1920x1080,2026-08-31
+D01602,Android,Safari,False,False,False,412x915,2026-01-10
+D01603,macOS,Samsung Internet,False,False,False,390x844,2026-05-02
+D01604,Windows,Samsung Internet,False,False,True,412x915,2026-04-06
+D01605,Windows,Edge,False,False,False,412x915,2026-04-18
+D01606,Android,Firefox,False,False,False,1366x768,2026-02-25
+D01607,Android,Safari,False,False,False,1440x900,2026-06-19
+D01608,Windows,Samsung Internet,False,False,False,1440x900,2026-02-17
+D01609,iOS,Edge,False,False,False,1920x1080,2026-03-02
+D01610,Android,Firefox,False,False,False,1440x900,2026-05-25
+D01611,iOS,Chrome,False,False,False,1440x900,2026-02-07
+D01612,macOS,Samsung Internet,False,False,False,390x844,2026-09-24
+D01613,Windows,Safari,False,False,False,1920x1080,2026-09-26
+D01614,Android,Safari,False,False,False,1440x900,2026-07-29
+D01615,Linux,Edge,False,False,False,412x915,2026-09-27
+D01616,iOS,Chrome,False,False,False,412x915,2026-02-20
+D01617,macOS,Samsung Internet,False,False,False,1440x900,2026-01-18
+D01618,iOS,Edge,False,False,False,1920x1080,2026-07-10
+D01619,Android,Safari,False,False,False,1366x768,2026-06-15
+D01620,macOS,Samsung Internet,False,False,False,390x844,2026-08-19
+D01621,Android,Safari,False,False,False,1920x1080,2026-02-20
+D01622,Windows,Samsung Internet,False,False,False,1366x768,2026-07-20
+D01623,Windows,Chrome,False,False,False,1440x900,2026-04-26
+D01624,Android,Edge,False,False,False,1440x900,2026-03-09
+D01625,Windows,Samsung Internet,False,False,False,412x915,2026-03-24
+D01626,Android,Chrome,False,False,False,412x915,2026-05-05
+D01627,Linux,Firefox,False,False,False,412x915,2026-05-21
+D01628,macOS,Samsung Internet,True,False,False,800x600,2026-05-09
+D01629,Android,Safari,False,False,False,412x915,2026-04-24
+D01630,iOS,Edge,False,False,False,412x915,2026-07-22
+D01631,iOS,Firefox,False,False,False,1920x1080,2026-02-21
+D01632,Windows,Samsung Internet,False,False,False,1440x900,2026-08-24
+D01633,iOS,Chrome,False,False,False,412x915,2026-01-22
+D01634,Windows,Firefox,False,False,False,412x915,2026-06-28
+D01635,iOS,Samsung Internet,False,False,False,1920x1080,2026-05-05
+D01636,Android,Edge,False,False,False,390x844,2026-05-10
+D01637,iOS,Firefox,False,False,False,1920x1080,2026-05-05
+D01638,iOS,Edge,False,False,True,1440x900,2026-04-21
+D01639,macOS,Chrome,False,False,True,412x915,2026-07-27
+D01640,Android,Edge,False,False,False,412x915,2026-06-27
+D01641,iOS,Samsung Internet,False,False,False,1366x768,2026-04-03
+D01642,Windows,Edge,False,False,False,1440x900,2026-08-07
+D01643,Windows,Firefox,False,True,False,1920x1080,2026-07-31
+D01644,iOS,Safari,False,False,False,1440x900,2026-08-13
+D01645,Android,Edge,False,False,False,390x844,2026-04-25
+D01646,macOS,Edge,False,False,False,412x915,2026-04-03
+D01647,Android,Edge,False,False,False,1440x900,2026-05-29
+D01648,Android,Firefox,False,False,False,390x844,2026-05-17
+D01649,Windows,Chrome,False,False,False,412x915,2026-08-23
+D01650,iOS,Edge,False,False,False,1366x768,2026-02-04
+D01651,iOS,Edge,False,False,False,390x844,2026-04-22
+D01652,Windows,Chrome,False,False,False,1920x1080,2026-08-06
+D01653,iOS,Samsung Internet,False,False,False,1366x768,2026-09-24
+D01654,Android,Chrome,False,False,False,1366x768,2026-08-18
+D01655,Windows,Samsung Internet,False,False,False,390x844,2026-01-23
+D01656,iOS,Samsung Internet,False,False,False,1366x768,2026-05-29
+D01657,Android,Edge,False,False,False,1920x1080,2026-05-09
+D01658,Windows,Edge,False,False,False,412x915,2026-02-21
+D01659,Android,Edge,False,False,False,1440x900,2026-01-01
+D01660,Windows,Edge,False,False,False,412x915,2026-02-09
+D01661,Windows,Edge,False,True,False,390x844,2026-02-12
+D01662,Windows,Safari,False,False,False,1440x900,2026-09-13
+D01663,Windows,Firefox,False,False,False,1366x768,2026-06-27
+D01664,Android,Chrome,False,False,True,1366x768,2026-07-18
+D01665,iOS,Edge,False,False,False,1920x1080,2026-07-20
+D01666,macOS,Firefox,False,False,False,412x915,2026-06-09
+D01667,macOS,Samsung Internet,False,False,False,1366x768,2026-05-26
+D01668,Android,Firefox,False,False,False,1920x1080,2026-09-25
+D01669,macOS,Safari,False,False,False,1440x900,2026-05-06
+D01670,Android,Chrome,False,False,False,390x844,2026-04-22
+D01671,Windows,Chrome,False,False,False,1440x900,2026-04-13
+D01672,macOS,Safari,False,False,False,1366x768,2026-03-20
+D01673,Windows,Samsung Internet,False,False,False,1366x768,2026-09-19
+D01674,Windows,Samsung Internet,False,False,False,1366x768,2026-06-23
+D01675,iOS,Edge,False,False,False,1920x1080,2026-08-03
+D01676,Android,Samsung Internet,False,False,False,412x915,2026-02-12
+D01677,Android,Chrome,False,False,False,390x844,2026-09-03
+D01678,Windows,Firefox,False,False,False,412x915,2026-07-19
+D01679,Windows,Safari,False,False,False,1366x768,2026-05-08
+D01680,macOS,Edge,False,False,False,390x844,2026-02-12
+D01681,iOS,Chrome,False,False,False,1920x1080,2026-08-31
+D01682,Windows,Samsung Internet,False,False,False,1366x768,2026-04-14
+D01683,Android,Edge,False,False,False,1440x900,2026-06-21
+D01684,Windows,Firefox,False,False,False,390x844,2026-04-27
+D01685,iOS,Edge,False,False,False,1920x1080,2026-06-19
+D01686,iOS,Firefox,False,False,False,1920x1080,2026-02-17
+D01687,Android,Chrome,False,True,False,390x844,2026-07-10
+D01688,Android,Samsung Internet,False,False,False,1366x768,2026-08-19
+D01689,Android,Samsung Internet,False,False,False,1920x1080,2026-06-19
+D01690,Android,Chrome,False,False,False,1366x768,2026-09-26
+D01691,Android,Firefox,False,False,False,390x844,2026-08-23
+D01692,Android,Firefox,False,False,False,1920x1080,2026-03-30
+D01693,iOS,Edge,False,False,False,1366x768,2026-02-16
+D01694,Android,Samsung Internet,False,False,False,1366x768,2026-04-15
+D01695,Android,Firefox,False,False,False,390x844,2026-07-05
+D01696,Android,Edge,False,False,False,1440x900,2026-07-24
+D01697,macOS,Safari,False,False,False,1440x900,2026-05-18
+D01698,Windows,Firefox,False,False,True,390x844,2026-02-02
+D01699,iOS,Safari,False,False,False,412x915,2026-04-21
+D01700,Android,Safari,False,False,False,412x915,2026-05-23
+D01701,Android,Samsung Internet,False,False,False,390x844,2026-03-13
+D01702,Windows,Firefox,False,False,False,390x844,2026-07-24
+D01703,Windows,Edge,False,True,False,390x844,2026-08-27
+D01704,iOS,Chrome,False,False,False,412x915,2026-09-21
+D01705,Windows,Firefox,False,False,False,390x844,2026-06-01
+D01706,Android,Edge,False,False,False,1366x768,2026-09-13
+D01707,Android,Samsung Internet,False,False,False,1920x1080,2026-06-09
+D01708,Android,Samsung Internet,False,False,False,1440x900,2026-06-18
+D01709,Windows,Samsung Internet,False,False,False,412x915,2026-08-20
+D01710,Windows,Firefox,False,False,False,412x915,2026-09-20
+D01711,Linux,Firefox,False,False,False,1920x1080,2026-04-22
+D01712,Windows,Edge,False,False,False,1920x1080,2026-05-03
+D01713,iOS,Chrome,False,False,False,1440x900,2026-03-13
+D01714,Windows,Firefox,False,False,False,1920x1080,2026-05-28
+D01715,iOS,Firefox,False,False,False,1366x768,2026-08-26
+D01716,Android,Samsung Internet,False,False,False,1440x900,2026-02-21
+D01717,Android,Chrome,False,False,False,1366x768,2026-07-16
+D01718,Android,Edge,False,False,False,390x844,2026-08-30
+D01719,Android,Samsung Internet,False,False,False,1920x1080,2026-04-03
+D01720,iOS,Chrome,False,False,False,1440x900,2026-03-02
+D01721,iOS,Chrome,False,False,False,412x915,2026-03-11
+D01722,Android,Samsung Internet,False,False,False,1920x1080,2026-02-03
+D01723,iOS,Edge,False,False,False,390x844,2026-02-12
+D01724,iOS,Chrome,False,False,False,1366x768,2026-02-03
+D01725,Windows,Samsung Internet,False,False,False,1920x1080,2026-02-19
+D01726,iOS,Samsung Internet,False,False,False,412x915,2026-06-08
+D01727,Android,Edge,False,False,False,1920x1080,2026-02-10
+D01728,macOS,Firefox,False,False,False,1920x1080,2026-06-16
+D01729,iOS,Safari,False,False,False,1366x768,2026-06-14
+D01730,Windows,Safari,False,False,False,1920x1080,2026-01-07
+D01731,Windows,Chrome,False,False,False,1920x1080,2026-05-13
+D01732,Windows,Firefox,False,False,False,390x844,2026-06-14
+D01733,iOS,Firefox,False,False,False,1920x1080,2026-07-07
+D01734,Android,Samsung Internet,False,False,False,1366x768,2026-01-18
+D01735,iOS,Chrome,False,False,False,412x915,2026-03-27
+D01736,Windows,Firefox,False,False,False,412x915,2026-08-27
+D01737,Linux,Firefox,False,False,False,412x915,2026-05-05
+D01738,Linux,Safari,False,False,False,1440x900,2026-09-13
+D01739,Android,Edge,False,False,True,390x844,2026-03-04
+D01740,iOS,Safari,False,False,False,1920x1080,2026-09-24
+D01741,Windows,Edge,False,False,False,1366x768,2026-01-27
+D01742,Android,Safari,False,False,False,1440x900,2026-03-27
+D01743,iOS,Edge,False,False,False,1920x1080,2026-08-09
+D01744,Windows,Samsung Internet,False,False,False,390x844,2026-09-16
+D01745,Android,Edge,False,False,False,1440x900,2026-06-04
+D01746,Windows,Samsung Internet,False,False,False,412x915,2026-04-07
+D01747,macOS,Edge,False,False,False,412x915,2026-06-15
+D01748,iOS,Firefox,False,False,False,412x915,2026-09-12
+D01749,iOS,Safari,False,False,False,1920x1080,2026-07-20
+D01750,macOS,Edge,False,False,False,412x915,2026-08-31
+D01751,Linux,Samsung Internet,False,False,False,412x915,2026-07-13
+D01752,Windows,Samsung Internet,False,False,False,412x915,2026-05-21
+D01753,Android,Edge,False,False,False,1366x768,2026-09-11
+D01754,macOS,Safari,False,False,True,1440x900,2026-06-13
+D01755,Windows,Samsung Internet,False,False,False,390x844,2026-02-06
+D01756,Windows,Samsung Internet,False,False,False,412x915,2026-03-25
+D01757,Windows,Safari,False,False,False,390x844,2026-03-22
+D01758,Android,Samsung Internet,False,False,False,1366x768,2026-02-16
+D01759,iOS,Chrome,False,False,False,412x915,2026-02-03
+D01760,Windows,Samsung Internet,False,False,False,1366x768,2026-08-30
+D01761,iOS,Firefox,False,False,True,1366x768,2026-06-22
+D01762,Android,Safari,False,False,False,412x915,2026-02-14
+D01763,Windows,Samsung Internet,False,False,False,1366x768,2026-07-06
+D01764,Android,Chrome,False,False,False,412x915,2026-02-10
+D01765,iOS,Samsung Internet,False,False,False,390x844,2026-08-03
+D01766,Android,Firefox,False,False,False,412x915,2026-06-28
+D01767,Android,Samsung Internet,False,False,False,1920x1080,2026-06-24
+D01768,macOS,Edge,False,False,False,1920x1080,2026-01-21
+D01769,macOS,Safari,False,False,False,412x915,2026-09-10
+D01770,iOS,Edge,False,False,False,1440x900,2026-05-27
+D01771,macOS,Safari,False,False,False,1440x900,2026-05-15
+D01772,iOS,Samsung Internet,False,False,False,1920x1080,2026-06-21
+D01773,iOS,Edge,False,False,False,1440x900,2026-08-26
+D01774,Android,Edge,False,False,False,390x844,2026-08-12
+D01775,Android,Safari,False,False,False,390x844,2026-07-12
+D01776,Android,Samsung Internet,False,False,False,1366x768,2026-09-22
+D01777,Android,Edge,False,False,False,412x915,2026-02-12
+D01778,iOS,Chrome,False,False,False,1440x900,2026-07-10
+D01779,Android,Samsung Internet,False,False,False,412x915,2026-01-16
+D01780,Windows,Samsung Internet,False,False,False,1440x900,2026-06-18
+D01781,iOS,Firefox,False,False,False,1440x900,2026-07-23
+D01782,Android,Edge,False,False,False,1440x900,2026-01-19
+D01783,Android,Edge,False,False,False,1366x768,2026-09-27
+D01784,iOS,Samsung Internet,False,False,False,390x844,2026-02-24
+D01785,Android,Edge,False,False,False,1366x768,2026-05-13
+D01786,Windows,Chrome,False,False,True,412x915,2026-07-10
+D01787,Android,Edge,False,False,False,412x915,2026-09-25
+D01788,Linux,Samsung Internet,False,False,False,1920x1080,2026-08-09
+D01789,macOS,Edge,False,False,False,1440x900,2026-03-18
+D01790,iOS,Safari,False,False,False,390x844,2026-07-04
+D01791,Android,Samsung Internet,False,False,False,412x915,2026-08-18
+D01792,Android,Edge,False,False,False,1440x900,2026-06-07
+D01793,iOS,Samsung Internet,False,False,False,1920x1080,2026-06-19
+D01794,iOS,Firefox,False,False,False,390x844,2026-04-18
+D01795,iOS,Samsung Internet,False,False,False,1440x900,2026-05-14
+D01796,Windows,Samsung Internet,False,False,False,1440x900,2026-01-10
+D01797,iOS,Edge,False,False,False,1366x768,2026-07-05
+D01798,Android,Edge,False,False,False,390x844,2026-03-02
+D01799,macOS,Edge,False,False,False,1366x768,2026-02-08
+D01800,Windows,Samsung Internet,False,False,False,1440x900,2026-05-27
+D01801,Android,Safari,False,False,False,1440x900,2026-06-16
+D01802,Android,Safari,False,False,False,1366x768,2026-08-06
+D01803,macOS,Firefox,False,False,False,1440x900,2026-01-20
+D01804,Android,Edge,False,False,False,390x844,2026-02-22
+D01805,iOS,Edge,False,False,False,412x915,2026-01-10
+D01806,iOS,Samsung Internet,False,False,False,1920x1080,2026-08-09
+D01807,iOS,Firefox,False,False,False,412x915,2026-09-06
+D01808,Android,Samsung Internet,False,False,True,1440x900,2026-01-16
+D01809,Android,Edge,False,False,False,390x844,2026-08-04
+D01810,macOS,Chrome,False,False,False,1366x768,2026-04-25
+D01811,macOS,Chrome,False,False,False,390x844,2026-07-26
+D01812,Windows,Safari,False,False,True,412x915,2026-01-06
+D01813,Windows,Samsung Internet,False,False,False,1920x1080,2026-05-17
+D01814,Android,Firefox,False,False,False,390x844,2026-08-03
+D01815,iOS,Safari,False,False,False,1366x768,2026-07-20
+D01816,iOS,Firefox,False,False,True,1920x1080,2026-03-26
+D01817,iOS,Edge,False,False,False,1920x1080,2026-04-17
+D01818,macOS,Edge,False,False,False,1366x768,2026-07-24
+D01819,Android,Firefox,False,False,False,1440x900,2026-08-23
+D01820,Windows,Safari,False,False,False,412x915,2026-09-24
+D01821,iOS,Safari,False,False,False,412x915,2026-06-14
+D01822,macOS,Edge,False,False,False,390x844,2026-08-08
+D01823,iOS,Edge,False,False,False,1366x768,2026-01-02
+D01824,iOS,Firefox,False,False,False,1366x768,2026-06-22
+D01825,Android,Samsung Internet,False,False,False,412x915,2026-02-04
+D01826,Android,Chrome,False,False,False,1366x768,2026-06-25
+D01827,iOS,Chrome,False,False,False,1920x1080,2026-05-13
+D01828,Android,Firefox,False,False,False,1440x900,2026-04-05
+D01829,Android,Firefox,False,False,False,390x844,2026-08-30
+D01830,Windows,Edge,False,False,False,412x915,2026-05-27
+D01831,iOS,Edge,False,False,False,412x915,2026-02-10
+D01832,macOS,Safari,False,False,False,1440x900,2026-05-18
+D01833,Windows,Safari,False,False,False,390x844,2026-08-04
+D01834,Android,Safari,False,False,False,412x915,2026-05-06
+D01835,Android,Safari,False,True,False,1920x1080,2026-04-10
+D01836,Android,Chrome,False,False,False,1920x1080,2026-06-08
+D01837,Windows,Edge,False,False,False,412x915,2026-08-06
+D01838,Android,Safari,False,False,False,1366x768,2026-06-16
+D01839,Windows,Edge,False,False,False,1920x1080,2026-09-20
+D01840,Windows,Chrome,False,False,False,1440x900,2026-03-12
+D01841,macOS,Edge,False,False,False,1440x900,2026-04-23
+D01842,iOS,Chrome,False,False,False,1440x900,2026-08-25
+D01843,iOS,Firefox,False,False,False,412x915,2026-07-09
+D01844,iOS,Edge,False,False,False,412x915,2026-01-30
+D01845,Android,Chrome,False,False,False,412x915,2026-03-28
+D01846,Windows,Safari,False,False,False,1366x768,2026-02-16
+D01847,iOS,Firefox,False,False,False,1366x768,2026-06-22
+D01848,Android,Chrome,False,False,False,390x844,2026-07-29
+D01849,iOS,Firefox,False,False,False,1366x768,2026-09-04
+D01850,Windows,Samsung Internet,False,False,False,412x915,2026-07-28
+D01851,iOS,Firefox,False,False,False,1366x768,2026-01-07
+D01852,Windows,Safari,False,False,False,1366x768,2026-06-30
+D01853,Windows,Samsung Internet,False,False,False,412x915,2026-06-02
+D01854,iOS,Chrome,False,False,False,412x915,2026-05-04
+D01855,Linux,Edge,False,False,False,1440x900,2026-02-19
+D01856,iOS,Safari,False,False,False,390x844,2026-02-25
+D01857,Android,Samsung Internet,False,False,False,1920x1080,2026-04-09
+D01858,iOS,Safari,False,False,False,1440x900,2026-05-18
+D01859,iOS,Samsung Internet,False,False,False,1920x1080,2026-04-25
+D01860,Windows,Chrome,False,False,False,390x844,2026-08-15
+D01861,Android,Samsung Internet,False,False,False,1440x900,2026-04-15
+D01862,iOS,Samsung Internet,False,False,False,1920x1080,2026-04-07
+D01863,Android,Samsung Internet,False,False,False,1440x900,2026-04-10
+D01864,Android,Firefox,False,False,False,1440x900,2026-06-07
+D01865,Windows,Chrome,False,False,False,1366x768,2026-08-10
+D01866,Android,Safari,False,True,False,1920x1080,2026-06-07
+D01867,Android,Edge,False,False,False,1440x900,2026-01-12
+D01868,iOS,Samsung Internet,False,False,False,1920x1080,2026-09-08
+D01869,Android,Firefox,False,False,False,1920x1080,2026-02-19
+D01870,Windows,Edge,False,False,False,390x844,2026-07-28
+D01871,Windows,Chrome,False,False,False,1920x1080,2026-01-15
+D01872,Android,Chrome,False,False,False,390x844,2026-02-28
+D01873,iOS,Firefox,False,False,False,1440x900,2026-05-29
+D01874,Windows,Edge,False,False,False,1440x900,2026-07-16
+D01875,iOS,Samsung Internet,False,False,False,390x844,2026-06-15
+D01876,macOS,Firefox,False,False,False,412x915,2026-02-28
+D01877,iOS,Chrome,False,False,False,412x915,2026-07-01
+D01878,Windows,Edge,False,False,False,1366x768,2026-02-23
+D01879,Android,Safari,False,False,False,412x915,2026-05-30
+D01880,Windows,Safari,False,False,False,412x915,2026-03-20
+D01881,iOS,Samsung Internet,False,False,False,390x844,2026-02-18
+D01882,Android,Firefox,False,False,False,412x915,2026-01-22
+D01883,iOS,Edge,False,False,False,390x844,2026-01-22
+D01884,Windows,Chrome,False,False,False,1366x768,2026-04-26
+D01885,iOS,Firefox,False,False,False,1366x768,2026-07-17
+D01886,Windows,Chrome,False,False,False,1366x768,2026-07-15
+D01887,iOS,Safari,False,False,False,412x915,2026-09-05
+D01888,Android,Safari,False,True,False,1440x900,2026-04-29
+D01889,Windows,Safari,False,False,False,390x844,2026-05-25
+D01890,Windows,Chrome,False,False,False,390x844,2026-05-10
+D01891,Android,Firefox,False,False,False,1366x768,2026-09-08
+D01892,iOS,Chrome,False,False,False,1366x768,2026-03-09
+D01893,Android,Edge,False,False,False,390x844,2026-07-01
+D01894,macOS,Samsung Internet,False,False,False,1440x900,2026-09-08
+D01895,iOS,Samsung Internet,False,False,False,1920x1080,2026-01-12
+D01896,iOS,Samsung Internet,False,False,False,1920x1080,2026-09-10
+D01897,macOS,Safari,False,False,True,1440x900,2026-07-31
+D01898,Android,Samsung Internet,False,False,False,1366x768,2026-04-11
+D01899,Android,Safari,False,False,False,1440x900,2026-06-16
+D01900,Windows,Firefox,False,False,False,1366x768,2026-03-29
+D01901,Windows,Firefox,False,False,False,1440x900,2026-03-28
+D01902,iOS,Firefox,False,False,False,412x915,2026-07-12
+D01903,Android,Safari,False,False,False,1920x1080,2026-02-22
+D01904,iOS,Edge,False,False,False,390x844,2026-01-09
+D01905,iOS,Chrome,False,False,False,390x844,2026-08-11
+D01906,iOS,Samsung Internet,False,False,False,1366x768,2026-05-26
+D01907,iOS,Edge,False,False,False,412x915,2026-07-07
+D01908,Windows,Firefox,False,False,False,1920x1080,2026-01-06
+D01909,Android,Chrome,False,False,False,412x915,2026-01-29
+D01910,Android,Edge,False,False,False,390x844,2026-04-23
+D01911,Android,Chrome,False,True,False,1366x768,2026-03-11
+D01912,macOS,Firefox,False,False,False,1366x768,2026-02-12
+D01913,macOS,Safari,False,False,False,412x915,2026-03-12
+D01914,iOS,Samsung Internet,False,False,False,390x844,2026-03-03
+D01915,Android,Firefox,False,False,False,412x915,2026-01-07
+D01916,Windows,Samsung Internet,False,False,False,1920x1080,2026-03-25
+D01917,iOS,Samsung Internet,False,False,False,1440x900,2026-08-27
+D01918,iOS,Firefox,False,False,False,412x915,2026-09-14
+D01919,macOS,Safari,False,False,False,1920x1080,2026-07-01
+D01920,Android,Samsung Internet,False,False,False,1440x900,2026-07-15
+D01921,Android,Safari,False,False,False,1920x1080,2026-06-13
+D01922,Linux,Edge,False,False,False,412x915,2026-02-07
+D01923,Android,Safari,False,False,False,1920x1080,2026-06-27
+D01924,Windows,Safari,False,False,False,390x844,2026-09-25
+D01925,iOS,Chrome,False,False,False,1366x768,2026-03-05
+D01926,macOS,Firefox,False,False,False,1366x768,2026-03-01
+D01927,Windows,Safari,False,False,False,1366x768,2026-08-17
+D01928,macOS,Firefox,False,False,False,1920x1080,2026-07-05
+D01929,iOS,Chrome,False,False,False,1920x1080,2026-01-18
+D01930,iOS,Firefox,False,False,False,412x915,2026-08-28
+D01931,Android,Edge,False,True,False,390x844,2026-09-20
+D01932,macOS,Samsung Internet,False,False,False,412x915,2026-08-08
+D01933,macOS,Samsung Internet,False,False,False,390x844,2026-04-17
+D01934,iOS,Firefox,False,False,False,390x844,2026-09-06
+D01935,Android,Samsung Internet,False,False,False,1440x900,2026-07-08
+D01936,Android,Samsung Internet,False,False,False,390x844,2026-03-08
+D01937,Android,Chrome,False,False,True,390x844,2026-09-10
+D01938,Android,Safari,False,False,False,1920x1080,2026-08-25
+D01939,Linux,Samsung Internet,False,False,False,390x844,2026-05-09
+D01940,Windows,Safari,False,False,False,390x844,2026-06-29
+D01941,Windows,Chrome,False,False,False,1440x900,2026-01-02
+D01942,Windows,Chrome,False,False,False,1440x900,2026-09-16
+D01943,Windows,Firefox,False,False,False,390x844,2026-06-22
+D01944,Windows,Firefox,False,False,False,412x915,2026-03-16
+D01945,iOS,Safari,False,False,False,1920x1080,2026-02-06
+D01946,Windows,Chrome,True,False,False,800x600,2026-05-31
+D01947,Windows,Samsung Internet,False,False,False,412x915,2026-01-22
+D01948,Android,Chrome,False,False,False,390x844,2026-08-24
+D01949,Android,Chrome,False,False,False,1920x1080,2026-04-03
+D01950,Windows,Safari,False,False,False,1440x900,2026-01-13
+D01951,Windows,Chrome,False,False,False,1440x900,2026-05-05
+D01952,macOS,Safari,False,False,False,1440x900,2026-03-23
+D01953,Android,Safari,False,False,False,1440x900,2026-04-04
+D01954,iOS,Firefox,False,False,False,390x844,2026-06-29
+D01955,Linux,Samsung Internet,False,False,False,412x915,2026-03-19
+D01956,iOS,Firefox,False,False,False,1920x1080,2026-04-11
+D01957,iOS,Chrome,False,False,True,390x844,2026-04-11
+D01958,Android,Edge,False,False,False,1440x900,2026-08-08
+D01959,iOS,Samsung Internet,False,False,False,412x915,2026-08-14
+D01960,Android,Firefox,False,False,False,390x844,2026-08-08
+D01961,macOS,Chrome,False,False,False,1366x768,2026-07-01
+D01962,iOS,Samsung Internet,False,False,False,1366x768,2026-07-27
+D01963,macOS,Firefox,False,False,False,390x844,2026-04-15
+D01964,Windows,Samsung Internet,False,False,False,1920x1080,2026-07-02
+D01965,iOS,Edge,False,False,False,1366x768,2026-06-23
+D01966,Android,Samsung Internet,False,False,False,1440x900,2026-03-30
+D01967,Android,Chrome,False,False,False,1920x1080,2026-06-28
+D01968,macOS,Samsung Internet,False,False,False,390x844,2026-08-24
+D01969,macOS,Samsung Internet,False,False,False,1440x900,2026-04-21
+D01970,iOS,Edge,False,False,False,1920x1080,2026-08-01
+D01971,iOS,Samsung Internet,False,False,False,1440x900,2026-06-06
+D01972,macOS,Chrome,False,False,False,390x844,2026-02-16
+D01973,Android,Firefox,False,False,False,412x915,2026-07-12
+D01974,Windows,Safari,False,False,False,1440x900,2026-03-12
+D01975,macOS,Edge,False,False,True,412x915,2026-07-21
+D01976,Android,Firefox,False,False,False,1366x768,2026-02-13
+D01977,Android,Firefox,False,False,False,390x844,2026-03-31
+D01978,macOS,Samsung Internet,False,False,False,1440x900,2026-08-12
+D01979,iOS,Samsung Internet,False,False,False,412x915,2026-06-20
+D01980,Android,Firefox,False,False,False,412x915,2026-01-29
+D01981,Android,Safari,False,False,False,1920x1080,2026-01-20
+D01982,Android,Edge,False,False,False,412x915,2026-04-24
+D01983,Android,Firefox,False,False,True,1366x768,2026-08-28
+D01984,iOS,Samsung Internet,False,False,False,1920x1080,2026-05-25
+D01985,Windows,Safari,False,False,False,1440x900,2026-07-16
+D01986,iOS,Edge,False,False,False,412x915,2026-09-04
+D01987,Android,Chrome,False,False,False,412x915,2026-09-15
+D01988,Windows,Edge,False,False,False,390x844,2026-01-30
+D01989,Windows,Safari,False,False,False,1440x900,2026-03-09
+D01990,macOS,Safari,False,False,False,412x915,2026-09-10
+D01991,macOS,Edge,False,False,False,390x844,2026-08-21
+D01992,macOS,Samsung Internet,False,True,False,390x844,2026-02-24
+D01993,macOS,Edge,False,False,False,1440x900,2026-06-03
+D01994,Windows,Samsung Internet,False,False,False,412x915,2026-06-17
+D01995,iOS,Chrome,False,False,False,1920x1080,2026-05-27
+D01996,iOS,Edge,False,False,False,412x915,2026-03-10
+D01997,iOS,Samsung Internet,False,False,False,1920x1080,2026-01-08
+D01998,Windows,Chrome,True,False,False,800x600,2026-01-27
+D01999,Windows,Safari,False,False,False,412x915,2026-07-08
+D02000,Android,Safari,False,False,False,390x844,2026-06-20
+D02001,Windows,Firefox,False,False,False,390x844,2026-06-11
+D02002,Windows,Safari,False,False,False,412x915,2026-04-06
+D02003,iOS,Samsung Internet,False,False,False,412x915,2026-03-30
+D02004,Windows,Edge,False,False,False,1440x900,2026-05-23
+D02005,Windows,Firefox,False,False,False,390x844,2026-01-26
+D02006,Windows,Chrome,False,False,False,1440x900,2026-01-04
+D02007,iOS,Chrome,False,False,False,1920x1080,2026-04-05
+D02008,Android,Safari,False,False,False,1440x900,2026-07-01
+D02009,Windows,Firefox,False,False,False,1440x900,2026-04-18
+D02010,iOS,Edge,False,False,False,412x915,2026-07-03
+D02011,Android,Firefox,False,False,False,390x844,2026-09-24
+D02012,Windows,Edge,False,False,False,1440x900,2026-09-02
+D02013,Android,Chrome,False,False,False,412x915,2026-06-19
+D02014,iOS,Samsung Internet,False,False,False,1440x900,2026-09-18
+D02015,iOS,Safari,False,False,False,412x915,2026-09-22
+D02016,iOS,Safari,False,False,False,390x844,2026-04-09
+D02017,iOS,Safari,False,False,False,1440x900,2026-03-08
+D02018,Windows,Safari,False,False,False,1366x768,2026-03-24
+D02019,Windows,Edge,False,False,False,1440x900,2026-04-23
+D02020,Android,Samsung Internet,False,False,False,1440x900,2026-04-30
+D02021,Windows,Safari,False,False,False,412x915,2026-02-28
+D02022,iOS,Safari,False,False,False,412x915,2026-03-07
+D02023,iOS,Edge,False,False,False,1440x900,2026-04-23
+D02024,Android,Firefox,True,False,False,800x600,2026-08-19
+D02025,iOS,Samsung Internet,False,False,False,1366x768,2026-06-24
+D02026,Windows,Chrome,False,False,False,1366x768,2026-07-18
+D02027,Android,Safari,False,False,False,1920x1080,2026-05-25
+D02028,macOS,Safari,False,False,False,1920x1080,2026-03-28
+D02029,Windows,Safari,False,False,False,412x915,2026-07-14
+D02030,Windows,Samsung Internet,False,False,False,390x844,2026-09-04
+D02031,iOS,Firefox,False,True,False,412x915,2026-08-26
+D02032,macOS,Chrome,False,False,False,1440x900,2026-07-25
+D02033,Windows,Safari,False,False,False,390x844,2026-01-20
+D02034,Windows,Edge,False,False,False,390x844,2026-02-12
+D02035,iOS,Safari,False,False,False,1920x1080,2026-07-06
+D02036,iOS,Firefox,False,False,False,412x915,2026-06-05
+D02037,Android,Safari,False,False,False,1440x900,2026-01-03
+D02038,Android,Chrome,False,False,False,1920x1080,2026-01-01
+D02039,Android,Samsung Internet,False,False,False,390x844,2026-02-16
+D02040,macOS,Chrome,False,False,False,390x844,2026-08-02
+D02041,iOS,Edge,False,False,False,1920x1080,2026-06-10
+D02042,iOS,Samsung Internet,False,False,False,1440x900,2026-04-16
+D02043,Android,Edge,False,False,False,390x844,2026-05-01
+D02044,iOS,Samsung Internet,False,False,False,390x844,2026-04-27
+D02045,Windows,Safari,False,False,False,390x844,2026-05-03
+D02046,Linux,Edge,False,False,False,1920x1080,2026-02-15
+D02047,iOS,Samsung Internet,False,False,False,1366x768,2026-07-04
+D02048,iOS,Firefox,False,False,False,390x844,2026-05-05
+D02049,Android,Chrome,False,False,False,412x915,2026-02-18
+D02050,Windows,Samsung Internet,False,False,False,1366x768,2026-05-10
+D02051,Android,Samsung Internet,False,False,False,390x844,2026-07-18
+D02052,iOS,Chrome,False,False,False,1366x768,2026-04-19
+D02053,Windows,Samsung Internet,False,False,False,390x844,2026-07-17
+D02054,macOS,Samsung Internet,False,False,False,412x915,2026-09-17
+D02055,Android,Edge,True,False,False,800x600,2026-07-08
+D02056,iOS,Chrome,False,False,False,412x915,2026-09-01
+D02057,Windows,Safari,False,False,False,412x915,2026-01-15
+D02058,Windows,Chrome,False,False,False,412x915,2026-03-05
+D02059,Android,Firefox,False,False,False,1366x768,2026-07-07
+D02060,macOS,Safari,False,False,False,1366x768,2026-03-01
+D02061,Android,Edge,False,False,False,390x844,2026-06-09
+D02062,iOS,Safari,False,False,False,1440x900,2026-06-17
+D02063,Android,Safari,False,False,False,1920x1080,2026-03-24
+D02064,Windows,Samsung Internet,False,False,False,390x844,2026-02-17
+D02065,Android,Firefox,False,False,False,1920x1080,2026-08-29
+D02066,iOS,Chrome,False,False,False,1920x1080,2026-04-30
+D02067,iOS,Firefox,False,False,False,412x915,2026-04-07
+D02068,Android,Firefox,False,False,False,1920x1080,2026-09-06
+D02069,iOS,Safari,False,False,False,390x844,2026-02-06
+D02070,iOS,Edge,False,True,False,1366x768,2026-07-21
+D02071,iOS,Samsung Internet,False,False,False,1920x1080,2026-07-31
+D02072,iOS,Firefox,False,False,False,412x915,2026-08-02
+D02073,Windows,Firefox,False,False,False,1366x768,2026-03-28
+D02074,Android,Edge,False,False,False,412x915,2026-02-25
+D02075,macOS,Edge,False,False,False,412x915,2026-06-17
+D02076,macOS,Samsung Internet,False,False,False,390x844,2026-06-02
+D02077,Linux,Samsung Internet,False,False,False,1440x900,2026-03-31
+D02078,iOS,Edge,False,False,False,1440x900,2026-04-13
+D02079,iOS,Firefox,False,False,False,1440x900,2026-07-03
+D02080,Android,Firefox,False,False,False,1440x900,2026-03-04
+D02081,Windows,Samsung Internet,False,False,False,1920x1080,2026-07-06
+D02082,Android,Safari,False,False,False,1366x768,2026-08-26
+D02083,iOS,Firefox,False,False,False,1920x1080,2026-04-13
+D02084,Android,Edge,False,False,False,1440x900,2026-01-09
+D02085,Android,Samsung Internet,False,False,False,412x915,2026-01-06
+D02086,Windows,Firefox,False,False,False,1920x1080,2026-08-30
+D02087,Android,Samsung Internet,False,False,False,1920x1080,2026-05-18
+D02088,iOS,Firefox,False,False,False,1920x1080,2026-07-19
+D02089,Android,Safari,False,False,False,390x844,2026-09-21
+D02090,Windows,Edge,False,False,False,412x915,2026-03-02
+D02091,Linux,Safari,False,False,False,1366x768,2026-02-15
+D02092,iOS,Edge,False,False,False,1920x1080,2026-01-01
+D02093,Android,Safari,False,False,False,1366x768,2026-04-22
+D02094,Windows,Samsung Internet,False,False,False,1920x1080,2026-01-26
+D02095,Windows,Chrome,False,False,False,1920x1080,2026-08-24
+D02096,macOS,Safari,False,False,False,1440x900,2026-07-02
+D02097,iOS,Firefox,False,False,False,412x915,2026-09-12
+D02098,iOS,Firefox,False,False,False,390x844,2026-09-15
+D02099,Windows,Chrome,False,False,False,1366x768,2026-07-03
+D02100,iOS,Firefox,False,False,False,1366x768,2026-07-21
+D02101,Windows,Firefox,False,False,False,412x915,2026-03-02
+D02102,Android,Edge,False,False,False,1440x900,2026-02-14
+D02103,iOS,Firefox,False,False,False,1366x768,2026-06-02
+D02104,iOS,Safari,False,False,False,412x915,2026-02-14
+D02105,iOS,Edge,False,False,False,1440x900,2026-09-18
+D02106,iOS,Safari,False,False,True,412x915,2026-04-23
+D02107,Windows,Firefox,False,False,False,412x915,2026-03-15
+D02108,Windows,Edge,False,False,True,390x844,2026-01-19
+D02109,iOS,Safari,False,False,False,1440x900,2026-09-22
+D02110,Android,Safari,False,False,False,390x844,2026-06-13
+D02111,Android,Edge,False,False,False,390x844,2026-07-07
+D02112,Windows,Firefox,False,False,False,412x915,2026-03-12
+D02113,iOS,Edge,False,False,False,412x915,2026-08-07
+D02114,Linux,Samsung Internet,False,False,False,1920x1080,2026-07-03
+D02115,Windows,Samsung Internet,False,False,False,1920x1080,2026-03-10
+D02116,Android,Firefox,False,False,False,1920x1080,2026-05-19
+D02117,Windows,Chrome,False,False,False,390x844,2026-04-30
+D02118,iOS,Chrome,False,False,False,1920x1080,2026-07-12
+D02119,macOS,Safari,False,False,False,412x915,2026-03-22
+D02120,Android,Samsung Internet,False,False,False,1920x1080,2026-05-22
+D02121,iOS,Samsung Internet,False,False,False,412x915,2026-07-31
+D02122,Android,Samsung Internet,False,False,False,412x915,2026-01-08
+D02123,iOS,Samsung Internet,False,False,False,412x915,2026-04-23
+D02124,Android,Safari,False,False,False,1920x1080,2026-04-27
+D02125,iOS,Edge,False,False,False,1920x1080,2026-07-18
+D02126,Android,Chrome,False,False,False,412x915,2026-09-24
+D02127,Android,Chrome,False,False,False,390x844,2026-06-05
+D02128,Linux,Samsung Internet,False,False,True,412x915,2026-09-04
+D02129,Windows,Samsung Internet,False,False,False,390x844,2026-07-21
+D02130,iOS,Samsung Internet,False,False,True,1440x900,2026-06-20
+D02131,Windows,Chrome,False,False,False,1366x768,2026-05-12
+D02132,iOS,Firefox,False,False,True,412x915,2026-04-06
+D02133,iOS,Firefox,False,False,False,1366x768,2026-04-19
+D02134,iOS,Safari,False,False,False,1366x768,2026-09-10
+D02135,iOS,Chrome,False,False,False,1920x1080,2026-09-01
+D02136,Android,Safari,False,False,False,412x915,2026-04-05
+D02137,iOS,Samsung Internet,False,False,False,1366x768,2026-05-15
+D02138,Windows,Edge,False,False,False,390x844,2026-04-01
+D02139,Android,Edge,False,False,False,1366x768,2026-03-06
+D02140,iOS,Firefox,False,False,False,412x915,2026-04-25
+D02141,Windows,Firefox,False,False,False,1920x1080,2026-01-01
+D02142,Android,Firefox,False,False,False,1440x900,2026-01-06
+D02143,macOS,Chrome,False,False,False,1366x768,2026-04-11
+D02144,iOS,Samsung Internet,False,False,False,1366x768,2026-09-04
+D02145,Windows,Chrome,False,True,False,1920x1080,2026-05-06
+D02146,Windows,Chrome,False,False,False,1366x768,2026-04-26
+D02147,iOS,Firefox,False,False,False,1920x1080,2026-08-25
+D02148,Android,Samsung Internet,False,False,False,1440x900,2026-08-26
+D02149,Windows,Edge,False,False,False,1920x1080,2026-08-02
+D02150,Windows,Chrome,False,False,False,1366x768,2026-08-30
+D02151,Windows,Samsung Internet,False,False,False,1366x768,2026-07-22
+D02152,iOS,Edge,False,False,False,412x915,2026-01-10
+D02153,iOS,Edge,False,False,False,1366x768,2026-07-30
+D02154,iOS,Chrome,False,False,False,390x844,2026-07-16
+D02155,Windows,Chrome,False,False,False,390x844,2026-04-30
+D02156,Android,Edge,False,False,False,412x915,2026-03-13
+D02157,Windows,Chrome,False,False,False,1366x768,2026-05-31
+D02158,Android,Edge,False,False,False,390x844,2026-08-24
+D02159,iOS,Samsung Internet,False,False,False,412x915,2026-04-18
+D02160,Android,Edge,False,True,False,412x915,2026-02-13
+D02161,iOS,Samsung Internet,False,False,False,1440x900,2026-02-27
+D02162,iOS,Chrome,False,False,False,1440x900,2026-05-19
+D02163,Windows,Safari,False,False,False,1920x1080,2026-01-11
+D02164,iOS,Samsung Internet,False,False,False,1440x900,2026-07-07
+D02165,Windows,Chrome,False,False,False,390x844,2026-03-14
+D02166,Android,Edge,False,False,False,1440x900,2026-05-25
+D02167,Android,Edge,False,False,False,1920x1080,2026-09-09
+D02168,Windows,Samsung Internet,False,False,False,412x915,2026-08-24
+D02169,Windows,Samsung Internet,False,False,False,1920x1080,2026-07-01
+D02170,Android,Chrome,False,False,False,1920x1080,2026-08-24
+D02171,iOS,Edge,False,False,False,390x844,2026-04-14
+D02172,iOS,Edge,False,False,False,390x844,2026-05-20
+D02173,Android,Edge,False,False,False,412x915,2026-04-02
+D02174,Android,Firefox,False,False,False,1366x768,2026-08-19
+D02175,macOS,Samsung Internet,False,False,False,390x844,2026-06-24
+D02176,iOS,Samsung Internet,False,False,False,412x915,2026-01-04
+D02177,Windows,Samsung Internet,False,False,False,412x915,2026-08-02
+D02178,Windows,Firefox,False,False,False,1920x1080,2026-07-12
+D02179,iOS,Chrome,False,False,False,1920x1080,2026-06-26
+D02180,iOS,Samsung Internet,False,True,False,1920x1080,2026-08-23
+D02181,Windows,Safari,False,False,False,390x844,2026-07-01
+D02182,iOS,Safari,False,False,False,1366x768,2026-08-29
+D02183,Windows,Samsung Internet,False,False,False,1920x1080,2026-03-10
+D02184,Windows,Edge,False,False,False,412x915,2026-01-31
+D02185,Android,Samsung Internet,False,False,False,390x844,2026-05-26
+D02186,Windows,Samsung Internet,False,False,False,1920x1080,2026-03-14
+D02187,Linux,Edge,False,False,True,390x844,2026-05-06
+D02188,Windows,Edge,False,False,False,1440x900,2026-09-07
+D02189,Android,Chrome,False,False,False,1920x1080,2026-01-02
+D02190,iOS,Edge,False,False,False,390x844,2026-05-30
+D02191,Android,Firefox,False,False,True,1440x900,2026-09-11
+D02192,iOS,Samsung Internet,False,False,False,390x844,2026-03-01
+D02193,Android,Chrome,False,False,False,1440x900,2026-01-03
+D02194,Android,Safari,False,False,False,412x915,2026-04-16
+D02195,iOS,Edge,False,False,False,1440x900,2026-07-02
+D02196,Android,Edge,False,False,False,390x844,2026-02-04
+D02197,Windows,Edge,False,False,False,412x915,2026-03-17
+D02198,Android,Edge,False,False,False,390x844,2026-08-27
+D02199,Windows,Safari,False,False,False,412x915,2026-05-26
+D02200,iOS,Samsung Internet,False,False,False,1920x1080,2026-06-21
+D02201,Windows,Samsung Internet,False,False,False,412x915,2026-07-07
+D02202,macOS,Safari,False,False,False,390x844,2026-02-13
+D02203,iOS,Safari,False,False,False,1366x768,2026-08-24
+D02204,macOS,Edge,False,False,False,390x844,2026-08-07
+D02205,iOS,Samsung Internet,False,False,False,412x915,2026-09-25
+D02206,Android,Firefox,False,False,False,1366x768,2026-01-06
+D02207,Android,Safari,False,False,False,390x844,2026-03-21
+D02208,Windows,Samsung Internet,False,False,False,1366x768,2026-04-04
+D02209,Android,Samsung Internet,False,False,False,1366x768,2026-08-01
+D02210,Android,Samsung Internet,False,False,False,1440x900,2026-08-09
+D02211,Android,Firefox,False,False,False,390x844,2026-01-14
+D02212,iOS,Chrome,False,False,False,1366x768,2026-02-11
+D02213,Windows,Samsung Internet,False,False,False,390x844,2026-08-31
+D02214,Android,Samsung Internet,False,False,False,1366x768,2026-05-06
+D02215,Windows,Firefox,False,False,False,1366x768,2026-09-22
+D02216,Android,Edge,False,False,False,390x844,2026-04-14
+D02217,Android,Firefox,False,False,True,1920x1080,2026-06-26
+D02218,iOS,Chrome,False,False,False,1920x1080,2026-07-22
+D02219,Windows,Samsung Internet,False,False,False,1440x900,2026-07-15
+D02220,iOS,Chrome,False,False,False,1920x1080,2026-05-27
+D02221,iOS,Samsung Internet,False,False,False,1920x1080,2026-04-11
+D02222,macOS,Chrome,False,False,False,412x915,2026-03-30
+D02223,iOS,Chrome,False,False,False,390x844,2026-07-10
+D02224,Windows,Edge,False,False,False,390x844,2026-09-07
+D02225,iOS,Chrome,False,False,False,1920x1080,2026-08-15
+D02226,Android,Samsung Internet,False,False,False,1920x1080,2026-03-18
+D02227,Android,Samsung Internet,False,False,False,1920x1080,2026-09-25
+D02228,Windows,Edge,False,False,False,1920x1080,2026-05-03
+D02229,Windows,Firefox,False,False,False,1366x768,2026-04-10
+D02230,Windows,Safari,False,False,False,1440x900,2026-09-14
+D02231,iOS,Edge,False,False,False,1920x1080,2026-05-28
+D02232,Windows,Edge,False,False,False,1366x768,2026-09-03
+D02233,Android,Samsung Internet,False,False,False,1920x1080,2026-06-16
+D02234,Android,Firefox,False,False,False,1366x768,2026-08-06
+D02235,iOS,Firefox,False,False,False,1920x1080,2026-02-16
+D02236,Windows,Samsung Internet,False,False,False,412x915,2026-04-21
+D02237,macOS,Edge,False,False,False,412x915,2026-08-27
+D02238,Windows,Safari,False,False,False,1920x1080,2026-03-12
+D02239,Android,Firefox,False,False,False,1920x1080,2026-08-10
+D02240,Android,Firefox,False,False,False,1440x900,2026-06-02
+D02241,Android,Chrome,False,False,False,390x844,2026-01-07
+D02242,Android,Samsung Internet,False,False,False,390x844,2026-09-19
+D02243,iOS,Safari,False,False,False,1440x900,2026-02-19
+D02244,iOS,Edge,False,False,False,412x915,2026-04-26
+D02245,macOS,Edge,False,False,False,390x844,2026-02-26
+D02246,Android,Firefox,False,False,False,412x915,2026-09-21
+D02247,iOS,Samsung Internet,False,False,False,390x844,2026-01-17
+D02248,Windows,Edge,False,False,False,1920x1080,2026-08-17
+D02249,iOS,Firefox,False,False,False,390x844,2026-04-22
+D02250,Windows,Safari,False,False,False,1920x1080,2026-04-22
+D02251,macOS,Samsung Internet,False,False,False,1440x900,2026-07-26
+D02252,iOS,Safari,False,False,False,390x844,2026-01-21
+D02253,Android,Safari,False,False,False,390x844,2026-01-12
+D02254,iOS,Chrome,False,False,False,390x844,2026-09-24
+D02255,iOS,Edge,False,False,False,412x915,2026-06-11
+D02256,Windows,Chrome,False,True,False,1440x900,2026-04-26
+D02257,Windows,Safari,False,False,False,1366x768,2026-02-27
+D02258,iOS,Edge,False,True,False,1440x900,2026-08-18
+D02259,iOS,Chrome,False,False,False,390x844,2026-04-03
+D02260,Windows,Edge,False,False,False,1366x768,2026-06-29
+D02261,iOS,Safari,False,False,False,390x844,2026-05-05
+D02262,Android,Safari,False,False,False,390x844,2026-02-16
+D02263,macOS,Firefox,False,False,False,1366x768,2026-07-18
+D02264,iOS,Chrome,False,False,False,1920x1080,2026-03-28
+D02265,Windows,Safari,False,False,False,1920x1080,2026-01-01
+D02266,Android,Safari,False,False,False,1440x900,2026-03-04
+D02267,macOS,Safari,False,True,False,1366x768,2026-01-01
+D02268,Android,Edge,False,False,False,390x844,2026-08-12
+D02269,Windows,Edge,False,False,False,390x844,2026-06-19
+D02270,iOS,Chrome,False,False,False,1440x900,2026-08-31
+D02271,Windows,Edge,False,False,False,1920x1080,2026-07-22
+D02272,Android,Edge,False,False,True,390x844,2026-05-08
+D02273,iOS,Edge,False,False,False,1366x768,2026-07-09
+D02274,Android,Edge,False,False,False,412x915,2026-02-27
+D02275,Android,Edge,False,False,False,1366x768,2026-04-12
+D02276,iOS,Firefox,False,False,False,1920x1080,2026-03-18
+D02277,iOS,Safari,False,False,False,1366x768,2026-05-17
+D02278,iOS,Chrome,False,False,False,412x915,2026-05-16
+D02279,Android,Samsung Internet,False,True,False,412x915,2026-04-21
+D02280,Android,Safari,False,False,False,1920x1080,2026-05-28
+D02281,iOS,Edge,False,False,False,390x844,2026-04-30
+D02282,Windows,Edge,False,False,False,1920x1080,2026-07-21
+D02283,Windows,Edge,False,False,False,1366x768,2026-06-16
+D02284,Windows,Firefox,False,False,False,1440x900,2026-03-02
+D02285,Windows,Safari,False,False,False,390x844,2026-05-21
+D02286,iOS,Firefox,False,False,False,1440x900,2026-02-07
+D02287,Windows,Safari,False,False,False,1366x768,2026-08-02
+D02288,Android,Chrome,False,True,False,1366x768,2026-01-01
+D02289,Windows,Safari,False,False,False,1440x900,2026-02-16
+D02290,Windows,Chrome,False,False,False,390x844,2026-03-19
+D02291,macOS,Firefox,False,False,False,390x844,2026-08-06
+D02292,Android,Edge,False,False,False,390x844,2026-09-24
+D02293,Android,Edge,False,False,False,412x915,2026-05-10
+D02294,Android,Chrome,False,False,False,390x844,2026-06-23
+D02295,iOS,Chrome,False,False,False,1366x768,2026-04-10
+D02296,Android,Firefox,False,False,False,1440x900,2026-01-08
+D02297,iOS,Edge,False,False,False,1366x768,2026-07-05
+D02298,iOS,Edge,False,False,False,412x915,2026-04-14
+D02299,Windows,Edge,False,False,False,1920x1080,2026-02-04
+D02300,Windows,Firefox,False,False,False,1366x768,2026-08-06
+D02301,iOS,Samsung Internet,False,False,False,1366x768,2026-05-07
+D02302,Windows,Edge,False,False,False,1920x1080,2026-04-03
+D02303,iOS,Firefox,False,False,False,412x915,2026-03-15
+D02304,Windows,Chrome,False,False,False,1440x900,2026-03-09
+D02305,Android,Chrome,False,False,False,1366x768,2026-01-16
+D02306,iOS,Samsung Internet,False,False,False,390x844,2026-09-10
+D02307,Android,Safari,False,False,False,1920x1080,2026-09-06
+D02308,iOS,Firefox,False,False,False,1440x900,2026-01-04
+D02309,Android,Firefox,False,False,False,1366x768,2026-02-27
+D02310,Windows,Firefox,False,False,False,390x844,2026-02-15
+D02311,Android,Edge,False,False,False,412x915,2026-08-15
+D02312,macOS,Samsung Internet,False,False,False,412x915,2026-07-13
+D02313,iOS,Edge,False,False,False,412x915,2026-03-15
+D02314,iOS,Safari,False,False,False,412x915,2026-08-07
+D02315,Windows,Safari,False,False,False,1440x900,2026-09-07
+D02316,macOS,Samsung Internet,False,False,False,1440x900,2026-02-17
+D02317,Windows,Safari,False,False,False,390x844,2026-01-01
+D02318,iOS,Chrome,False,False,False,1440x900,2026-06-29
+D02319,Android,Safari,False,False,False,390x844,2026-03-07
+D02320,macOS,Edge,False,False,False,1366x768,2026-08-25
+D02321,Windows,Safari,False,False,False,1920x1080,2026-07-30
+D02322,iOS,Chrome,False,False,False,390x844,2026-06-18
+D02323,Android,Chrome,False,False,False,1366x768,2026-09-12
+D02324,macOS,Chrome,False,False,False,412x915,2026-06-29
+D02325,Android,Firefox,False,False,False,1440x900,2026-01-12
+D02326,iOS,Samsung Internet,False,False,True,1440x900,2026-06-11
+D02327,iOS,Samsung Internet,False,False,False,1920x1080,2026-02-24
+D02328,Windows,Firefox,False,False,False,412x915,2026-07-01
+D02329,Windows,Chrome,False,False,False,390x844,2026-01-07
+D02330,Windows,Chrome,False,False,False,1440x900,2026-02-13
+D02331,Windows,Edge,False,False,False,412x915,2026-02-02
+D02332,Windows,Firefox,True,False,False,800x600,2026-04-08
+D02333,Windows,Safari,False,False,False,1440x900,2026-06-15
+D02334,Windows,Edge,False,False,False,412x915,2026-02-14
+D02335,iOS,Firefox,False,False,False,412x915,2026-07-05
+D02336,Windows,Edge,False,False,False,1440x900,2026-09-13
+D02337,Android,Edge,False,False,False,390x844,2026-02-24
+D02338,Android,Firefox,False,False,False,1366x768,2026-03-23
+D02339,iOS,Chrome,False,False,False,412x915,2026-06-18
+D02340,Windows,Chrome,False,False,False,1440x900,2026-04-02
+D02341,Android,Chrome,False,False,False,412x915,2026-06-10
+D02342,iOS,Safari,False,True,False,1440x900,2026-01-02
+D02343,Windows,Edge,False,False,False,1366x768,2026-06-06
+D02344,macOS,Samsung Internet,False,False,False,1920x1080,2026-03-14
+D02345,Windows,Firefox,False,False,False,390x844,2026-02-21
+D02346,Android,Safari,False,False,False,1440x900,2026-07-13
+D02347,Android,Edge,False,False,False,1366x768,2026-04-29
+D02348,Android,Chrome,False,False,False,390x844,2026-03-17
+D02349,iOS,Firefox,False,False,False,390x844,2026-09-15
+D02350,macOS,Samsung Internet,False,False,False,390x844,2026-01-09
+D02351,Android,Samsung Internet,False,False,False,1366x768,2026-01-24
+D02352,Windows,Chrome,False,False,False,1440x900,2026-03-17
+D02353,Linux,Safari,False,False,False,1440x900,2026-04-28
+D02354,Android,Chrome,False,False,False,412x915,2026-01-15
+D02355,Linux,Firefox,False,False,False,1920x1080,2026-07-23
+D02356,iOS,Chrome,False,False,False,1440x900,2026-04-25
+D02357,Android,Chrome,False,False,False,412x915,2026-04-19
+D02358,Windows,Samsung Internet,False,False,False,412x915,2026-05-24
+D02359,Android,Samsung Internet,False,False,False,1440x900,2026-07-03
+D02360,Windows,Safari,False,False,False,1440x900,2026-05-13
+D02361,Windows,Edge,False,False,False,1440x900,2026-07-28
+D02362,Windows,Samsung Internet,False,False,False,1920x1080,2026-04-18
+D02363,macOS,Edge,False,False,False,390x844,2026-08-07
+D02364,Linux,Chrome,False,False,False,1366x768,2026-09-18
+D02365,macOS,Firefox,False,False,False,1440x900,2026-08-16
+D02366,iOS,Safari,False,False,False,1366x768,2026-07-24
+D02367,Android,Firefox,False,False,False,1440x900,2026-07-02
+D02368,Windows,Chrome,False,False,False,1920x1080,2026-06-15
+D02369,iOS,Edge,False,False,False,1440x900,2026-09-06
+D02370,macOS,Chrome,False,False,False,1366x768,2026-01-10
+D02371,iOS,Safari,False,False,False,1440x900,2026-02-12
+D02372,iOS,Firefox,False,False,True,412x915,2026-06-11
+D02373,Windows,Firefox,False,False,False,390x844,2026-06-10
+D02374,iOS,Samsung Internet,False,False,False,1920x1080,2026-09-05
+D02375,iOS,Safari,False,False,False,1366x768,2026-03-09
+D02376,Android,Edge,False,False,False,1440x900,2026-03-13
+D02377,Android,Safari,False,False,False,390x844,2026-06-11
+D02378,iOS,Safari,False,False,False,1440x900,2026-04-25
+D02379,Android,Edge,True,False,False,800x600,2026-09-10
+D02380,macOS,Samsung Internet,False,False,False,1920x1080,2026-01-26
+D02381,Android,Safari,False,False,False,1920x1080,2026-04-05
+D02382,iOS,Firefox,False,False,False,390x844,2026-09-06
+D02383,Windows,Safari,False,False,False,1366x768,2026-07-03
+D02384,Android,Chrome,False,False,False,412x915,2026-02-26
+D02385,Windows,Firefox,False,False,False,1920x1080,2026-03-30
+D02386,Windows,Edge,False,False,False,412x915,2026-07-29
+D02387,Android,Edge,False,False,False,390x844,2026-09-16
+D02388,iOS,Firefox,False,False,False,412x915,2026-02-28
+D02389,Windows,Safari,False,False,False,390x844,2026-05-19
+D02390,iOS,Firefox,False,False,False,412x915,2026-06-04
+D02391,Android,Firefox,False,False,False,1440x900,2026-02-05
+D02392,macOS,Firefox,False,False,False,1440x900,2026-03-05
+D02393,Android,Firefox,False,False,False,390x844,2026-04-23
+D02394,Windows,Safari,False,False,False,390x844,2026-04-07
+D02395,Windows,Chrome,False,False,False,390x844,2026-09-15
+D02396,Android,Chrome,False,False,False,1920x1080,2026-05-15
+D02397,Windows,Samsung Internet,False,False,False,412x915,2026-08-29
+D02398,Windows,Safari,False,False,True,1440x900,2026-04-02
+D02399,Windows,Safari,False,True,False,1920x1080,2026-05-25
+D02400,Windows,Samsung Internet,False,False,False,390x844,2026-06-09
+D02401,Windows,Edge,False,False,False,1440x900,2026-02-28
+D02402,iOS,Samsung Internet,False,False,False,1366x768,2026-03-08
+D02403,Android,Edge,False,False,False,1440x900,2026-09-16
+D02404,iOS,Edge,False,False,False,390x844,2026-08-11
+D02405,Windows,Edge,False,False,False,390x844,2026-08-24
+D02406,Windows,Samsung Internet,False,False,False,412x915,2026-02-03
+D02407,Android,Samsung Internet,False,False,False,1440x900,2026-06-27
+D02408,Android,Samsung Internet,False,False,False,1920x1080,2026-01-28
+D02409,Windows,Chrome,False,False,False,1440x900,2026-08-26
+D02410,Android,Edge,False,False,False,412x915,2026-01-06
+D02411,iOS,Chrome,False,False,False,390x844,2026-08-21
+D02412,Windows,Firefox,False,False,False,1920x1080,2026-02-08
+D02413,iOS,Safari,False,False,False,1920x1080,2026-06-04
+D02414,macOS,Samsung Internet,False,False,False,1920x1080,2026-04-07
+D02415,Windows,Firefox,False,False,False,1366x768,2026-07-08
+D02416,Windows,Samsung Internet,False,False,False,1366x768,2026-07-12
+D02417,macOS,Edge,False,False,False,1920x1080,2026-07-13
+D02418,macOS,Chrome,False,False,False,412x915,2026-05-08
+D02419,iOS,Samsung Internet,False,False,False,390x844,2026-04-20
+D02420,iOS,Firefox,False,False,False,1920x1080,2026-04-29
+D02421,Android,Firefox,False,False,False,1366x768,2026-07-25
+D02422,iOS,Safari,False,False,False,1920x1080,2026-06-11
+D02423,Android,Safari,False,False,False,1366x768,2026-01-27
+D02424,Windows,Edge,False,False,False,1440x900,2026-01-07
+D02425,Windows,Chrome,False,False,True,390x844,2026-06-18
+D02426,iOS,Samsung Internet,False,False,False,412x915,2026-08-15
+D02427,Windows,Safari,False,False,False,390x844,2026-08-19
+D02428,Windows,Samsung Internet,False,False,False,390x844,2026-09-25
+D02429,Android,Chrome,False,False,False,412x915,2026-03-17
+D02430,Android,Safari,False,False,False,412x915,2026-02-03
+D02431,iOS,Edge,False,False,False,412x915,2026-08-21
+D02432,iOS,Chrome,False,False,False,1920x1080,2026-01-01
+D02433,Windows,Edge,False,False,False,1920x1080,2026-08-21
+D02434,Linux,Edge,False,False,False,1366x768,2026-08-24
+D02435,Windows,Safari,False,False,False,390x844,2026-05-20
+D02436,iOS,Edge,False,False,False,390x844,2026-01-04
+D02437,iOS,Edge,False,False,False,1366x768,2026-09-27
+D02438,Android,Chrome,False,True,False,1920x1080,2026-08-23
+D02439,Android,Edge,False,False,False,1920x1080,2026-01-12
+D02440,iOS,Firefox,False,False,False,390x844,2026-09-27
+D02441,iOS,Edge,False,False,False,1440x900,2026-07-14
+D02442,Windows,Safari,False,False,False,1920x1080,2026-08-21
+D02443,Android,Safari,False,False,False,1366x768,2026-01-04
+D02444,iOS,Edge,False,False,False,1440x900,2026-02-18
+D02445,Android,Safari,False,False,False,390x844,2026-09-05
+D02446,macOS,Firefox,False,False,True,1440x900,2026-03-04
+D02447,Android,Samsung Internet,False,False,False,390x844,2026-02-24
+D02448,Windows,Chrome,False,False,False,390x844,2026-01-23
+D02449,iOS,Edge,False,False,False,1366x768,2026-05-24
+D02450,Android,Firefox,False,False,False,1366x768,2026-02-16
+D02451,iOS,Safari,False,False,False,390x844,2026-01-20
+D02452,Android,Firefox,False,False,False,390x844,2026-06-29
+D02453,Windows,Samsung Internet,False,False,False,1366x768,2026-09-07
+D02454,Windows,Safari,False,False,False,1920x1080,2026-03-03
+D02455,macOS,Chrome,False,False,False,390x844,2026-05-22
+D02456,Android,Safari,False,False,False,390x844,2026-08-28
+D02457,iOS,Safari,False,False,False,390x844,2026-07-24
+D02458,Android,Samsung Internet,False,False,False,390x844,2026-04-29
+D02459,Windows,Firefox,False,False,False,390x844,2026-04-28
+D02460,Windows,Safari,False,True,False,390x844,2026-07-20
+D02461,Windows,Firefox,False,False,False,1366x768,2026-07-30
+D02462,Android,Edge,False,False,True,412x915,2026-04-14
+D02463,Windows,Samsung Internet,False,False,False,1440x900,2026-06-12
+D02464,Windows,Samsung Internet,False,False,False,1440x900,2026-02-04
+D02465,macOS,Chrome,False,False,False,1440x900,2026-09-13
+D02466,iOS,Safari,False,False,False,1366x768,2026-08-15
+D02467,macOS,Samsung Internet,False,False,False,1366x768,2026-02-11
+D02468,macOS,Firefox,False,False,True,390x844,2026-07-10
+D02469,Android,Edge,False,False,False,1920x1080,2026-05-01
+D02470,macOS,Samsung Internet,False,False,True,390x844,2026-03-16
+D02471,iOS,Chrome,False,False,False,1920x1080,2026-04-29
+D02472,macOS,Firefox,False,False,False,412x915,2026-07-15
+D02473,Android,Chrome,False,False,True,1920x1080,2026-06-17
+D02474,macOS,Firefox,False,False,False,1920x1080,2026-03-23
+D02475,macOS,Edge,False,False,True,1440x900,2026-03-23
+D02476,Windows,Edge,True,False,True,412x915,2026-09-05
+D02477,iOS,Samsung Internet,False,False,False,390x844,2026-02-18
+D02478,Android,Firefox,False,False,False,1440x900,2026-04-01
+D02479,iOS,Firefox,False,False,False,412x915,2026-09-21
+D02480,Android,Safari,False,False,False,412x915,2026-06-24
+D02481,Android,Chrome,False,False,False,1440x900,2026-08-14
+D02482,Windows,Chrome,False,False,False,412x915,2026-02-09
+D02483,Android,Edge,False,False,True,1920x1080,2026-06-17
+D02484,Windows,Safari,False,False,False,412x915,2026-08-19
+D02485,Windows,Safari,False,False,False,1920x1080,2026-08-23
+D02486,Android,Safari,False,False,False,412x915,2026-03-28
+D02487,iOS,Chrome,False,False,False,1920x1080,2026-02-14
+D02488,Android,Edge,False,False,False,1920x1080,2026-05-12
+D02489,Android,Safari,False,False,False,412x915,2026-06-22
+D02490,iOS,Chrome,False,False,False,1920x1080,2026-06-30
+D02491,iOS,Safari,False,False,False,1366x768,2026-01-21
+D02492,Android,Safari,False,False,False,1920x1080,2026-01-29
+D02493,Android,Samsung Internet,False,False,True,390x844,2026-09-26
+D02494,Android,Firefox,False,False,False,1366x768,2026-09-14
+D02495,Windows,Chrome,False,False,False,412x915,2026-03-06
+D02496,iOS,Edge,False,False,False,1366x768,2026-08-15
+D02497,iOS,Samsung Internet,False,False,False,1920x1080,2026-04-02
+D02498,iOS,Firefox,False,False,False,1920x1080,2026-02-02
+D02499,iOS,Safari,False,False,False,1440x900,2026-02-22
+D02500,Windows,Edge,False,False,False,1440x900,2026-03-31
+D02501,macOS,Firefox,False,False,False,412x915,2026-08-04
+D02502,Windows,Samsung Internet,False,False,False,1366x768,2026-04-18
+D02503,iOS,Edge,False,False,False,1920x1080,2026-04-27
+D02504,Android,Chrome,False,False,False,412x915,2026-02-24
+D02505,iOS,Chrome,False,False,False,1920x1080,2026-09-03
+D02506,iOS,Chrome,False,False,False,1366x768,2026-09-22
+D02507,Windows,Firefox,False,False,False,1440x900,2026-09-19
+D02508,iOS,Edge,False,False,False,390x844,2026-01-18
+D02509,Windows,Samsung Internet,False,False,True,1366x768,2026-07-06
+D02510,Android,Firefox,False,False,False,1440x900,2026-03-24
+D02511,macOS,Chrome,False,False,False,390x844,2026-06-10
+D02512,Windows,Safari,False,False,False,412x915,2026-07-18
+D02513,Android,Edge,False,False,False,390x844,2026-03-08
+D02514,Windows,Samsung Internet,False,False,False,1440x900,2026-02-01
+D02515,iOS,Safari,False,False,False,1440x900,2026-04-22
+D02516,Android,Samsung Internet,False,False,False,390x844,2026-01-26
+D02517,macOS,Edge,False,False,False,1440x900,2026-06-28
+D02518,Windows,Edge,False,False,False,1920x1080,2026-01-02
+D02519,iOS,Firefox,False,False,False,1440x900,2026-01-28
+D02520,Windows,Edge,False,False,False,1920x1080,2026-07-23
+D02521,Windows,Firefox,False,False,False,1366x768,2026-04-08
+D02522,Windows,Edge,False,False,False,1366x768,2026-05-19
+D02523,iOS,Safari,False,False,False,412x915,2026-02-09
+D02524,iOS,Chrome,False,False,False,1366x768,2026-04-27
+D02525,Android,Samsung Internet,False,False,False,1440x900,2026-03-04
+D02526,iOS,Samsung Internet,False,False,False,1366x768,2026-02-18
+D02527,iOS,Safari,False,False,False,1366x768,2026-08-28
+D02528,Android,Samsung Internet,False,False,False,412x915,2026-08-31
+D02529,Windows,Edge,False,False,False,412x915,2026-01-09
+D02530,iOS,Samsung Internet,False,False,False,412x915,2026-05-04
+D02531,Android,Chrome,False,False,False,412x915,2026-06-12
+D02532,Android,Samsung Internet,False,False,False,412x915,2026-09-14
+D02533,Android,Edge,False,False,False,1366x768,2026-05-09
+D02534,Android,Chrome,False,False,False,1920x1080,2026-02-14
+D02535,iOS,Edge,False,False,False,390x844,2026-01-27
+D02536,Windows,Safari,False,False,False,1366x768,2026-03-18
+D02537,macOS,Firefox,False,False,False,1440x900,2026-06-26
+D02538,Windows,Edge,False,False,True,1920x1080,2026-09-09
+D02539,iOS,Firefox,False,False,False,1440x900,2026-03-21
+D02540,macOS,Edge,False,False,False,390x844,2026-08-16
+D02541,Android,Edge,False,False,False,1440x900,2026-06-12
+D02542,Android,Safari,False,False,False,1366x768,2026-02-23
+D02543,iOS,Firefox,False,False,False,412x915,2026-07-18
+D02544,Windows,Chrome,False,False,False,390x844,2026-04-03
+D02545,macOS,Chrome,False,False,False,1440x900,2026-07-19
+D02546,macOS,Chrome,False,False,True,390x844,2026-06-17
+D02547,iOS,Firefox,False,False,False,412x915,2026-06-27
+D02548,macOS,Edge,False,False,False,1440x900,2026-03-25
+D02549,Windows,Samsung Internet,False,False,False,1440x900,2026-03-04
+D02550,Android,Samsung Internet,False,False,False,390x844,2026-05-29
+D02551,iOS,Samsung Internet,False,False,False,1440x900,2026-03-06
+D02552,Android,Samsung Internet,False,False,False,412x915,2026-01-21
+D02553,iOS,Firefox,False,False,False,1366x768,2026-09-20
+D02554,Windows,Firefox,False,False,False,390x844,2026-03-12
+D02555,macOS,Safari,False,False,False,1366x768,2026-01-20
+D02556,iOS,Chrome,False,False,True,1366x768,2026-02-01
+D02557,Windows,Safari,False,False,True,1366x768,2026-09-08
+D02558,iOS,Safari,False,False,False,1440x900,2026-03-26
+D02559,iOS,Chrome,False,False,False,1920x1080,2026-02-16
+D02560,Android,Firefox,False,False,False,390x844,2026-01-24
+D02561,Android,Samsung Internet,False,False,False,1366x768,2026-06-03
+D02562,Windows,Safari,False,False,False,1920x1080,2026-05-16
+D02563,Windows,Firefox,False,False,False,1440x900,2026-04-30
+D02564,iOS,Safari,False,False,True,1366x768,2026-09-01
+D02565,Android,Samsung Internet,False,False,True,412x915,2026-01-30
+D02566,iOS,Safari,False,False,False,412x915,2026-02-28
+D02567,Android,Samsung Internet,False,False,False,1920x1080,2026-09-17
+D02568,Android,Chrome,False,False,False,390x844,2026-05-31
+D02569,iOS,Firefox,False,False,False,390x844,2026-07-16
+D02570,iOS,Edge,False,False,False,1440x900,2026-09-04
+D02571,macOS,Firefox,False,False,False,390x844,2026-03-17
+D02572,Android,Firefox,False,False,False,390x844,2026-01-07
+D02573,Android,Chrome,False,True,False,412x915,2026-04-15
+D02574,Android,Samsung Internet,False,False,False,390x844,2026-08-29
+D02575,Windows,Safari,False,False,False,390x844,2026-03-09
+D02576,macOS,Samsung Internet,False,False,False,1920x1080,2026-06-12
+D02577,iOS,Safari,False,False,False,1366x768,2026-05-10
+D02578,Android,Chrome,False,False,False,1366x768,2026-06-26
+D02579,Android,Samsung Internet,False,False,False,1366x768,2026-03-18
+D02580,Android,Safari,False,False,False,412x915,2026-03-10
+D02581,iOS,Safari,False,False,False,1366x768,2026-05-07
+D02582,Windows,Samsung Internet,False,False,False,1920x1080,2026-03-22
+D02583,iOS,Chrome,False,False,False,1440x900,2026-02-11
+D02584,Windows,Samsung Internet,False,False,False,390x844,2026-05-29
+D02585,Linux,Firefox,False,False,False,1440x900,2026-06-27
+D02586,iOS,Samsung Internet,False,False,False,1366x768,2026-09-02
+D02587,iOS,Safari,False,True,False,412x915,2026-04-26
+D02588,iOS,Chrome,True,False,False,800x600,2026-09-11
+D02589,iOS,Edge,False,False,False,390x844,2026-02-14
+D02590,iOS,Edge,False,False,False,1920x1080,2026-09-18
+D02591,Windows,Edge,False,False,False,1366x768,2026-08-10
+D02592,Windows,Safari,False,False,False,412x915,2026-03-01
+D02593,Android,Samsung Internet,False,False,False,1920x1080,2026-04-14
+D02594,Windows,Safari,False,False,False,1920x1080,2026-08-16
+D02595,Android,Edge,False,False,False,1440x900,2026-04-16
+D02596,Windows,Safari,False,False,False,390x844,2026-08-07
+D02597,iOS,Firefox,False,False,False,1440x900,2026-04-21
+D02598,iOS,Firefox,False,False,False,390x844,2026-08-31
+D02599,iOS,Chrome,False,False,False,412x915,2026-08-31
+D02600,Windows,Samsung Internet,False,False,False,412x915,2026-06-02
+D02601,Windows,Safari,False,False,False,412x915,2026-08-13
+D02602,Linux,Samsung Internet,False,False,False,390x844,2026-03-04
+D02603,Android,Edge,False,False,False,1440x900,2026-02-20
+D02604,Windows,Safari,False,False,False,390x844,2026-07-02
+D02605,Android,Chrome,False,False,False,1366x768,2026-08-27
+D02606,Windows,Samsung Internet,False,False,False,1366x768,2026-08-17
+D02607,iOS,Samsung Internet,False,False,False,1366x768,2026-03-02
+D02608,iOS,Safari,False,False,False,1440x900,2026-09-13
+D02609,iOS,Edge,False,False,False,1440x900,2026-03-30
+D02610,iOS,Firefox,True,False,False,800x600,2026-07-30
+D02611,Android,Firefox,False,False,False,390x844,2026-01-20
+D02612,iOS,Chrome,False,False,False,390x844,2026-04-01
+D02613,iOS,Samsung Internet,False,True,False,1366x768,2026-01-25
+D02614,Android,Edge,False,False,False,390x844,2026-02-06
+D02615,Windows,Safari,False,False,False,1920x1080,2026-04-18
+D02616,iOS,Firefox,False,False,False,1366x768,2026-08-10
+D02617,Android,Samsung Internet,False,False,False,390x844,2026-08-23
+D02618,macOS,Safari,False,False,False,1440x900,2026-01-04
+D02619,iOS,Samsung Internet,False,True,False,1366x768,2026-09-11
+D02620,Windows,Safari,False,False,False,390x844,2026-01-08
+D02621,Android,Safari,False,False,False,1440x900,2026-04-09
+D02622,iOS,Edge,False,False,False,1366x768,2026-07-16
+D02623,Android,Edge,False,False,False,390x844,2026-03-18
+D02624,Windows,Samsung Internet,False,False,False,1920x1080,2026-06-19
+D02625,Windows,Safari,False,False,False,1920x1080,2026-03-02
+D02626,macOS,Samsung Internet,False,False,False,1920x1080,2026-03-20
+D02627,Windows,Chrome,False,False,False,390x844,2026-02-17
+D02628,Linux,Chrome,False,False,False,1920x1080,2026-09-01
+D02629,Android,Safari,False,False,False,412x915,2026-07-12
+D02630,macOS,Edge,False,False,False,1440x900,2026-08-02
+D02631,Windows,Firefox,False,False,False,1920x1080,2026-03-26
+D02632,Android,Samsung Internet,False,False,False,412x915,2026-09-11
+D02633,Android,Safari,False,False,False,1440x900,2026-02-03
+D02634,Android,Samsung Internet,False,False,False,412x915,2026-01-31
+D02635,Android,Safari,False,False,False,412x915,2026-01-11
+D02636,Windows,Firefox,True,False,False,800x600,2026-04-24
+D02637,iOS,Firefox,False,False,False,412x915,2026-03-12
+D02638,Android,Edge,False,False,False,390x844,2026-06-15
+D02639,Linux,Samsung Internet,False,False,True,390x844,2026-03-26
+D02640,Android,Safari,False,False,False,1440x900,2026-06-02
+D02641,Windows,Firefox,False,False,False,1366x768,2026-02-19
+D02642,Android,Edge,False,False,True,1366x768,2026-07-08
+D02643,Android,Safari,False,False,False,390x844,2026-08-26
+D02644,Windows,Samsung Internet,False,False,False,412x915,2026-05-27
+D02645,Android,Samsung Internet,False,False,False,412x915,2026-03-31
+D02646,macOS,Safari,False,False,False,1366x768,2026-03-21
+D02647,Windows,Chrome,False,False,True,1920x1080,2026-05-22
+D02648,Windows,Samsung Internet,False,False,False,390x844,2026-03-31
+D02649,Linux,Edge,False,False,False,390x844,2026-04-18
+D02650,Windows,Samsung Internet,False,False,False,1440x900,2026-02-10
+D02651,iOS,Edge,False,False,False,390x844,2026-09-07
+D02652,macOS,Chrome,False,False,False,1920x1080,2026-07-31
+D02653,Windows,Samsung Internet,False,False,False,1366x768,2026-04-06
+D02654,iOS,Chrome,False,False,False,1440x900,2026-06-14
+D02655,Windows,Chrome,False,False,False,1366x768,2026-09-03
+D02656,macOS,Chrome,False,False,False,412x915,2026-03-19
+D02657,macOS,Samsung Internet,False,False,False,1920x1080,2026-05-27
+D02658,iOS,Samsung Internet,False,False,False,412x915,2026-04-12
+D02659,iOS,Safari,False,False,False,390x844,2026-04-10
+D02660,Windows,Firefox,False,False,False,1440x900,2026-09-17
+D02661,Android,Firefox,False,False,False,1440x900,2026-07-04
+D02662,Windows,Safari,False,False,False,390x844,2026-01-20
+D02663,Windows,Safari,False,False,True,1366x768,2026-09-24
+D02664,Android,Edge,False,False,False,1920x1080,2026-05-03
+D02665,Android,Chrome,False,False,False,412x915,2026-07-02
+D02666,Android,Edge,False,False,False,1440x900,2026-06-07
+D02667,Windows,Firefox,False,False,False,412x915,2026-07-29
+D02668,Windows,Chrome,False,False,False,1366x768,2026-07-03
+D02669,Android,Firefox,False,False,False,1920x1080,2026-07-15
+D02670,iOS,Safari,False,False,False,1920x1080,2026-05-07
+D02671,iOS,Firefox,False,False,False,1440x900,2026-04-02
+D02672,macOS,Samsung Internet,False,False,False,412x915,2026-07-01
+D02673,Android,Samsung Internet,False,False,False,1920x1080,2026-07-26
+D02674,Windows,Chrome,False,False,False,1440x900,2026-06-03
+D02675,Android,Samsung Internet,False,False,False,390x844,2026-05-12
+D02676,iOS,Edge,False,False,False,1920x1080,2026-08-09
+D02677,macOS,Edge,False,False,False,1366x768,2026-07-11
+D02678,Windows,Chrome,False,False,False,1440x900,2026-07-30
+D02679,macOS,Safari,False,False,False,412x915,2026-04-25
+D02680,iOS,Samsung Internet,False,False,False,412x915,2026-08-06
+D02681,Windows,Firefox,False,False,False,1440x900,2026-07-01
+D02682,iOS,Firefox,False,False,False,390x844,2026-04-04
+D02683,macOS,Safari,False,False,False,1366x768,2026-07-26
+D02684,iOS,Firefox,False,False,False,1440x900,2026-07-08
+D02685,iOS,Chrome,False,False,False,1440x900,2026-06-15
+D02686,Windows,Samsung Internet,False,False,False,412x915,2026-07-08
+D02687,Android,Edge,False,False,False,1920x1080,2026-09-10
+D02688,Android,Chrome,False,False,False,412x915,2026-08-09
+D02689,Windows,Safari,False,False,False,1366x768,2026-05-15
+D02690,Windows,Safari,False,False,False,1366x768,2026-08-28
+D02691,Windows,Samsung Internet,False,False,False,412x915,2026-04-04
+D02692,iOS,Samsung Internet,False,False,False,390x844,2026-04-20
+D02693,Windows,Safari,False,False,False,1366x768,2026-06-10
+D02694,Windows,Samsung Internet,False,False,False,1440x900,2026-05-17
+D02695,Windows,Samsung Internet,False,False,False,1366x768,2026-02-19
+D02696,Windows,Firefox,False,True,False,1366x768,2026-02-28
+D02697,Android,Firefox,False,False,False,1366x768,2026-05-25
+D02698,Windows,Safari,False,False,False,390x844,2026-04-30
+D02699,Windows,Firefox,False,False,False,1920x1080,2026-03-08
+D02700,iOS,Samsung Internet,False,False,False,412x915,2026-01-25
+D02701,Windows,Chrome,False,False,False,412x915,2026-04-05
+D02702,Android,Safari,False,False,False,1920x1080,2026-05-20
+D02703,Windows,Safari,False,False,False,390x844,2026-03-31
+D02704,iOS,Safari,False,False,False,412x915,2026-04-11
+D02705,iOS,Samsung Internet,False,True,False,1920x1080,2026-06-17
+D02706,iOS,Edge,False,False,False,1920x1080,2026-04-21
+D02707,iOS,Firefox,False,True,False,412x915,2026-01-12
+D02708,Windows,Firefox,False,False,False,1440x900,2026-09-19
+D02709,iOS,Firefox,False,False,False,1920x1080,2026-07-19
+D02710,Windows,Chrome,False,False,False,412x915,2026-01-13
+D02711,macOS,Edge,False,False,False,1920x1080,2026-06-16
+D02712,Windows,Edge,False,False,False,390x844,2026-05-23
+D02713,iOS,Safari,False,False,False,1920x1080,2026-04-19
+D02714,iOS,Samsung Internet,False,False,False,1440x900,2026-08-27
+D02715,macOS,Edge,False,False,False,412x915,2026-01-29
+D02716,Windows,Firefox,False,False,True,1366x768,2026-02-03
+D02717,Android,Edge,False,False,False,1366x768,2026-05-19
+D02718,Windows,Samsung Internet,False,False,False,390x844,2026-07-29
+D02719,Android,Firefox,False,False,False,412x915,2026-02-21
+D02720,Linux,Chrome,False,False,False,390x844,2026-01-18
+D02721,Windows,Edge,False,False,False,390x844,2026-06-28
+D02722,Android,Safari,False,False,False,1366x768,2026-06-24
+D02723,iOS,Firefox,False,False,False,390x844,2026-02-22
+D02724,Android,Firefox,False,False,False,1920x1080,2026-06-04
+D02725,Android,Firefox,False,False,False,390x844,2026-09-18
+D02726,Windows,Firefox,False,False,False,1440x900,2026-08-02
+D02727,iOS,Firefox,False,False,False,1366x768,2026-09-08
+D02728,Android,Safari,False,False,False,390x844,2026-03-20
+D02729,iOS,Safari,False,False,False,412x915,2026-05-30
+D02730,Windows,Firefox,False,False,True,1920x1080,2026-01-06
+D02731,macOS,Safari,False,False,False,412x915,2026-04-18
+D02732,iOS,Firefox,False,False,False,1440x900,2026-04-14
+D02733,Android,Firefox,False,False,False,1920x1080,2026-02-23
+D02734,iOS,Firefox,False,False,False,412x915,2026-07-03
+D02735,Windows,Samsung Internet,False,False,False,1366x768,2026-02-06
+D02736,iOS,Edge,False,False,False,1920x1080,2026-03-06
+D02737,Windows,Chrome,False,False,False,1366x768,2026-03-25
+D02738,iOS,Safari,False,False,False,390x844,2026-02-03
+D02739,iOS,Edge,False,False,False,1366x768,2026-07-12
+D02740,iOS,Firefox,False,False,False,1920x1080,2026-02-01
+D02741,Android,Safari,False,False,False,412x915,2026-06-04
+D02742,Android,Safari,False,False,True,390x844,2026-01-18
+D02743,Linux,Samsung Internet,False,False,False,1920x1080,2026-04-18
+D02744,Windows,Samsung Internet,False,False,False,1366x768,2026-01-27
+D02745,macOS,Chrome,False,False,False,390x844,2026-01-15
+D02746,Windows,Samsung Internet,False,False,False,412x915,2026-06-05
+D02747,Windows,Edge,False,False,False,390x844,2026-07-31
+D02748,iOS,Samsung Internet,False,False,False,412x915,2026-09-06
+D02749,Android,Edge,False,False,False,1440x900,2026-01-28
+D02750,Windows,Safari,False,False,False,412x915,2026-08-25
+D02751,iOS,Edge,False,False,False,1920x1080,2026-01-10
+D02752,macOS,Samsung Internet,False,False,False,1366x768,2026-03-28
+D02753,Windows,Edge,False,False,False,1440x900,2026-04-05
+D02754,Windows,Edge,False,False,False,412x915,2026-02-21
+D02755,iOS,Chrome,False,False,False,390x844,2026-08-03
+D02756,Windows,Chrome,False,False,False,1440x900,2026-01-02
+D02757,Android,Chrome,False,False,False,390x844,2026-08-06
+D02758,Windows,Safari,False,False,False,1440x900,2026-06-17
+D02759,Android,Edge,False,False,True,1920x1080,2026-09-06
+D02760,macOS,Firefox,False,False,False,1366x768,2026-02-24
+D02761,iOS,Edge,False,False,False,1440x900,2026-06-27
+D02762,iOS,Edge,False,False,False,1920x1080,2026-02-04
+D02763,Android,Chrome,False,False,False,412x915,2026-01-08
+D02764,Android,Chrome,False,False,False,390x844,2026-07-11
+D02765,iOS,Edge,False,False,False,1920x1080,2026-03-07
+D02766,iOS,Samsung Internet,False,False,False,1440x900,2026-01-04
+D02767,Android,Safari,False,False,False,390x844,2026-05-04
+D02768,Android,Firefox,False,False,True,1920x1080,2026-08-25
+D02769,iOS,Edge,False,False,False,412x915,2026-01-10
+D02770,Windows,Safari,False,False,True,1366x768,2026-04-06
+D02771,Windows,Safari,False,False,False,390x844,2026-07-16
+D02772,macOS,Samsung Internet,False,False,False,1366x768,2026-01-12
+D02773,Android,Edge,False,False,False,412x915,2026-06-15
+D02774,Android,Edge,False,False,False,1440x900,2026-09-05
+D02775,Android,Chrome,False,False,False,390x844,2026-02-18
+D02776,iOS,Safari,False,False,False,1920x1080,2026-02-01
+D02777,Linux,Edge,False,False,False,412x915,2026-08-28
+D02778,Android,Edge,False,False,False,1366x768,2026-06-18
+D02779,Android,Edge,False,False,False,390x844,2026-06-26
+D02780,iOS,Firefox,False,False,False,412x915,2026-05-24
+D02781,iOS,Firefox,False,False,False,1366x768,2026-02-12
+D02782,Android,Edge,False,False,False,1366x768,2026-07-29
+D02783,Windows,Firefox,False,False,False,1440x900,2026-04-23
+D02784,macOS,Safari,False,False,False,1366x768,2026-06-01
+D02785,Windows,Samsung Internet,False,False,False,390x844,2026-01-04
+D02786,iOS,Chrome,False,False,False,1440x900,2026-07-05
+D02787,Windows,Chrome,False,False,False,1366x768,2026-08-16
+D02788,iOS,Safari,False,False,False,1440x900,2026-02-08
+D02789,Android,Firefox,False,False,False,412x915,2026-06-28
+D02790,Android,Chrome,True,False,False,800x600,2026-09-11
+D02791,iOS,Firefox,False,False,False,1366x768,2026-08-16
+D02792,Android,Edge,False,False,False,1440x900,2026-01-21
+D02793,Windows,Safari,False,False,False,1920x1080,2026-07-20
+D02794,Windows,Edge,False,False,False,1440x900,2026-04-24
+D02795,iOS,Firefox,False,True,False,412x915,2026-02-21
+D02796,iOS,Chrome,False,False,False,1920x1080,2026-09-13
+D02797,Windows,Safari,False,False,False,1440x900,2026-07-16
+D02798,Windows,Samsung Internet,False,False,False,390x844,2026-09-16
+D02799,iOS,Safari,False,False,False,1366x768,2026-08-26
+D02800,Linux,Edge,False,False,False,390x844,2026-02-25
+D02801,iOS,Chrome,False,True,False,1366x768,2026-09-02
+D02802,macOS,Safari,False,False,False,1920x1080,2026-07-22
+D02803,iOS,Samsung Internet,False,False,False,412x915,2026-05-20
+D02804,Android,Firefox,False,False,True,1440x900,2026-03-11
+D02805,iOS,Chrome,False,False,False,1920x1080,2026-09-09
+D02806,Android,Samsung Internet,False,False,False,1366x768,2026-08-12
+D02807,Android,Samsung Internet,False,False,False,1366x768,2026-06-26
+D02808,iOS,Safari,False,False,False,1920x1080,2026-04-24
+D02809,Android,Firefox,False,False,False,1920x1080,2026-06-25
+D02810,iOS,Safari,False,False,False,1920x1080,2026-09-26
+D02811,Android,Firefox,False,False,False,390x844,2026-03-17
+D02812,Windows,Samsung Internet,False,False,False,1920x1080,2026-08-25
+D02813,Windows,Firefox,False,False,False,1920x1080,2026-03-09
+D02814,Linux,Samsung Internet,False,False,False,390x844,2026-07-06
+D02815,macOS,Safari,False,False,False,412x915,2026-06-12
+D02816,iOS,Samsung Internet,False,False,False,1440x900,2026-02-22
+D02817,Android,Firefox,False,False,False,1366x768,2026-01-10
+D02818,Linux,Chrome,False,False,False,1440x900,2026-03-10
+D02819,Android,Edge,False,False,False,390x844,2026-06-15
+D02820,macOS,Samsung Internet,False,False,False,390x844,2026-06-15
+D02821,macOS,Chrome,False,False,False,390x844,2026-09-26
+D02822,Android,Safari,False,True,False,1366x768,2026-08-10
+D02823,Windows,Firefox,False,False,False,1366x768,2026-03-01
+D02824,Android,Firefox,False,False,False,412x915,2026-05-01
+D02825,Windows,Firefox,False,False,False,390x844,2026-06-06
+D02826,macOS,Chrome,False,False,False,1440x900,2026-08-26
+D02827,iOS,Safari,False,False,True,1440x900,2026-02-03
+D02828,Windows,Chrome,False,False,False,1920x1080,2026-08-17
+D02829,iOS,Samsung Internet,False,False,False,390x844,2026-08-31
+D02830,Windows,Samsung Internet,False,False,False,1366x768,2026-06-06
+D02831,macOS,Firefox,False,False,False,390x844,2026-08-10
+D02832,iOS,Chrome,False,False,False,412x915,2026-08-01
+D02833,macOS,Samsung Internet,False,False,False,1366x768,2026-01-19
+D02834,Android,Firefox,False,False,False,1920x1080,2026-09-11
+D02835,iOS,Safari,False,False,False,1440x900,2026-03-17
+D02836,Android,Edge,False,False,False,1920x1080,2026-01-25
+D02837,iOS,Safari,False,False,False,1440x900,2026-02-11
+D02838,Android,Edge,False,False,False,1440x900,2026-03-04
+D02839,Android,Safari,False,False,False,1920x1080,2026-02-13
+D02840,iOS,Firefox,False,False,False,1920x1080,2026-06-03
+D02841,Windows,Safari,False,False,False,1920x1080,2026-03-04
+D02842,Windows,Firefox,False,False,True,390x844,2026-04-25
+D02843,Android,Safari,False,False,False,1440x900,2026-06-27
+D02844,iOS,Samsung Internet,False,False,False,1440x900,2026-03-02
+D02845,Windows,Safari,False,False,False,1920x1080,2026-02-09
+D02846,iOS,Samsung Internet,False,False,False,1366x768,2026-06-04
+D02847,iOS,Edge,False,False,True,390x844,2026-07-02
+D02848,iOS,Safari,False,False,False,1440x900,2026-02-22
+D02849,Windows,Samsung Internet,False,False,False,412x915,2026-06-25
+D02850,macOS,Safari,False,False,False,412x915,2026-04-03
+D02851,iOS,Firefox,False,False,False,1440x900,2026-04-09
+D02852,macOS,Edge,False,False,False,1440x900,2026-08-30
+D02853,Windows,Firefox,False,False,False,1920x1080,2026-06-09
+D02854,Android,Edge,False,False,False,1920x1080,2026-07-28
+D02855,Android,Samsung Internet,False,False,False,1920x1080,2026-02-08
+D02856,iOS,Firefox,False,False,False,390x844,2026-09-16
+D02857,Android,Safari,False,False,True,390x844,2026-05-15
+D02858,Windows,Safari,False,False,False,1366x768,2026-08-10
+D02859,macOS,Edge,False,False,False,1920x1080,2026-09-04
+D02860,macOS,Edge,False,False,False,1366x768,2026-04-03
+D02861,Windows,Firefox,False,False,False,390x844,2026-01-07
+D02862,Windows,Safari,False,False,False,1366x768,2026-03-12
+D02863,Windows,Edge,False,False,False,1366x768,2026-04-07
+D02864,iOS,Edge,False,False,False,1440x900,2026-05-15
+D02865,Windows,Safari,False,False,False,412x915,2026-02-18
+D02866,iOS,Samsung Internet,False,False,False,412x915,2026-01-05
+D02867,macOS,Firefox,False,False,False,1920x1080,2026-06-27
+D02868,macOS,Safari,False,False,False,390x844,2026-06-04
+D02869,Android,Samsung Internet,False,False,False,412x915,2026-01-28
+D02870,Android,Chrome,False,False,False,390x844,2026-06-27
+D02871,Android,Firefox,False,False,True,412x915,2026-06-27
+D02872,Android,Samsung Internet,False,False,False,1440x900,2026-05-19
+D02873,Android,Chrome,False,False,False,390x844,2026-02-16
+D02874,Android,Samsung Internet,False,False,False,1366x768,2026-06-28
+D02875,Windows,Edge,False,False,False,390x844,2026-09-15
+D02876,iOS,Chrome,False,False,False,1440x900,2026-04-03
+D02877,Android,Edge,False,False,False,390x844,2026-06-13
+D02878,Android,Firefox,False,False,False,1366x768,2026-03-21
+D02879,Android,Chrome,False,False,False,390x844,2026-06-29
+D02880,Windows,Edge,False,False,False,1366x768,2026-02-08
+D02881,iOS,Safari,False,False,False,1920x1080,2026-01-18
+D02882,Linux,Samsung Internet,False,False,False,390x844,2026-09-16
+D02883,Windows,Edge,False,False,False,390x844,2026-06-11
+D02884,iOS,Chrome,False,False,False,390x844,2026-06-13
+D02885,Linux,Samsung Internet,False,False,False,1366x768,2026-01-09
+D02886,Android,Safari,False,False,False,412x915,2026-01-12
+D02887,iOS,Edge,False,False,False,390x844,2026-06-08
+D02888,Windows,Firefox,False,False,False,1366x768,2026-03-12
+D02889,iOS,Firefox,False,False,False,1440x900,2026-08-18
+D02890,Android,Edge,False,False,False,412x915,2026-08-26
+D02891,Android,Safari,False,False,False,1920x1080,2026-06-29
+D02892,macOS,Edge,False,False,False,1440x900,2026-06-02
+D02893,Android,Firefox,False,False,False,1920x1080,2026-05-04
+D02894,Windows,Firefox,False,False,False,1440x900,2026-08-08
+D02895,macOS,Safari,False,True,False,1440x900,2026-03-17
+D02896,iOS,Edge,False,False,False,1920x1080,2026-01-22
+D02897,macOS,Edge,False,False,False,1440x900,2026-08-21
+D02898,iOS,Safari,False,False,False,1366x768,2026-09-05
+D02899,macOS,Chrome,False,False,False,390x844,2026-01-03
+D02900,iOS,Chrome,False,False,False,1920x1080,2026-07-23
+D02901,Windows,Firefox,False,False,False,412x915,2026-02-11
+D02902,iOS,Firefox,False,False,False,390x844,2026-06-14
+D02903,Android,Safari,False,False,False,412x915,2026-03-30
+D02904,macOS,Chrome,False,False,False,412x915,2026-01-23
+D02905,iOS,Safari,False,False,False,1440x900,2026-05-08
+D02906,Linux,Edge,False,False,False,412x915,2026-03-15
+D02907,Android,Firefox,False,False,False,1440x900,2026-05-02
+D02908,Linux,Firefox,False,False,False,1366x768,2026-08-20
+D02909,macOS,Firefox,False,False,False,412x915,2026-08-05
+D02910,iOS,Samsung Internet,False,False,False,1920x1080,2026-07-17
+D02911,macOS,Samsung Internet,False,False,False,1920x1080,2026-06-03
+D02912,Windows,Chrome,False,False,False,1920x1080,2026-06-04
+D02913,Windows,Samsung Internet,False,False,False,412x915,2026-04-01
+D02914,Android,Edge,False,False,True,412x915,2026-03-02
+D02915,Windows,Chrome,False,False,False,1920x1080,2026-07-29
+D02916,Android,Edge,False,False,False,1366x768,2026-03-20
+D02917,iOS,Chrome,False,False,False,1440x900,2026-09-21
+D02918,iOS,Edge,False,False,False,412x915,2026-06-27
+D02919,Android,Edge,False,False,False,390x844,2026-09-06
+D02920,iOS,Samsung Internet,False,False,False,1440x900,2026-04-19
+D02921,Windows,Safari,False,False,False,1920x1080,2026-04-30
+D02922,iOS,Firefox,False,False,False,412x915,2026-09-02
+D02923,iOS,Firefox,False,True,False,1440x900,2026-02-22
+D02924,iOS,Safari,False,False,False,390x844,2026-06-09
+D02925,Windows,Edge,False,False,True,412x915,2026-01-05
+D02926,iOS,Chrome,False,False,False,390x844,2026-04-02
+D02927,Windows,Samsung Internet,False,False,True,1366x768,2026-05-06
+D02928,iOS,Firefox,False,False,False,390x844,2026-07-11
+D02929,Windows,Safari,False,False,True,1920x1080,2026-09-24
+D02930,Linux,Firefox,False,False,False,1440x900,2026-06-02
+D02931,Windows,Chrome,False,False,False,412x915,2026-09-21
+D02932,Windows,Safari,False,True,False,1440x900,2026-09-09
+D02933,Windows,Safari,False,True,False,1366x768,2026-07-17
+D02934,Windows,Edge,False,False,False,1366x768,2026-06-11
+D02935,iOS,Chrome,False,False,False,1440x900,2026-06-14
+D02936,macOS,Edge,True,False,False,1920x1080,2026-03-13
+D02937,Linux,Chrome,False,False,False,412x915,2026-06-25
+D02938,Windows,Chrome,False,False,False,412x915,2026-03-25
+D02939,macOS,Firefox,False,False,False,412x915,2026-04-19
+D02940,macOS,Edge,False,True,False,1366x768,2026-08-01
+D02941,macOS,Firefox,False,False,False,1366x768,2026-07-31
+D02942,Windows,Edge,False,False,False,1366x768,2026-01-12
+D02943,macOS,Firefox,False,False,False,1920x1080,2026-09-03
+D02944,Android,Safari,False,False,False,1366x768,2026-08-11
+D02945,iOS,Edge,False,True,True,412x915,2026-05-24
+D02946,macOS,Edge,False,False,True,1440x900,2026-04-29
+D02947,iOS,Safari,True,False,False,800x600,2026-02-21
+D02948,Windows,Samsung Internet,False,False,False,1920x1080,2026-07-15
+D02949,Windows,Edge,False,False,False,1366x768,2026-06-11
+D02950,Windows,Samsung Internet,False,False,True,1366x768,2026-01-31
+D02951,Windows,Edge,False,False,False,1366x768,2026-01-07
+D02952,macOS,Chrome,False,True,False,1440x900,2026-02-17
+D02953,Linux,Safari,False,False,False,390x844,2026-06-18
+D02954,Android,Firefox,False,False,True,1366x768,2026-06-06
+D02955,Windows,Samsung Internet,False,False,False,412x915,2026-02-27
+D02956,macOS,Firefox,False,False,False,412x915,2026-04-03
+D02957,Android,Chrome,False,False,False,1366x768,2026-04-05
+D02958,Android,Edge,False,False,False,390x844,2026-08-07
+D02959,Windows,Firefox,False,False,False,412x915,2026-06-27
+D02960,Android,Samsung Internet,False,False,False,1440x900,2026-08-07
+D02961,Android,Safari,False,False,False,1920x1080,2026-07-29
+D02962,Android,Samsung Internet,False,False,True,1920x1080,2026-08-30
+D02963,Windows,Safari,False,False,False,390x844,2026-06-09
+D02964,Windows,Firefox,True,False,False,800x600,2026-05-04
+D02965,Windows,Firefox,True,False,False,800x600,2026-03-25
+D02966,iOS,Chrome,False,True,False,412x915,2026-05-19
+D02967,macOS,Chrome,False,False,False,1440x900,2026-02-06
+D02968,Windows,Edge,False,False,False,390x844,2026-03-24
+D02969,macOS,Samsung Internet,False,False,False,390x844,2026-07-17
+D02970,Windows,Chrome,False,False,True,1920x1080,2026-01-23
+D02971,Windows,Edge,False,False,False,390x844,2026-06-05
+D02972,Android,Samsung Internet,False,False,False,1440x900,2026-02-14
+D02973,Android,Firefox,True,False,False,800x600,2026-04-26
+D02974,iOS,Firefox,False,False,False,412x915,2026-08-24
+D02975,iOS,Firefox,False,False,False,1440x900,2026-02-24
+D02976,Windows,Chrome,False,False,True,390x844,2026-08-25
+D02977,Windows,Firefox,False,False,True,1440x900,2026-03-23
+D02978,iOS,Samsung Internet,False,False,False,1440x900,2026-09-22
+D02979,iOS,Samsung Internet,True,False,True,800x600,2026-06-23
+D02980,macOS,Chrome,False,False,False,1920x1080,2026-07-28
+D02981,Android,Chrome,False,False,False,1440x900,2026-03-30
+D02982,iOS,Firefox,False,False,True,1920x1080,2026-01-12
+D02983,macOS,Samsung Internet,False,False,False,1366x768,2026-02-01
+D02984,Android,Samsung Internet,False,True,False,1920x1080,2026-05-10
+D02985,Android,Safari,False,False,False,1920x1080,2026-06-09
+D02986,Android,Samsung Internet,False,False,False,1366x768,2026-02-11
+D02987,macOS,Samsung Internet,True,False,False,800x600,2026-05-22
+D02988,iOS,Samsung Internet,False,False,False,390x844,2026-07-19
+D02989,iOS,Firefox,False,False,False,1440x900,2026-02-25
+D02990,macOS,Safari,False,False,False,1920x1080,2026-05-25
+D02991,macOS,Chrome,False,False,False,1440x900,2026-04-12
+D02992,Android,Firefox,False,False,True,1920x1080,2026-07-15
+D02993,macOS,Firefox,True,False,False,800x600,2026-05-27
+D02994,Windows,Edge,True,False,False,1366x768,2026-04-24
+D02995,iOS,Firefox,False,False,False,1366x768,2026-01-23
+D02996,iOS,Firefox,True,True,False,800x600,2026-01-03
+D02997,macOS,Firefox,False,True,False,390x844,2026-04-06
+D02998,Android,Firefox,False,False,False,412x915,2026-01-17
+D02999,iOS,Safari,False,False,True,1920x1080,2026-03-28
+D03000,Windows,Firefox,True,False,False,1366x768,2026-04-06
+D03001,Windows,Chrome,False,False,True,1920x1080,2026-08-04
+D03002,macOS,Chrome,False,False,False,1440x900,2026-07-26
+D03003,Android,Samsung Internet,False,False,True,1440x900,2026-02-11
+D03004,iOS,Chrome,False,False,False,1366x768,2026-03-27
+D03005,iOS,Samsung Internet,False,False,False,1440x900,2026-06-19
+D03006,iOS,Edge,False,False,False,1920x1080,2026-02-18
+D03007,macOS,Edge,False,False,True,1920x1080,2026-05-08
+D03008,iOS,Edge,False,False,False,1920x1080,2026-02-15
+D03009,macOS,Chrome,False,False,False,1440x900,2026-04-22
+D03010,Android,Firefox,False,False,False,412x915,2026-05-06
+D03011,iOS,Edge,False,False,False,1366x768,2026-01-11
+D03012,iOS,Edge,True,False,False,800x600,2026-07-15
+D03013,Android,Safari,False,False,True,412x915,2026-03-10
+D03014,Android,Samsung Internet,False,False,False,412x915,2026-01-14
+D03015,iOS,Firefox,False,False,False,390x844,2026-08-13
+D03016,Windows,Safari,False,False,True,1920x1080,2026-08-15
+D03017,Android,Safari,False,False,False,412x915,2026-02-10
+D03018,Windows,Chrome,True,False,True,800x600,2026-08-11
+D03019,Windows,Edge,False,False,False,1366x768,2026-05-05
+D03020,macOS,Edge,False,False,False,1366x768,2026-01-18
+D03021,Windows,Edge,False,False,False,412x915,2026-08-09
+D03022,macOS,Edge,False,False,False,412x915,2026-01-13
+D03023,Windows,Safari,False,False,False,1440x900,2026-04-02
+D03024,Windows,Safari,False,False,True,1440x900,2026-05-20
+D03025,Windows,Samsung Internet,False,False,True,1920x1080,2026-05-30
+D03026,Android,Safari,False,False,False,412x915,2026-04-12
+D03027,Windows,Edge,False,False,False,412x915,2026-08-11
+D03028,Android,Firefox,False,False,False,390x844,2026-05-11
+D03029,iOS,Safari,True,False,False,800x600,2026-01-11
+D03030,iOS,Samsung Internet,False,False,False,1920x1080,2026-03-25
+D03031,Windows,Edge,False,False,False,1366x768,2026-02-18
+D03032,iOS,Samsung Internet,False,False,False,1440x900,2026-06-08
+D03033,Android,Chrome,False,False,True,1920x1080,2026-08-14
+D03034,Windows,Firefox,False,False,False,390x844,2026-01-14
+D03035,Android,Safari,False,False,True,412x915,2026-05-05
+D03036,Android,Firefox,False,False,False,1440x900,2026-04-06
+D03037,Windows,Samsung Internet,False,False,False,1920x1080,2026-02-08
+D03038,Android,Samsung Internet,False,False,False,390x844,2026-04-15
+D03039,iOS,Chrome,False,False,True,412x915,2026-08-23
+D03040,Linux,Firefox,False,False,False,412x915,2026-05-13
+D03041,iOS,Edge,False,False,False,1366x768,2026-05-24
+D03042,iOS,Firefox,False,False,True,1440x900,2026-02-28
+D03043,Windows,Chrome,False,False,False,390x844,2026-02-12
+D03044,macOS,Edge,False,False,True,412x915,2026-07-07
+D03045,iOS,Edge,False,False,False,390x844,2026-08-12
+D03046,iOS,Firefox,False,False,False,390x844,2026-07-07
+D03047,Android,Samsung Internet,False,False,True,1440x900,2026-02-16
+D03048,iOS,Samsung Internet,False,False,True,1366x768,2026-09-13
+D03049,Android,Chrome,False,False,True,1366x768,2026-01-10
+D03050,macOS,Edge,False,False,True,390x844,2026-01-27
+D03051,Windows,Samsung Internet,False,False,False,1920x1080,2026-02-24
+D03052,Android,Firefox,False,False,True,390x844,2026-04-18
+D03053,Android,Chrome,False,False,False,412x915,2026-06-19
+D03054,iOS,Edge,False,False,False,1440x900,2026-08-17
+D03055,Windows,Chrome,False,False,False,390x844,2026-08-29
+D03056,Windows,Firefox,False,False,False,1440x900,2026-01-23
+D03057,iOS,Samsung Internet,False,False,True,1440x900,2026-03-05
+D03058,Windows,Chrome,False,False,True,1920x1080,2026-07-02
+D03059,macOS,Firefox,False,False,False,1366x768,2026-09-08
+D03060,iOS,Firefox,False,False,False,1920x1080,2026-09-12
+D03061,iOS,Firefox,False,False,False,1440x900,2026-01-06
+D03062,Windows,Samsung Internet,False,False,False,1366x768,2026-06-15
+D03063,Android,Chrome,False,False,False,390x844,2026-07-14
+D03064,macOS,Chrome,False,False,True,390x844,2026-02-27
+D03065,iOS,Samsung Internet,False,False,False,390x844,2026-04-04
+D03066,Android,Samsung Internet,False,False,False,1440x900,2026-06-25
+D03067,Android,Safari,False,False,False,390x844,2026-04-07
+D03068,macOS,Edge,False,False,True,1920x1080,2026-09-06
+D03069,macOS,Edge,False,False,False,1920x1080,2026-04-16
+D03070,Windows,Firefox,False,False,False,1366x768,2026-03-21
+D03071,macOS,Safari,False,False,False,412x915,2026-05-09
+D03072,iOS,Samsung Internet,False,False,False,1440x900,2026-06-06
+D03073,Android,Samsung Internet,False,False,False,1920x1080,2026-08-26
+D03074,iOS,Safari,False,False,False,412x915,2026-09-22
+D03075,Windows,Chrome,False,False,False,412x915,2026-09-19
+D03076,Linux,Firefox,False,False,False,1920x1080,2026-09-12
+D03077,macOS,Edge,False,True,False,412x915,2026-08-26
+D03078,Windows,Chrome,True,False,False,1920x1080,2026-06-05
+D03079,Android,Edge,False,False,False,1366x768,2026-08-12
+D03080,Android,Firefox,False,False,True,1920x1080,2026-06-08
+D03081,Windows,Samsung Internet,False,False,False,412x915,2026-05-09
+D03082,Windows,Chrome,False,False,True,412x915,2026-04-16
+D03083,Windows,Edge,False,False,True,1920x1080,2026-05-28
+D03084,Windows,Edge,False,False,False,390x844,2026-08-04
+D03085,Windows,Edge,False,False,False,390x844,2026-01-19
+D03086,iOS,Firefox,False,False,False,390x844,2026-01-25
+D03087,iOS,Samsung Internet,False,False,False,390x844,2026-07-28
+D03088,iOS,Chrome,False,False,False,1366x768,2026-09-12
+D03089,iOS,Safari,False,False,True,1440x900,2026-08-08
+D03090,macOS,Chrome,False,False,True,1366x768,2026-03-06
+D03091,Android,Firefox,False,False,False,412x915,2026-04-13
+D03092,Windows,Edge,False,False,False,1920x1080,2026-08-16
+D03093,macOS,Edge,True,False,True,800x600,2026-07-13
+D03094,Android,Safari,False,False,True,1920x1080,2026-02-08
+D03095,Windows,Edge,False,True,False,1440x900,2026-07-01
+D03096,macOS,Samsung Internet,False,True,False,1440x900,2026-03-15
+D03097,iOS,Firefox,False,False,False,1366x768,2026-03-09
+D03098,Linux,Edge,False,False,True,390x844,2026-05-14
+D03099,Android,Firefox,False,False,False,1920x1080,2026-07-24
+D03100,iOS,Chrome,False,False,False,1920x1080,2026-03-20
+D03101,Android,Chrome,False,False,False,1366x768,2026-01-15
+D03102,Android,Edge,False,False,True,412x915,2026-01-11
+D03103,iOS,Edge,True,False,True,800x600,2026-01-20
+D03104,Linux,Firefox,False,False,False,1366x768,2026-01-25
+D03105,Android,Firefox,False,False,False,412x915,2026-02-13
+D03106,Android,Edge,True,False,False,800x600,2026-07-25
+D03107,Android,Samsung Internet,False,False,False,1440x900,2026-06-27
+D03108,Windows,Firefox,False,False,True,412x915,2026-01-23
+D03109,iOS,Firefox,False,False,True,1440x900,2026-04-05
+D03110,iOS,Chrome,False,False,False,390x844,2026-09-15
+D03111,iOS,Samsung Internet,False,False,False,1440x900,2026-04-19
+D03112,iOS,Chrome,False,False,False,390x844,2026-06-27
+D03113,Linux,Chrome,False,False,False,412x915,2026-02-02
+D03114,Android,Safari,False,False,False,1440x900,2026-08-14
+D03115,Windows,Safari,True,False,True,800x600,2026-07-20
+D03116,macOS,Edge,False,False,True,1366x768,2026-08-07
+D03117,iOS,Firefox,False,False,True,1366x768,2026-08-05
+D03118,iOS,Safari,False,False,False,412x915,2026-03-15
+D03119,macOS,Safari,False,False,False,1366x768,2026-07-15
+D03120,Windows,Edge,False,False,False,1920x1080,2026-08-20
+D03121,Android,Safari,False,False,False,1440x900,2026-08-09
+D03122,iOS,Samsung Internet,False,False,False,412x915,2026-04-02
+D03123,iOS,Chrome,False,False,False,390x844,2026-08-21
+D03124,Android,Chrome,False,False,False,390x844,2026-09-24
+D03125,macOS,Firefox,False,False,False,1920x1080,2026-09-16
+D03126,Android,Chrome,False,False,True,412x915,2026-04-18
+D03127,iOS,Edge,False,False,False,390x844,2026-06-05
+D03128,macOS,Samsung Internet,False,False,False,390x844,2026-09-09
+D03129,Windows,Samsung Internet,False,False,False,1440x900,2026-04-24
+D03130,macOS,Samsung Internet,False,False,True,1440x900,2026-07-16
+D03131,iOS,Edge,False,False,False,390x844,2026-03-09
+D03132,iOS,Firefox,False,False,False,1920x1080,2026-01-10
+D03133,Android,Safari,False,False,False,1920x1080,2026-04-07
+D03134,Windows,Safari,False,False,True,1366x768,2026-04-23
+D03135,Windows,Firefox,False,False,False,390x844,2026-01-04
+D03136,Android,Firefox,False,False,True,390x844,2026-01-08
+D03137,Android,Samsung Internet,False,False,False,390x844,2026-04-11
+D03138,macOS,Samsung Internet,False,False,True,1920x1080,2026-07-22
+D03139,Windows,Safari,True,False,False,800x600,2026-01-15

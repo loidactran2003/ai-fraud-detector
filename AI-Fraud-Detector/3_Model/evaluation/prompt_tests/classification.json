@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cls-001",
+    "task": "classify",
+    "prompt": "Classify the sentiment of this review as positive, negative, or neutral. Answer with only the label.",
+    "input": "The battery lasts all day and the screen is gorgeous. Best phone I've owned.",
+    "labels": ["positive", "negative", "neutral"],
+    "expected_label": "positive"
+  },
+  {
+    "id": "cls-002",
+    "task": "classify",
+    "prompt": "Classify the sentiment of this review as positive, negative, or neutral. Answer with only the label.",
+    "input": "It stopped charging after two weeks and support never replied.",
+    "labels": ["positive", "negative", "neutral"],
+    "expected_label": "negative"
+  },
+  {
+    "id": "cls-003",
+    "task": "classify",
+    "prompt": "Classify the sentiment of this review as positive, negative, or neutral. Answer with only the label.",
+    "input": "The package arrived on Tuesday. It comes in black and silver.",
+    "labels": ["positive", "negative", "neutral"],
+    "expected_label": "neutral"
+  },
+  {
+    "id": "cls-004",
+    "task": "classify",
+    "prompt": "Classify this email as spam or not_spam. Answer with only the label.",
+    "input": "Congratulations! You've been selected to receive a $1,000 gift card. Click here within 24 hours to claim your prize.",
+    "labels": ["spam", "not_spam"],
+    "expected_label": "spam"
+  },
+  {
+    "id": "cls-005",
+    "task": "classify",
+    "prompt": "Classify this email as spam or not_spam. Answer with only the label.",
+    "input": "Hi team, reminder that the sprint retro moved to 3pm Thursday. Agenda is in the shared doc.",
+    "labels": ["spam", "not_spam"],
+    "expected_label": "not_spam"
+  }
+]

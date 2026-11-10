@@ -1,0 +1,22 @@
+# Version ranges the project is tested with. The exact tested set is in requirements.lock
+# (pip install -r requirements.lock). The saved model pickle is tied to the scikit-learn
+# minor version it was trained with: RiskScorer warns on a mismatch - retrain after upgrading.
+# --- core: data, model, API ---
+pandas>=3.0,<4
+numpy>=2.0,<3
+scikit-learn>=1.9,<1.10
+joblib>=1.3
+flask>=3.0,<4
+# --- QA console + reports ---
+streamlit>=1.40
+altair>=5
+matplotlib>=3.7
+reportlab>=4.0
+# --- explainability notebooks ---
+shap>=0.44
+lime>=0.2.0.1
+nbformat>=5.9
+nbclient>=0.10
+ipykernel>=6
+# --- optional: real LLM for the prompt-evaluation suite (mock mode needs nothing) ---
+openai>=1.0

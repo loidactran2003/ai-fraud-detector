@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sum-001",
+    "task": "summarize",
+    "prompt": "Summarize the following text in 2 sentences.",
+    "input": "Large language models are transforming artificial intelligence by enabling machines to generate human-like text, translate languages, and write code. They are trained on massive datasets using transformer architectures, which allow them to capture long-range patterns in language. However, these models can produce confident but incorrect statements, known as hallucinations, and they can reflect biases present in their training data. As a result, researchers and companies are investing heavily in evaluation methods that measure accuracy, safety, and fairness before models are deployed.",
+    "expected_keywords": ["language model", "hallucination", "bias", "evaluation"],
+    "max_sentences": 2
+  },
+  {
+    "id": "sum-002",
+    "task": "summarize",
+    "prompt": "Provide a concise summary of this text in 2 sentences.",
+    "input": "Cybersecurity threats continue to evolve as attackers adopt automation and artificial intelligence. Phishing campaigns have become more convincing because generative tools can write personalized messages at scale. Ransomware groups increasingly target hospitals, schools, and local governments, where downtime is costly and pressure to pay is high. Security teams are responding with zero-trust architectures, multi-factor authentication, and continuous monitoring to detect intrusions earlier.",
+    "expected_keywords": ["phishing", "ransomware", "zero-trust", "multi-factor"],
+    "max_sentences": 2
+  },
+  {
+    "id": "sum-003",
+    "task": "summarize",
+    "prompt": "Summarize the following text in 1 sentence.",
+    "input": "Cloud computing lets organizations rent computing power, storage, and software over the internet instead of buying and maintaining their own servers. This pay-as-you-go model lowers upfront costs and makes it easy to scale resources up during peak demand and down when traffic drops. The trade-off is reliance on a third-party provider, which raises concerns about outages, vendor lock-in, and data privacy.",
+    "expected_keywords": ["cloud", "scale", "cost", "provider"],
+    "max_sentences": 1
+  }
+]

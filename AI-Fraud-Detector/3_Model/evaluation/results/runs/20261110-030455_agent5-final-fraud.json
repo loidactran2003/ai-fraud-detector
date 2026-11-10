@@ -1,0 +1,756 @@
+{
+  "run": {
+    "timestamp": "2026-11-10T03:04:55+00:00",
+    "label": "agent5-final-fraud",
+    "suites": [
+      "fraud"
+    ],
+    "pass_threshold": 0.7,
+    "provider": "-",
+    "model": "-",
+    "fraud_model": {
+      "version": "gbm-20261110-0237-3afcd506",
+      "roc_auc": 0.9759,
+      "pr_auc": 0.8697,
+      "review": {
+        "threshold": 13,
+        "precision": 0.6156,
+        "recall": 0.9141,
+        "f1": 0.7358,
+        "flag_rate": 0.0737,
+        "false_positive_rate": 0.0298,
+        "confusion": {
+          "tn": 3679,
+          "fp": 113,
+          "fn": 17,
+          "tp": 181
+        }
+      },
+      "block": {
+        "threshold": 78,
+        "precision": 0.9214,
+        "recall": 0.6515,
+        "f1": 0.7633,
+        "flag_rate": 0.0351,
+        "false_positive_rate": 0.0029,
+        "confusion": {
+          "tn": 3781,
+          "fp": 11,
+          "fn": 69,
+          "tp": 129
+        }
+      },
+      "thresholds": {
+        "review": 13,
+        "block": 78
+      }
+    },
+    "n_tests": 16,
+    "avg_score": 0.951,
+    "pass_rate": 1.0,
+    "avg_by_task": {
+      "risk_scoring": 0.951
+    },
+    "pass_rate_by_suite": {
+      "fraud": 1.0
+    }
+  },
+  "results": [
+    {
+      "id": "fx-001",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "obvious_fraud",
+      "prompt": "Brand-new account, $1,240 on a card shared by 5 accounts, emulator, VPN from Russia, 9-second checkout.",
+      "input": "{\"timestamp\": \"2026-10-01 14:05:00\", \"billing_country\": \"US\", \"ip_country\": \"RU\", \"is_vpn\": 1, \"is_proxy\": 0, \"is_emulator\": 1, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 9, \"pages_viewed\": 2, \"user_id\": \"TEST-001\", \"device_id\": \"TD-001\", \"card_hash\": \"TC-001\", \"amount\": 1240.0, \"account_created\": \"2026-10-01 12:05:00\"}",
+      "output": {
+        "risk_score": 98,
+        "risk_level": "high",
+        "action": "block",
+        "reasons": [
+          {
+            "feature": "amount",
+            "text": "New account (0 days old) spending $1,240.00",
+            "impact": 57
+          },
+          {
+            "feature": "country_mismatch",
+            "text": "IP location (RU) differs from billing country (US)",
+            "impact": 24
+          },
+          {
+            "feature": "checkout",
+            "text": "Rushed checkout (9s from cart to payment)",
+            "impact": 11
+          },
+          {
+            "feature": "high_risk_country",
+            "text": "High-risk country involved",
+            "impact": 7
+          }
+        ]
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 0.333,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 0.833,
+      "passed": true,
+      "latency_s": 0.038,
+      "details": {
+        "expected_range": [
+          70,
+          100
+        ],
+        "expected_action": "block",
+        "signals_found": [
+          "abnormal_amount",
+          "country_mismatch",
+          "high_risk_country",
+          "rushed_checkout"
+        ]
+      }
+    },
+    {
+      "id": "fx-002",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "card_testing",
+      "prompt": "Card-testing pattern: $1.50 order through a proxy after 7 login attempts (5 failed), 6-second checkout.",
+      "input": "{\"timestamp\": \"2026-10-01 14:05:00\", \"billing_country\": \"US\", \"ip_country\": \"US\", \"is_vpn\": 0, \"is_proxy\": 1, \"is_emulator\": 0, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 7, \"failed_logins\": 5, \"checkout_seconds\": 6, \"pages_viewed\": 1, \"user_id\": \"TEST-002\", \"device_id\": \"TD-002\", \"card_hash\": \"TC-002\", \"amount\": 1.5, \"account_created\": \"2026-09-27 10:00:00\"}",
+      "output": {
+        "risk_score": 99,
+        "risk_level": "high",
+        "action": "block",
+        "reasons": [
+          {
+            "feature": "logins",
+            "text": "7 login attempts, 5 failed",
+            "impact": 38
+          },
+          {
+            "feature": "checkout",
+            "text": "Rushed checkout (6s from cart to payment)",
+            "impact": 37
+          },
+          {
+            "feature": "amount",
+            "text": "Tiny 'card-testing' amount ($1.50)",
+            "impact": 14
+          },
+          {
+            "feature": "account_age_days",
+            "text": "Brand-new account (4.2 days old)",
+            "impact": 12
+          }
+        ]
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 0.667,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 0.917,
+      "passed": true,
+      "latency_s": 0.022,
+      "details": {
+        "expected_range": [
+          70,
+          100
+        ],
+        "expected_action": "block",
+        "signals_found": [
+          "abnormal_amount",
+          "login_failures",
+          "new_account",
+          "rushed_checkout"
+        ]
+      }
+    },
+    {
+      "id": "fx-003",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "fraud_ring",
+      "prompt": "Device linked to 9 accounts, rooted, timezone doesn't match IP, account 1 day old.",
+      "input": "{\"timestamp\": \"2026-10-01 14:05:00\", \"billing_country\": \"CA\", \"ip_country\": \"CA\", \"is_vpn\": 0, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 1, \"timezone_mismatch\": 1, \"login_attempts\": 2, \"failed_logins\": 0, \"checkout_seconds\": 35, \"pages_viewed\": 3, \"user_id\": \"TEST-003\", \"device_id\": \"TD-003\", \"card_hash\": \"TC-003\", \"amount\": 310.0, \"account_created\": \"2026-09-30 14:00:00\"}",
+      "output": {
+        "risk_score": 95,
+        "risk_level": "high",
+        "action": "block",
+        "reasons": [
+          {
+            "feature": "amount",
+            "text": "New account (1 days old) spending $310.00",
+            "impact": 65
+          },
+          {
+            "feature": "accounts_per_device",
+            "text": "Device used by 9 different accounts",
+            "impact": 28
+          },
+          {
+            "feature": "is_rooted",
+            "text": "Rooted or jailbroken device",
+            "impact": 8
+          }
+        ]
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 0.667,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 0.917,
+      "passed": true,
+      "latency_s": 0.022,
+      "details": {
+        "expected_range": [
+          60,
+          100
+        ],
+        "expected_action": [
+          "review",
+          "block"
+        ],
+        "signals_found": [
+          "abnormal_amount",
+          "rooted_device",
+          "shared_device"
+        ]
+      }
+    },
+    {
+      "id": "fx-004",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "account_takeover",
+      "prompt": "4-year-old account suddenly logs in from Nigeria via VPN after 3 failed logins, at 2am, spending 6x normal.",
+      "input": "{\"timestamp\": \"2026-10-01 02:10:00\", \"billing_country\": \"US\", \"ip_country\": \"NG\", \"is_vpn\": 1, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 4, \"failed_logins\": 3, \"checkout_seconds\": 40, \"pages_viewed\": 3, \"user_id\": \"TEST-004\", \"device_id\": \"TD-004\", \"card_hash\": \"TC-004\", \"amount\": 610.0, \"account_created\": \"2022-09-01 09:00:00\"}",
+      "output": {
+        "risk_score": 99,
+        "risk_level": "high",
+        "action": "block",
+        "reasons": [
+          {
+            "feature": "logins",
+            "text": "4 login attempts, 3 failed",
+            "impact": 36
+          },
+          {
+            "feature": "amount",
+            "text": "Amount $610.00 is 6.1x this customer's normal spend",
+            "impact": 22
+          },
+          {
+            "feature": "is_vpn",
+            "text": "Connection through a VPN",
+            "impact": 21
+          },
+          {
+            "feature": "time",
+            "text": "Placed at an unusual hour (02:00)",
+            "impact": 21
+          }
+        ]
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 0.333,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 0.833,
+      "passed": true,
+      "latency_s": 0.022,
+      "details": {
+        "expected_range": [
+          55,
+          100
+        ],
+        "expected_action": [
+          "review",
+          "block"
+        ],
+        "signals_found": [
+          "abnormal_amount",
+          "login_failures",
+          "odd_hour",
+          "vpn"
+        ]
+      }
+    },
+    {
+      "id": "fx-005",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "legit_regular",
+      "prompt": "3-year customer, usual device and home IP, normal $54 order, unhurried checkout.",
+      "input": "{\"timestamp\": \"2026-10-01 14:05:00\", \"billing_country\": \"US\", \"ip_country\": \"US\", \"is_vpn\": 0, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 185, \"pages_viewed\": 12, \"user_id\": \"TEST-005\", \"device_id\": \"TD-005\", \"card_hash\": \"TC-005\", \"amount\": 54.2, \"account_created\": \"2023-08-15 18:00:00\"}",
+      "output": {
+        "risk_score": 0,
+        "risk_level": "low",
+        "action": "approve",
+        "reasons": []
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 1.0,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 1.0,
+      "passed": true,
+      "latency_s": 0.02,
+      "details": {
+        "expected_range": [
+          0,
+          20
+        ],
+        "expected_action": "approve",
+        "signals_found": []
+      }
+    },
+    {
+      "id": "fx-006",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "false_positive_trap",
+      "prompt": "Loyal customer travelling in France on a VPN; everything else normal. Must not be blocked.",
+      "input": "{\"timestamp\": \"2026-10-01 10:15:00\", \"billing_country\": \"US\", \"ip_country\": \"FR\", \"is_vpn\": 1, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 140, \"pages_viewed\": 7, \"user_id\": \"TEST-006\", \"device_id\": \"TD-006\", \"card_hash\": \"TC-006\", \"amount\": 82.0, \"account_created\": \"2024-09-10 12:00:00\"}",
+      "output": {
+        "risk_score": 4,
+        "risk_level": "low",
+        "action": "approve",
+        "reasons": []
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 1.0,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 1.0,
+      "passed": true,
+      "latency_s": 0.019,
+      "details": {
+        "expected_range": [
+          0,
+          60
+        ],
+        "expected_action": [
+          "approve",
+          "review"
+        ],
+        "signals_found": []
+      }
+    },
+    {
+      "id": "fx-007",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "false_positive_trap",
+      "prompt": "4-year customer making a one-off $950 purchase (8x usual) on their own laptop, 7-minute checkout.",
+      "input": "{\"timestamp\": \"2026-10-01 12:00:00\", \"billing_country\": \"US\", \"ip_country\": \"US\", \"is_vpn\": 0, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 420, \"pages_viewed\": 15, \"user_id\": \"TEST-007\", \"device_id\": \"TD-007\", \"card_hash\": \"TC-007\", \"amount\": 950.0, \"account_created\": \"2022-06-01 12:00:00\"}",
+      "output": {
+        "risk_score": 0,
+        "risk_level": "low",
+        "action": "approve",
+        "reasons": []
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 1.0,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 1.0,
+      "passed": true,
+      "latency_s": 0.019,
+      "details": {
+        "expected_range": [
+          0,
+          69
+        ],
+        "expected_action": [
+          "approve",
+          "review"
+        ],
+        "signals_found": []
+      }
+    },
+    {
+      "id": "fx-008",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "false_positive_trap",
+      "prompt": "Genuine new customer: signed up an hour ago, $45 order, browsed 8 pages, normal 2.5-minute checkout.",
+      "input": "{\"timestamp\": \"2026-10-01 14:05:00\", \"billing_country\": \"US\", \"ip_country\": \"US\", \"is_vpn\": 0, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 150, \"pages_viewed\": 8, \"user_id\": \"TEST-008\", \"device_id\": \"TD-008\", \"card_hash\": \"TC-008\", \"amount\": 45.0, \"account_created\": \"2026-10-01 13:05:00\"}",
+      "output": {
+        "risk_score": 0,
+        "risk_level": "low",
+        "action": "approve",
+        "reasons": []
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 1.0,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 1.0,
+      "passed": true,
+      "latency_s": 0.019,
+      "details": {
+        "expected_range": [
+          0,
+          45
+        ],
+        "expected_action": [
+          "approve",
+          "review"
+        ],
+        "signals_found": []
+      }
+    },
+    {
+      "id": "fx-009",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "false_positive_trap",
+      "prompt": "Returning customer re-ordering their usual item in 14 seconds from a saved cart.",
+      "input": "{\"timestamp\": \"2026-10-01 18:30:00\", \"billing_country\": \"US\", \"ip_country\": \"US\", \"is_vpn\": 0, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 14, \"pages_viewed\": 2, \"user_id\": \"TEST-009\", \"device_id\": \"TD-009\", \"card_hash\": \"TC-009\", \"amount\": 39.99, \"account_created\": \"2021-03-01 12:00:00\"}",
+      "output": {
+        "risk_score": 0,
+        "risk_level": "low",
+        "action": "approve",
+        "reasons": []
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 1.0,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 1.0,
+      "passed": true,
+      "latency_s": 0.018,
+      "details": {
+        "expected_range": [
+          0,
+          45
+        ],
+        "expected_action": [
+          "approve",
+          "review"
+        ],
+        "signals_found": []
+      }
+    },
+    {
+      "id": "fx-010",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "false_positive_trap",
+      "prompt": "Family computer shared by 3 household accounts; established customer, normal order.",
+      "input": "{\"timestamp\": \"2026-10-01 20:00:00\", \"billing_country\": \"US\", \"ip_country\": \"US\", \"is_vpn\": 0, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 200, \"pages_viewed\": 10, \"user_id\": \"TEST-010\", \"device_id\": \"TD-010\", \"card_hash\": \"TC-010\", \"amount\": 68.0, \"account_created\": \"2023-01-15 12:00:00\"}",
+      "output": {
+        "risk_score": 0,
+        "risk_level": "low",
+        "action": "approve",
+        "reasons": []
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 1.0,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 1.0,
+      "passed": true,
+      "latency_s": 0.02,
+      "details": {
+        "expected_range": [
+          0,
+          45
+        ],
+        "expected_action": [
+          "approve",
+          "review"
+        ],
+        "signals_found": []
+      }
+    },
+    {
+      "id": "fx-011",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "blend_in_fraud",
+      "prompt": "Quiet fraud: 2-day-old account using a card shared by 3 accounts, normal-looking $70 order.",
+      "input": "{\"timestamp\": \"2026-10-01 14:05:00\", \"billing_country\": \"US\", \"ip_country\": \"US\", \"is_vpn\": 0, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 50, \"pages_viewed\": 4, \"user_id\": \"TEST-011\", \"device_id\": \"TD-011\", \"card_hash\": \"TC-011\", \"amount\": 70.0, \"account_created\": \"2026-09-29 16:00:00\"}",
+      "output": {
+        "risk_score": 23,
+        "risk_level": "medium",
+        "action": "review",
+        "reasons": [
+          {
+            "feature": "users_per_card",
+            "text": "Card used by 3 different accounts",
+            "impact": 75
+          },
+          {
+            "feature": "account_age_days",
+            "text": "Brand-new account (1.9 days old)",
+            "impact": 25
+          }
+        ]
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 0.52,
+        "action": 1.0,
+        "signal_detection": 1.0,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 0.832,
+      "passed": true,
+      "latency_s": 0.022,
+      "details": {
+        "expected_range": [
+          35,
+          100
+        ],
+        "expected_action": [
+          "review",
+          "block"
+        ],
+        "signals_found": [
+          "new_account",
+          "shared_card"
+        ]
+      }
+    },
+    {
+      "id": "fx-012",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "mixed_signals",
+      "prompt": "3-day-old account ordering $65 at 3am through a VPN; device and card not shared.",
+      "input": "{\"timestamp\": \"2026-10-01 03:12:00\", \"billing_country\": \"GB\", \"ip_country\": \"GB\", \"is_vpn\": 1, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 95, \"pages_viewed\": 6, \"user_id\": \"TEST-012\", \"device_id\": \"TD-012\", \"card_hash\": \"TC-012\", \"amount\": 65.0, \"account_created\": \"2026-09-28 09:00:00\"}",
+      "output": {
+        "risk_score": 2,
+        "risk_level": "low",
+        "action": "approve",
+        "reasons": []
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 0.68,
+        "action": 1.0,
+        "signal_detection": 1.0,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 0.888,
+      "passed": true,
+      "latency_s": 0.019,
+      "details": {
+        "expected_range": [
+          10,
+          75
+        ],
+        "expected_action": [
+          "approve",
+          "review"
+        ],
+        "signals_found": []
+      }
+    },
+    {
+      "id": "fx-013",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "missing_field",
+      "prompt": "Returning customer, $400 order, store integration doesn't send account_created; the customer has three earlier orders.",
+      "input": "{\"timestamp\": \"2026-10-01 14:05:00\", \"billing_country\": \"US\", \"ip_country\": \"US\", \"is_vpn\": 0, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 150, \"pages_viewed\": 9, \"user_id\": \"TEST-013\", \"device_id\": \"TD-013\", \"card_hash\": \"TC-013\", \"amount\": 400.0}",
+      "output": {
+        "risk_score": 1,
+        "risk_level": "low",
+        "action": "approve",
+        "reasons": []
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 1.0,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 1.0,
+      "passed": true,
+      "latency_s": 0.02,
+      "details": {
+        "expected_range": [
+          0,
+          25
+        ],
+        "expected_action": "approve",
+        "signals_found": []
+      }
+    },
+    {
+      "id": "fx-014",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "missing_field",
+      "prompt": "First-time customer of unknown account age (no account_created, no history), $400, nothing else unusual. Must not be treated as a brand-new account.",
+      "input": "{\"timestamp\": \"2026-10-01 14:05:00\", \"billing_country\": \"US\", \"ip_country\": \"US\", \"is_vpn\": 0, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 0, \"timezone_mismatch\": 0, \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 150, \"pages_viewed\": 9, \"user_id\": \"TEST-014\", \"device_id\": \"TD-014\", \"card_hash\": \"TC-014\", \"amount\": 400.0}",
+      "output": {
+        "risk_score": 1,
+        "risk_level": "low",
+        "action": "approve",
+        "reasons": []
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 1.0,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 1.0,
+      "passed": true,
+      "latency_s": 0.018,
+      "details": {
+        "expected_range": [
+          0,
+          25
+        ],
+        "expected_action": "approve",
+        "signals_found": []
+      }
+    },
+    {
+      "id": "fx-015",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "string_booleans",
+      "prompt": "Form-posted booleans sent as strings (\"false\", \"0\", \"no\") on an ordinary order from a 2-year customer. None of the flags may switch on.",
+      "input": "{\"timestamp\": \"2026-10-01 14:05:00\", \"billing_country\": \"US\", \"ip_country\": \"US\", \"is_vpn\": \"false\", \"is_proxy\": \"0\", \"is_emulator\": \"no\", \"is_rooted\": \"False\", \"timezone_mismatch\": \"0\", \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 170, \"pages_viewed\": 11, \"user_id\": \"TEST-015\", \"device_id\": \"TD-015S\", \"card_hash\": \"TC-015S\", \"amount\": 58.0, \"account_created\": \"2024-09-01 12:00:00\"}",
+      "output": {
+        "risk_score": 0,
+        "risk_level": "low",
+        "action": "approve",
+        "reasons": []
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 1.0,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 1.0,
+      "passed": true,
+      "latency_s": 0.018,
+      "details": {
+        "expected_range": [
+          0,
+          20
+        ],
+        "expected_action": "approve",
+        "signals_found": []
+      }
+    },
+    {
+      "id": "fx-016",
+      "task": "risk_scoring",
+      "suite": "fraud",
+      "category": "fraud_ring",
+      "prompt": "Fraud ring seen through real history: the device was used by 5 other accounts this week; 1-day-old account, rooted device, 3 pages, $280. No context overrides.",
+      "input": "{\"timestamp\": \"2026-10-01 14:05:00\", \"billing_country\": \"US\", \"ip_country\": \"US\", \"is_vpn\": 0, \"is_proxy\": 0, \"is_emulator\": 0, \"is_rooted\": 1, \"timezone_mismatch\": 0, \"login_attempts\": 1, \"failed_logins\": 0, \"checkout_seconds\": 40, \"pages_viewed\": 3, \"user_id\": \"TEST-016\", \"device_id\": \"TD-015\", \"card_hash\": \"TC-016\", \"amount\": 280.0, \"account_created\": \"2026-09-30 14:00:00\"}",
+      "output": {
+        "risk_score": 88,
+        "risk_level": "high",
+        "action": "block",
+        "reasons": [
+          {
+            "feature": "amount",
+            "text": "Amount $280.00 is 6.1x this customer's normal spend",
+            "impact": 35
+          },
+          {
+            "feature": "accounts_per_device",
+            "text": "Device used by 6 different accounts",
+            "impact": 30
+          },
+          {
+            "feature": "account_age_days",
+            "text": "Brand-new account (1.0 days old)",
+            "impact": 20
+          },
+          {
+            "feature": "is_rooted",
+            "text": "Rooted or jailbroken device",
+            "impact": 15
+          }
+        ]
+      },
+      "error": null,
+      "scores": {
+        "risk_accuracy": 1.0,
+        "action": 1.0,
+        "signal_detection": 1.0,
+        "false_signals": 1.0,
+        "explanation_clarity": 1.0
+      },
+      "final_score": 1.0,
+      "passed": true,
+      "latency_s": 0.022,
+      "details": {
+        "expected_range": [
+          40,
+          100
+        ],
+        "expected_action": [
+          "review",
+          "block"
+        ],
+        "signals_found": [
+          "abnormal_amount",
+          "new_account",
+          "rooted_device",
+          "shared_device"
+        ]
+      }
+    }
+  ]
+}
